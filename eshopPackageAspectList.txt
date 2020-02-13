@@ -1,0 +1,10 @@
+Microsoft.eShopWeb.Web
+Microsoft.eShopWeb
+Microsoft.eShopWeb.Infrastructure.Data
+Microsoft.eShopWeb.ApplicationCore
+Microsoft.eShopWeb.Web.Services
+Microsoft.eShopWeb.ApplicationCore.Specifications
+Microsoft.eShopWeb.ApplicationCore.Services
+Microsoft.AspNetCore.Mvc
+Ardalis.GuardClauses
+Microsoft.eShopWeb.Infrastructure.Logging
