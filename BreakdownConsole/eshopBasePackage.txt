@@ -1,0 +1,11 @@
+Microsoft.eShopWeb.Web.Services.CachedCatalogViewModelService 2 1
+Microsoft.eShopWeb.Web.Services.CatalogViewModelService 2 2
+Microsoft.eShopWeb.ApplicationCore.Services.UriComposer 1 2
+Microsoft.eShopWeb.CatalogSettings 0 1
+Microsoft.eShopWeb.Web.Services.BasketViewModelService 2 1
+Microsoft.eShopWeb.Web.Controllers.ManageController 2 2
+Microsoft.eShopWeb.Web.Services.EmailSenderExtensions 2 1
+Microsoft.eShopWeb.Web.Controllers.OrderController 0 1
+Microsoft.eShopWeb.ApplicationCore.Services.BasketService 1 0
+Ardalis.GuardClauses.BasketGuards 0 2
+Microsoft.eShopWeb.ApplicationCore.Services.OrderService 1 0

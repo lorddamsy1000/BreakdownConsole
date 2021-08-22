@@ -1,0 +1,962 @@
+﻿2019-10-09 16:13:04.4952|DEBUG|Microsoft.eShopWeb.Web.Areas.Identity.IdentityHostingStartup|IdentityHostingStartup.Configure({Microsoft.AspNetCore.Hosting.WebHostBuilder})|Starting.
+2019-10-09 16:13:04.6028|DEBUG|Microsoft.eShopWeb.Web.Areas.Identity.IdentityHostingStartup|IdentityHostingStartup.Configure({Microsoft.AspNetCore.Hosting.WebHostBuilder})|Succeeded.
+2019-10-09 16:13:05.1701|DEBUG|Microsoft.eShopWeb.Web.Startup|Startup.ConfigureDevelopmentServices([ {Microsoft.Extensions.DependencyInjection.ServiceDescriptor}, {Microsoft.Extensions.DependencyInjection.ServiceDescriptor}, {Microsoft.Extensions.DependencyInjection.ServiceDescriptor}, {Microsoft.Extensions.DependencyInjection.ServiceDescriptor}, {Microsoft.Extensions.DependencyInjection.ServiceDescriptor}, and 48 more ])|Starting.
+2019-10-09 16:13:05.1936|DEBUG|Microsoft.eShopWeb.Web.Startup|  Startup.ConfigureInMemoryDatabases([ {Microsoft.Extensions.DependencyInjection.ServiceDescriptor}, {Microsoft.Extensions.DependencyInjection.ServiceDescriptor}, {Microsoft.Extensions.DependencyInjection.ServiceDescriptor}, {Microsoft.Extensions.DependencyInjection.ServiceDescriptor}, {Microsoft.Extensions.DependencyInjection.ServiceDescriptor}, and 48 more ])|Starting.
+2019-10-09 16:13:05.5199|DEBUG|Microsoft.eShopWeb.Web.Startup|    Startup.ConfigureServices([ {Microsoft.Extensions.DependencyInjection.ServiceDescriptor}, {Microsoft.Extensions.DependencyInjection.ServiceDescriptor}, {Microsoft.Extensions.DependencyInjection.ServiceDescriptor}, {Microsoft.Extensions.DependencyInjection.ServiceDescriptor}, {Microsoft.Extensions.DependencyInjection.ServiceDescriptor}, and 55 more ])|Starting.
+2019-10-09 16:13:05.6160|DEBUG|Microsoft.eShopWeb.Web.Startup|      Startup.ConfigureCookieSettings([ {Microsoft.Extensions.DependencyInjection.ServiceDescriptor}, {Microsoft.Extensions.DependencyInjection.ServiceDescriptor}, {Microsoft.Extensions.DependencyInjection.ServiceDescriptor}, {Microsoft.Extensions.DependencyInjection.ServiceDescriptor}, {Microsoft.Extensions.DependencyInjection.ServiceDescriptor}, and 55 more ])|Starting.
+2019-10-09 16:13:05.6160|DEBUG|Microsoft.eShopWeb.Web.Startup|      Startup.ConfigureCookieSettings([ {Microsoft.Extensions.DependencyInjection.ServiceDescriptor}, {Microsoft.Extensions.DependencyInjection.ServiceDescriptor}, {Microsoft.Extensions.DependencyInjection.ServiceDescriptor}, {Microsoft.Extensions.DependencyInjection.ServiceDescriptor}, {Microsoft.Extensions.DependencyInjection.ServiceDescriptor}, and 55 more ])|Succeeded.
+2019-10-09 16:13:05.6461|DEBUG|Microsoft.eShopWeb.Web.Startup|      Startup.CreateIdentityIfNotCreated([ {Microsoft.Extensions.DependencyInjection.ServiceDescriptor}, {Microsoft.Extensions.DependencyInjection.ServiceDescriptor}, {Microsoft.Extensions.DependencyInjection.ServiceDescriptor}, {Microsoft.Extensions.DependencyInjection.ServiceDescriptor}, {Microsoft.Extensions.DependencyInjection.ServiceDescriptor}, and 57 more ])|Starting.
+2019-10-09 16:13:06.8590|DEBUG|Microsoft.eShopWeb.Web.Startup|      Startup.CreateIdentityIfNotCreated([ {Microsoft.Extensions.DependencyInjection.ServiceDescriptor}, {Microsoft.Extensions.DependencyInjection.ServiceDescriptor}, {Microsoft.Extensions.DependencyInjection.ServiceDescriptor}, {Microsoft.Extensions.DependencyInjection.ServiceDescriptor}, {Microsoft.Extensions.DependencyInjection.ServiceDescriptor}, and 57 more ])|Succeeded.
+2019-10-09 16:13:06.8590|DEBUG|Microsoft.eShopWeb.Web.Startup|      Startup.get_Configuration()|Starting.
+2019-10-09 16:13:06.8590|DEBUG|Microsoft.eShopWeb.Web.Startup|      Startup.get_Configuration()|Succeeded: returnValue = {Microsoft.Extensions.Configuration.ConfigurationRoot}.
+2019-10-09 16:13:06.8590|DEBUG|Microsoft.eShopWeb.Web.Startup|      Startup.get_Configuration()|Starting.
+2019-10-09 16:13:06.8590|DEBUG|Microsoft.eShopWeb.Web.Startup|      Startup.get_Configuration()|Succeeded: returnValue = {Microsoft.Extensions.Configuration.ConfigurationRoot}.
+2019-10-09 16:13:06.8590|DEBUG|Microsoft.eShopWeb.CatalogSettings|      CatalogSettings.get_CatalogBaseUrl()|Starting.
+2019-10-09 16:13:06.8590|DEBUG|Microsoft.eShopWeb.CatalogSettings|      CatalogSettings.get_CatalogBaseUrl()|Succeeded: returnValue = null.
+2019-10-09 16:13:06.8590|DEBUG|Microsoft.eShopWeb.CatalogSettings|      CatalogSettings.set_CatalogBaseUrl("")|Starting.
+2019-10-09 16:13:06.8590|DEBUG|Microsoft.eShopWeb.CatalogSettings|      CatalogSettings.set_CatalogBaseUrl("")|Succeeded.
+2019-10-09 16:13:06.8746|DEBUG|Microsoft.eShopWeb.Web.Startup|    Startup.ConfigureServices([ {Microsoft.Extensions.DependencyInjection.ServiceDescriptor}, {Microsoft.Extensions.DependencyInjection.ServiceDescriptor}, {Microsoft.Extensions.DependencyInjection.ServiceDescriptor}, {Microsoft.Extensions.DependencyInjection.ServiceDescriptor}, {Microsoft.Extensions.DependencyInjection.ServiceDescriptor}, and 55 more ])|Succeeded.
+2019-10-09 16:13:06.8746|DEBUG|Microsoft.eShopWeb.Web.Startup|  Startup.ConfigureInMemoryDatabases([ {Microsoft.Extensions.DependencyInjection.ServiceDescriptor}, {Microsoft.Extensions.DependencyInjection.ServiceDescriptor}, {Microsoft.Extensions.DependencyInjection.ServiceDescriptor}, {Microsoft.Extensions.DependencyInjection.ServiceDescriptor}, {Microsoft.Extensions.DependencyInjection.ServiceDescriptor}, and 48 more ])|Succeeded.
+2019-10-09 16:13:06.8746|DEBUG|Microsoft.eShopWeb.Web.Startup|Startup.ConfigureDevelopmentServices([ {Microsoft.Extensions.DependencyInjection.ServiceDescriptor}, {Microsoft.Extensions.DependencyInjection.ServiceDescriptor}, {Microsoft.Extensions.DependencyInjection.ServiceDescriptor}, {Microsoft.Extensions.DependencyInjection.ServiceDescriptor}, {Microsoft.Extensions.DependencyInjection.ServiceDescriptor}, and 48 more ])|Succeeded.
+2019-10-09 16:13:07.9735|DEBUG|Microsoft.eShopWeb.Infrastructure.Data.CatalogContext|CatalogContext.set_BasketItems({value(Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryable`1[Microsoft.eShopWeb.ApplicationCore.Entities.BasketAggregate.BasketItem])})|Starting.
+2019-10-09 16:13:07.9735|DEBUG|Microsoft.eShopWeb.Infrastructure.Data.CatalogContext|CatalogContext.set_BasketItems({value(Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryable`1[Microsoft.eShopWeb.ApplicationCore.Entities.BasketAggregate.BasketItem])})|Succeeded.
+2019-10-09 16:13:07.9735|DEBUG|Microsoft.eShopWeb.Infrastructure.Data.CatalogContext|CatalogContext.set_Baskets({value(Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryable`1[Microsoft.eShopWeb.ApplicationCore.Entities.BasketAggregate.Basket])})|Starting.
+2019-10-09 16:13:07.9735|DEBUG|Microsoft.eShopWeb.Infrastructure.Data.CatalogContext|CatalogContext.set_Baskets({value(Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryable`1[Microsoft.eShopWeb.ApplicationCore.Entities.BasketAggregate.Basket])})|Succeeded.
+2019-10-09 16:13:07.9735|DEBUG|Microsoft.eShopWeb.Infrastructure.Data.CatalogContext|CatalogContext.set_CatalogBrands({value(Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryable`1[Microsoft.eShopWeb.ApplicationCore.Entities.CatalogBrand])})|Starting.
+2019-10-09 16:13:07.9735|DEBUG|Microsoft.eShopWeb.Infrastructure.Data.CatalogContext|CatalogContext.set_CatalogBrands({value(Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryable`1[Microsoft.eShopWeb.ApplicationCore.Entities.CatalogBrand])})|Succeeded.
+2019-10-09 16:13:07.9735|DEBUG|Microsoft.eShopWeb.Infrastructure.Data.CatalogContext|CatalogContext.set_CatalogItems({value(Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryable`1[Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem])})|Starting.
+2019-10-09 16:13:07.9735|DEBUG|Microsoft.eShopWeb.Infrastructure.Data.CatalogContext|CatalogContext.set_CatalogItems({value(Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryable`1[Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem])})|Succeeded.
+2019-10-09 16:13:07.9735|DEBUG|Microsoft.eShopWeb.Infrastructure.Data.CatalogContext|CatalogContext.set_CatalogTypes({value(Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryable`1[Microsoft.eShopWeb.ApplicationCore.Entities.CatalogType])})|Starting.
+2019-10-09 16:13:07.9735|DEBUG|Microsoft.eShopWeb.Infrastructure.Data.CatalogContext|CatalogContext.set_CatalogTypes({value(Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryable`1[Microsoft.eShopWeb.ApplicationCore.Entities.CatalogType])})|Succeeded.
+2019-10-09 16:13:07.9735|DEBUG|Microsoft.eShopWeb.Infrastructure.Data.CatalogContext|CatalogContext.set_OrderItems({value(Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryable`1[Microsoft.eShopWeb.ApplicationCore.Entities.OrderAggregate.OrderItem])})|Starting.
+2019-10-09 16:13:07.9735|DEBUG|Microsoft.eShopWeb.Infrastructure.Data.CatalogContext|CatalogContext.set_OrderItems({value(Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryable`1[Microsoft.eShopWeb.ApplicationCore.Entities.OrderAggregate.OrderItem])})|Succeeded.
+2019-10-09 16:13:07.9843|DEBUG|Microsoft.eShopWeb.Infrastructure.Data.CatalogContext|CatalogContext.set_Orders({value(Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryable`1[Microsoft.eShopWeb.ApplicationCore.Entities.OrderAggregate.Order])})|Starting.
+2019-10-09 16:13:07.9843|DEBUG|Microsoft.eShopWeb.Infrastructure.Data.CatalogContext|CatalogContext.set_Orders({value(Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryable`1[Microsoft.eShopWeb.ApplicationCore.Entities.OrderAggregate.Order])})|Succeeded.
+2019-10-09 16:13:07.9843|DEBUG|Microsoft.eShopWeb.Infrastructure.Data.CatalogContextSeed|CatalogContextSeed.SeedAsync({Microsoft.eShopWeb.Infrastructure.Data.CatalogContext}, {Microsoft.Extensions.Logging.LoggerFactory}, 0)|Starting.
+2019-10-09 16:13:07.9843|DEBUG|Microsoft.eShopWeb.Infrastructure.Data.CatalogContext|  CatalogContext.get_CatalogBrands()|Starting.
+2019-10-09 16:13:07.9843|DEBUG|Microsoft.eShopWeb.Infrastructure.Data.CatalogContext|  CatalogContext.get_CatalogBrands()|Succeeded: returnValue = {value(Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryable`1[Microsoft.eShopWeb.ApplicationCore.Entities.CatalogBrand])}.
+2019-10-09 16:13:08.0662|DEBUG|Microsoft.eShopWeb.Infrastructure.Data.CatalogContext|  CatalogContext.get_CatalogBrands()|Starting.
+2019-10-09 16:13:08.0662|DEBUG|Microsoft.eShopWeb.Infrastructure.Data.CatalogContext|  CatalogContext.get_CatalogBrands()|Succeeded: returnValue = {value(Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryable`1[Microsoft.eShopWeb.ApplicationCore.Entities.CatalogBrand])}.
+2019-10-09 16:13:08.0662|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogBrand|  CatalogBrand.set_Brand("Azure")|Starting.
+2019-10-09 16:13:08.0662|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogBrand|  CatalogBrand.set_Brand("Azure")|Succeeded.
+2019-10-09 16:13:08.0662|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogBrand|  CatalogBrand.set_Brand(".NET")|Starting.
+2019-10-09 16:13:08.0662|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogBrand|  CatalogBrand.set_Brand(".NET")|Succeeded.
+2019-10-09 16:13:08.0662|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogBrand|  CatalogBrand.set_Brand("Visual Studio")|Starting.
+2019-10-09 16:13:08.0662|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogBrand|  CatalogBrand.set_Brand("Visual Studio")|Succeeded.
+2019-10-09 16:13:08.0662|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogBrand|  CatalogBrand.set_Brand("SQL Server")|Starting.
+2019-10-09 16:13:08.0662|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogBrand|  CatalogBrand.set_Brand("SQL Server")|Succeeded.
+2019-10-09 16:13:08.0662|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogBrand|  CatalogBrand.set_Brand("Other")|Starting.
+2019-10-09 16:13:08.0662|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogBrand|  CatalogBrand.set_Brand("Other")|Succeeded.
+2019-10-09 16:13:08.0851|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.BaseEntity|  BaseEntity.get_Id()|Starting.
+2019-10-09 16:13:08.0851|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.BaseEntity|  BaseEntity.get_Id()|Succeeded: returnValue = 0.
+2019-10-09 16:13:08.0851|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.BaseEntity|  BaseEntity.get_Id()|Starting.
+2019-10-09 16:13:08.0851|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.BaseEntity|  BaseEntity.get_Id()|Succeeded: returnValue = 0.
+2019-10-09 16:13:08.0953|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.BaseEntity|  BaseEntity.get_Id()|Starting.
+2019-10-09 16:13:08.0953|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.BaseEntity|  BaseEntity.get_Id()|Succeeded: returnValue = 0.
+2019-10-09 16:13:08.0953|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.BaseEntity|  BaseEntity.set_Id(1)|Starting.
+2019-10-09 16:13:08.1108|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.BaseEntity|  BaseEntity.set_Id(1)|Succeeded.
+2019-10-09 16:13:08.1361|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.BaseEntity|  BaseEntity.get_Id()|Starting.
+2019-10-09 16:13:08.1361|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.BaseEntity|  BaseEntity.get_Id()|Succeeded: returnValue = 1.
+2019-10-09 16:13:08.1452|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.BaseEntity|  BaseEntity.get_Id()|Starting.
+2019-10-09 16:13:08.1452|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.BaseEntity|  BaseEntity.get_Id()|Succeeded: returnValue = 1.
+2019-10-09 16:13:08.1452|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogBrand|  CatalogBrand.get_Brand()|Starting.
+2019-10-09 16:13:08.1452|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogBrand|  CatalogBrand.get_Brand()|Succeeded: returnValue = "Azure".
+2019-10-09 16:13:08.1452|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogBrand|  CatalogBrand.get_Brand()|Starting.
+2019-10-09 16:13:08.1452|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogBrand|  CatalogBrand.get_Brand()|Succeeded: returnValue = "Azure".
+2019-10-09 16:13:08.1452|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.BaseEntity|  BaseEntity.get_Id()|Starting.
+2019-10-09 16:13:08.1452|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.BaseEntity|  BaseEntity.get_Id()|Succeeded: returnValue = 1.
+2019-10-09 16:13:08.1452|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.BaseEntity|  BaseEntity.get_Id()|Starting.
+2019-10-09 16:13:08.1452|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.BaseEntity|  BaseEntity.get_Id()|Succeeded: returnValue = 0.
+2019-10-09 16:13:08.1452|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.BaseEntity|  BaseEntity.get_Id()|Starting.
+2019-10-09 16:13:08.1452|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.BaseEntity|  BaseEntity.get_Id()|Succeeded: returnValue = 0.
+2019-10-09 16:13:08.1452|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.BaseEntity|  BaseEntity.get_Id()|Starting.
+2019-10-09 16:13:08.1452|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.BaseEntity|  BaseEntity.get_Id()|Succeeded: returnValue = 0.
+2019-10-09 16:13:08.1452|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.BaseEntity|  BaseEntity.set_Id(2)|Starting.
+2019-10-09 16:13:08.1452|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.BaseEntity|  BaseEntity.set_Id(2)|Succeeded.
+2019-10-09 16:13:08.1452|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.BaseEntity|  BaseEntity.get_Id()|Starting.
+2019-10-09 16:13:08.1452|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.BaseEntity|  BaseEntity.get_Id()|Succeeded: returnValue = 2.
+2019-10-09 16:13:08.1452|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.BaseEntity|  BaseEntity.get_Id()|Starting.
+2019-10-09 16:13:08.1452|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.BaseEntity|  BaseEntity.get_Id()|Succeeded: returnValue = 2.
+2019-10-09 16:13:08.1452|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogBrand|  CatalogBrand.get_Brand()|Starting.
+2019-10-09 16:13:08.1452|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogBrand|  CatalogBrand.get_Brand()|Succeeded: returnValue = ".NET".
+2019-10-09 16:13:08.1452|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogBrand|  CatalogBrand.get_Brand()|Starting.
+2019-10-09 16:13:08.1452|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogBrand|  CatalogBrand.get_Brand()|Succeeded: returnValue = ".NET".
+2019-10-09 16:13:08.1452|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.BaseEntity|  BaseEntity.get_Id()|Starting.
+2019-10-09 16:13:08.1452|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.BaseEntity|  BaseEntity.get_Id()|Succeeded: returnValue = 2.
+2019-10-09 16:13:08.1452|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.BaseEntity|  BaseEntity.get_Id()|Starting.
+2019-10-09 16:13:08.1452|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.BaseEntity|  BaseEntity.get_Id()|Succeeded: returnValue = 0.
+2019-10-09 16:13:08.1452|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.BaseEntity|  BaseEntity.get_Id()|Starting.
+2019-10-09 16:13:08.1452|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.BaseEntity|  BaseEntity.get_Id()|Succeeded: returnValue = 0.
+2019-10-09 16:13:08.1452|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.BaseEntity|  BaseEntity.get_Id()|Starting.
+2019-10-09 16:13:08.1452|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.BaseEntity|  BaseEntity.get_Id()|Succeeded: returnValue = 0.
+2019-10-09 16:13:08.1452|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.BaseEntity|  BaseEntity.set_Id(3)|Starting.
+2019-10-09 16:13:08.1558|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.BaseEntity|  BaseEntity.set_Id(3)|Succeeded.
+2019-10-09 16:13:08.1558|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.BaseEntity|  BaseEntity.get_Id()|Starting.
+2019-10-09 16:13:08.1558|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.BaseEntity|  BaseEntity.get_Id()|Succeeded: returnValue = 3.
+2019-10-09 16:13:08.1558|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.BaseEntity|  BaseEntity.get_Id()|Starting.
+2019-10-09 16:13:08.1558|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.BaseEntity|  BaseEntity.get_Id()|Succeeded: returnValue = 3.
+2019-10-09 16:13:08.1558|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogBrand|  CatalogBrand.get_Brand()|Starting.
+2019-10-09 16:13:08.1558|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogBrand|  CatalogBrand.get_Brand()|Succeeded: returnValue = "Visual Studio".
+2019-10-09 16:13:08.1558|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogBrand|  CatalogBrand.get_Brand()|Starting.
+2019-10-09 16:13:08.1558|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogBrand|  CatalogBrand.get_Brand()|Succeeded: returnValue = "Visual Studio".
+2019-10-09 16:13:08.1558|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.BaseEntity|  BaseEntity.get_Id()|Starting.
+2019-10-09 16:13:08.1558|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.BaseEntity|  BaseEntity.get_Id()|Succeeded: returnValue = 3.
+2019-10-09 16:13:08.1558|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.BaseEntity|  BaseEntity.get_Id()|Starting.
+2019-10-09 16:13:08.1558|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.BaseEntity|  BaseEntity.get_Id()|Succeeded: returnValue = 0.
+2019-10-09 16:13:08.1558|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.BaseEntity|  BaseEntity.get_Id()|Starting.
+2019-10-09 16:13:08.1558|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.BaseEntity|  BaseEntity.get_Id()|Succeeded: returnValue = 0.
+2019-10-09 16:13:08.1558|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.BaseEntity|  BaseEntity.get_Id()|Starting.
+2019-10-09 16:13:08.1558|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.BaseEntity|  BaseEntity.get_Id()|Succeeded: returnValue = 0.
+2019-10-09 16:13:08.1558|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.BaseEntity|  BaseEntity.set_Id(4)|Starting.
+2019-10-09 16:13:08.1558|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.BaseEntity|  BaseEntity.set_Id(4)|Succeeded.
+2019-10-09 16:13:08.1558|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.BaseEntity|  BaseEntity.get_Id()|Starting.
+2019-10-09 16:13:08.1558|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.BaseEntity|  BaseEntity.get_Id()|Succeeded: returnValue = 4.
+2019-10-09 16:13:08.1558|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.BaseEntity|  BaseEntity.get_Id()|Starting.
+2019-10-09 16:13:08.1558|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.BaseEntity|  BaseEntity.get_Id()|Succeeded: returnValue = 4.
+2019-10-09 16:13:08.1558|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogBrand|  CatalogBrand.get_Brand()|Starting.
+2019-10-09 16:13:08.1558|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogBrand|  CatalogBrand.get_Brand()|Succeeded: returnValue = "SQL Server".
+2019-10-09 16:13:08.1558|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogBrand|  CatalogBrand.get_Brand()|Starting.
+2019-10-09 16:13:08.1558|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogBrand|  CatalogBrand.get_Brand()|Succeeded: returnValue = "SQL Server".
+2019-10-09 16:13:08.1558|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.BaseEntity|  BaseEntity.get_Id()|Starting.
+2019-10-09 16:13:08.1558|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.BaseEntity|  BaseEntity.get_Id()|Succeeded: returnValue = 4.
+2019-10-09 16:13:08.1558|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.BaseEntity|  BaseEntity.get_Id()|Starting.
+2019-10-09 16:13:08.1558|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.BaseEntity|  BaseEntity.get_Id()|Succeeded: returnValue = 0.
+2019-10-09 16:13:08.1558|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.BaseEntity|  BaseEntity.get_Id()|Starting.
+2019-10-09 16:13:08.1558|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.BaseEntity|  BaseEntity.get_Id()|Succeeded: returnValue = 0.
+2019-10-09 16:13:08.1558|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.BaseEntity|  BaseEntity.get_Id()|Starting.
+2019-10-09 16:13:08.1558|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.BaseEntity|  BaseEntity.get_Id()|Succeeded: returnValue = 0.
+2019-10-09 16:13:08.1558|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.BaseEntity|  BaseEntity.set_Id(5)|Starting.
+2019-10-09 16:13:08.1558|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.BaseEntity|  BaseEntity.set_Id(5)|Succeeded.
+2019-10-09 16:13:08.1558|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.BaseEntity|  BaseEntity.get_Id()|Starting.
+2019-10-09 16:13:08.1558|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.BaseEntity|  BaseEntity.get_Id()|Succeeded: returnValue = 5.
+2019-10-09 16:13:08.1558|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.BaseEntity|  BaseEntity.get_Id()|Starting.
+2019-10-09 16:13:08.1558|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.BaseEntity|  BaseEntity.get_Id()|Succeeded: returnValue = 5.
+2019-10-09 16:13:08.1558|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogBrand|  CatalogBrand.get_Brand()|Starting.
+2019-10-09 16:13:08.1558|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogBrand|  CatalogBrand.get_Brand()|Succeeded: returnValue = "Other".
+2019-10-09 16:13:08.1558|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogBrand|  CatalogBrand.get_Brand()|Starting.
+2019-10-09 16:13:08.1558|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogBrand|  CatalogBrand.get_Brand()|Succeeded: returnValue = "Other".
+2019-10-09 16:13:08.1558|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.BaseEntity|  BaseEntity.get_Id()|Starting.
+2019-10-09 16:13:08.1558|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.BaseEntity|  BaseEntity.get_Id()|Succeeded: returnValue = 5.
+2019-10-09 16:13:08.1716|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.BaseEntity|  BaseEntity.get_Id()|Starting.
+2019-10-09 16:13:08.1716|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.BaseEntity|  BaseEntity.get_Id()|Succeeded: returnValue = 1.
+2019-10-09 16:13:08.1716|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogBrand|  CatalogBrand.get_Brand()|Starting.
+2019-10-09 16:13:08.1716|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogBrand|  CatalogBrand.get_Brand()|Succeeded: returnValue = "Azure".
+2019-10-09 16:13:08.1716|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.BaseEntity|  BaseEntity.get_Id()|Starting.
+2019-10-09 16:13:08.1716|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.BaseEntity|  BaseEntity.get_Id()|Succeeded: returnValue = 1.
+2019-10-09 16:13:08.1716|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.BaseEntity|  BaseEntity.get_Id()|Starting.
+2019-10-09 16:13:08.1716|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.BaseEntity|  BaseEntity.get_Id()|Succeeded: returnValue = 2.
+2019-10-09 16:13:08.1716|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogBrand|  CatalogBrand.get_Brand()|Starting.
+2019-10-09 16:13:08.1716|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogBrand|  CatalogBrand.get_Brand()|Succeeded: returnValue = ".NET".
+2019-10-09 16:13:08.1716|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.BaseEntity|  BaseEntity.get_Id()|Starting.
+2019-10-09 16:13:08.1716|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.BaseEntity|  BaseEntity.get_Id()|Succeeded: returnValue = 2.
+2019-10-09 16:13:08.1716|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.BaseEntity|  BaseEntity.get_Id()|Starting.
+2019-10-09 16:13:08.1716|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.BaseEntity|  BaseEntity.get_Id()|Succeeded: returnValue = 3.
+2019-10-09 16:13:08.1716|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogBrand|  CatalogBrand.get_Brand()|Starting.
+2019-10-09 16:13:08.1716|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogBrand|  CatalogBrand.get_Brand()|Succeeded: returnValue = "Visual Studio".
+2019-10-09 16:13:08.1716|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.BaseEntity|  BaseEntity.get_Id()|Starting.
+2019-10-09 16:13:08.1716|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.BaseEntity|  BaseEntity.get_Id()|Succeeded: returnValue = 3.
+2019-10-09 16:13:08.1716|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.BaseEntity|  BaseEntity.get_Id()|Starting.
+2019-10-09 16:13:08.1716|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.BaseEntity|  BaseEntity.get_Id()|Succeeded: returnValue = 4.
+2019-10-09 16:13:08.1716|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogBrand|  CatalogBrand.get_Brand()|Starting.
+2019-10-09 16:13:08.1716|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogBrand|  CatalogBrand.get_Brand()|Succeeded: returnValue = "SQL Server".
+2019-10-09 16:13:08.1716|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.BaseEntity|  BaseEntity.get_Id()|Starting.
+2019-10-09 16:13:08.1716|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.BaseEntity|  BaseEntity.get_Id()|Succeeded: returnValue = 4.
+2019-10-09 16:13:08.1716|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.BaseEntity|  BaseEntity.get_Id()|Starting.
+2019-10-09 16:13:08.1716|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.BaseEntity|  BaseEntity.get_Id()|Succeeded: returnValue = 5.
+2019-10-09 16:13:08.1716|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogBrand|  CatalogBrand.get_Brand()|Starting.
+2019-10-09 16:13:08.1716|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogBrand|  CatalogBrand.get_Brand()|Succeeded: returnValue = "Other".
+2019-10-09 16:13:08.1716|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.BaseEntity|  BaseEntity.get_Id()|Starting.
+2019-10-09 16:13:08.1716|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.BaseEntity|  BaseEntity.get_Id()|Succeeded: returnValue = 5.
+2019-10-09 16:13:08.1892|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.BaseEntity|  BaseEntity.get_Id()|Starting.
+2019-10-09 16:13:08.1892|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.BaseEntity|  BaseEntity.get_Id()|Succeeded: returnValue = 1.
+2019-10-09 16:13:08.1892|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.BaseEntity|  BaseEntity.get_Id()|Starting.
+2019-10-09 16:13:08.1892|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.BaseEntity|  BaseEntity.get_Id()|Succeeded: returnValue = 1.
+2019-10-09 16:13:08.1892|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogBrand|  CatalogBrand.get_Brand()|Starting.
+2019-10-09 16:13:08.1892|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogBrand|  CatalogBrand.get_Brand()|Succeeded: returnValue = "Azure".
+2019-10-09 16:13:08.1892|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.BaseEntity|  BaseEntity.get_Id()|Starting.
+2019-10-09 16:13:08.1892|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.BaseEntity|  BaseEntity.get_Id()|Succeeded: returnValue = 2.
+2019-10-09 16:13:08.1892|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.BaseEntity|  BaseEntity.get_Id()|Starting.
+2019-10-09 16:13:08.1892|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.BaseEntity|  BaseEntity.get_Id()|Succeeded: returnValue = 2.
+2019-10-09 16:13:08.1892|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogBrand|  CatalogBrand.get_Brand()|Starting.
+2019-10-09 16:13:08.1892|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogBrand|  CatalogBrand.get_Brand()|Succeeded: returnValue = ".NET".
+2019-10-09 16:13:08.1892|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.BaseEntity|  BaseEntity.get_Id()|Starting.
+2019-10-09 16:13:08.1892|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.BaseEntity|  BaseEntity.get_Id()|Succeeded: returnValue = 3.
+2019-10-09 16:13:08.1892|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.BaseEntity|  BaseEntity.get_Id()|Starting.
+2019-10-09 16:13:08.1892|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.BaseEntity|  BaseEntity.get_Id()|Succeeded: returnValue = 3.
+2019-10-09 16:13:08.1892|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogBrand|  CatalogBrand.get_Brand()|Starting.
+2019-10-09 16:13:08.1892|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogBrand|  CatalogBrand.get_Brand()|Succeeded: returnValue = "Visual Studio".
+2019-10-09 16:13:08.1892|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.BaseEntity|  BaseEntity.get_Id()|Starting.
+2019-10-09 16:13:08.1892|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.BaseEntity|  BaseEntity.get_Id()|Succeeded: returnValue = 4.
+2019-10-09 16:13:08.1892|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.BaseEntity|  BaseEntity.get_Id()|Starting.
+2019-10-09 16:13:08.1892|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.BaseEntity|  BaseEntity.get_Id()|Succeeded: returnValue = 4.
+2019-10-09 16:13:08.1892|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogBrand|  CatalogBrand.get_Brand()|Starting.
+2019-10-09 16:13:08.1892|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogBrand|  CatalogBrand.get_Brand()|Succeeded: returnValue = "SQL Server".
+2019-10-09 16:13:08.1892|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.BaseEntity|  BaseEntity.get_Id()|Starting.
+2019-10-09 16:13:08.1892|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.BaseEntity|  BaseEntity.get_Id()|Succeeded: returnValue = 5.
+2019-10-09 16:13:08.1892|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.BaseEntity|  BaseEntity.get_Id()|Starting.
+2019-10-09 16:13:08.1892|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.BaseEntity|  BaseEntity.get_Id()|Succeeded: returnValue = 5.
+2019-10-09 16:13:08.1892|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogBrand|  CatalogBrand.get_Brand()|Starting.
+2019-10-09 16:13:08.1892|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogBrand|  CatalogBrand.get_Brand()|Succeeded: returnValue = "Other".
+2019-10-09 16:13:08.2147|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.BaseEntity|  BaseEntity.get_Id()|Starting.
+2019-10-09 16:13:08.2147|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.BaseEntity|  BaseEntity.get_Id()|Succeeded: returnValue = 1.
+2019-10-09 16:13:08.2147|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogBrand|  CatalogBrand.get_Brand()|Starting.
+2019-10-09 16:13:08.2147|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogBrand|  CatalogBrand.get_Brand()|Succeeded: returnValue = "Azure".
+2019-10-09 16:13:08.2147|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.BaseEntity|  BaseEntity.get_Id()|Starting.
+2019-10-09 16:13:08.2147|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.BaseEntity|  BaseEntity.get_Id()|Succeeded: returnValue = 2.
+2019-10-09 16:13:08.2147|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogBrand|  CatalogBrand.get_Brand()|Starting.
+2019-10-09 16:13:08.2178|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogBrand|  CatalogBrand.get_Brand()|Succeeded: returnValue = ".NET".
+2019-10-09 16:13:08.2178|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.BaseEntity|  BaseEntity.get_Id()|Starting.
+2019-10-09 16:13:08.2178|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.BaseEntity|  BaseEntity.get_Id()|Succeeded: returnValue = 3.
+2019-10-09 16:13:08.2178|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogBrand|  CatalogBrand.get_Brand()|Starting.
+2019-10-09 16:13:08.2178|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogBrand|  CatalogBrand.get_Brand()|Succeeded: returnValue = "Visual Studio".
+2019-10-09 16:13:08.2178|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.BaseEntity|  BaseEntity.get_Id()|Starting.
+2019-10-09 16:13:08.2178|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.BaseEntity|  BaseEntity.get_Id()|Succeeded: returnValue = 4.
+2019-10-09 16:13:08.2178|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogBrand|  CatalogBrand.get_Brand()|Starting.
+2019-10-09 16:13:08.2178|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogBrand|  CatalogBrand.get_Brand()|Succeeded: returnValue = "SQL Server".
+2019-10-09 16:13:08.2178|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.BaseEntity|  BaseEntity.get_Id()|Starting.
+2019-10-09 16:13:08.2178|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.BaseEntity|  BaseEntity.get_Id()|Succeeded: returnValue = 5.
+2019-10-09 16:13:08.2178|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogBrand|  CatalogBrand.get_Brand()|Starting.
+2019-10-09 16:13:08.2178|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogBrand|  CatalogBrand.get_Brand()|Succeeded: returnValue = "Other".
+2019-10-09 16:13:08.2178|DEBUG|Microsoft.eShopWeb.Infrastructure.Data.CatalogContext|  CatalogContext.get_CatalogTypes()|Starting.
+2019-10-09 16:13:08.2178|DEBUG|Microsoft.eShopWeb.Infrastructure.Data.CatalogContext|  CatalogContext.get_CatalogTypes()|Succeeded: returnValue = {value(Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryable`1[Microsoft.eShopWeb.ApplicationCore.Entities.CatalogType])}.
+2019-10-09 16:13:08.2178|DEBUG|Microsoft.eShopWeb.Infrastructure.Data.CatalogContext|  CatalogContext.get_CatalogTypes()|Starting.
+2019-10-09 16:13:08.2178|DEBUG|Microsoft.eShopWeb.Infrastructure.Data.CatalogContext|  CatalogContext.get_CatalogTypes()|Succeeded: returnValue = {value(Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryable`1[Microsoft.eShopWeb.ApplicationCore.Entities.CatalogType])}.
+2019-10-09 16:13:08.2178|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogType|  CatalogType.set_Type("Mug")|Starting.
+2019-10-09 16:13:08.2178|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogType|  CatalogType.set_Type("Mug")|Succeeded.
+2019-10-09 16:13:08.2178|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogType|  CatalogType.set_Type("T-Shirt")|Starting.
+2019-10-09 16:13:08.2381|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogType|  CatalogType.set_Type("T-Shirt")|Succeeded.
+2019-10-09 16:13:08.2381|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogType|  CatalogType.set_Type("Sheet")|Starting.
+2019-10-09 16:13:08.2381|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogType|  CatalogType.set_Type("Sheet")|Succeeded.
+2019-10-09 16:13:08.2381|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogType|  CatalogType.set_Type("USB Memory Stick")|Starting.
+2019-10-09 16:13:08.2381|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogType|  CatalogType.set_Type("USB Memory Stick")|Succeeded.
+2019-10-09 16:13:08.2381|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.BaseEntity|  BaseEntity.get_Id()|Starting.
+2019-10-09 16:13:08.2381|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.BaseEntity|  BaseEntity.get_Id()|Succeeded: returnValue = 0.
+2019-10-09 16:13:08.2381|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.BaseEntity|  BaseEntity.get_Id()|Starting.
+2019-10-09 16:13:08.2381|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.BaseEntity|  BaseEntity.get_Id()|Succeeded: returnValue = 0.
+2019-10-09 16:13:08.2381|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.BaseEntity|  BaseEntity.get_Id()|Starting.
+2019-10-09 16:13:08.2381|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.BaseEntity|  BaseEntity.get_Id()|Succeeded: returnValue = 0.
+2019-10-09 16:13:08.2381|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.BaseEntity|  BaseEntity.set_Id(1)|Starting.
+2019-10-09 16:13:08.2381|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.BaseEntity|  BaseEntity.set_Id(1)|Succeeded.
+2019-10-09 16:13:08.2381|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.BaseEntity|  BaseEntity.get_Id()|Starting.
+2019-10-09 16:13:08.2381|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.BaseEntity|  BaseEntity.get_Id()|Succeeded: returnValue = 1.
+2019-10-09 16:13:08.2381|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.BaseEntity|  BaseEntity.get_Id()|Starting.
+2019-10-09 16:13:08.2381|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.BaseEntity|  BaseEntity.get_Id()|Succeeded: returnValue = 1.
+2019-10-09 16:13:08.2381|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogType|  CatalogType.get_Type()|Starting.
+2019-10-09 16:13:08.2533|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogType|  CatalogType.get_Type()|Succeeded: returnValue = "Mug".
+2019-10-09 16:13:08.2533|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogType|  CatalogType.get_Type()|Starting.
+2019-10-09 16:13:08.2533|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogType|  CatalogType.get_Type()|Succeeded: returnValue = "Mug".
+2019-10-09 16:13:08.2533|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.BaseEntity|  BaseEntity.get_Id()|Starting.
+2019-10-09 16:13:08.2533|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.BaseEntity|  BaseEntity.get_Id()|Succeeded: returnValue = 1.
+2019-10-09 16:13:08.2533|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.BaseEntity|  BaseEntity.get_Id()|Starting.
+2019-10-09 16:13:08.2533|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.BaseEntity|  BaseEntity.get_Id()|Succeeded: returnValue = 0.
+2019-10-09 16:13:08.2533|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.BaseEntity|  BaseEntity.get_Id()|Starting.
+2019-10-09 16:13:08.2533|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.BaseEntity|  BaseEntity.get_Id()|Succeeded: returnValue = 0.
+2019-10-09 16:13:08.2533|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.BaseEntity|  BaseEntity.get_Id()|Starting.
+2019-10-09 16:13:08.2533|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.BaseEntity|  BaseEntity.get_Id()|Succeeded: returnValue = 0.
+2019-10-09 16:13:08.2533|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.BaseEntity|  BaseEntity.set_Id(2)|Starting.
+2019-10-09 16:13:08.2533|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.BaseEntity|  BaseEntity.set_Id(2)|Succeeded.
+2019-10-09 16:13:08.2533|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.BaseEntity|  BaseEntity.get_Id()|Starting.
+2019-10-09 16:13:08.2533|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.BaseEntity|  BaseEntity.get_Id()|Succeeded: returnValue = 2.
+2019-10-09 16:13:08.2533|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.BaseEntity|  BaseEntity.get_Id()|Starting.
+2019-10-09 16:13:08.2533|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.BaseEntity|  BaseEntity.get_Id()|Succeeded: returnValue = 2.
+2019-10-09 16:13:08.2533|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogType|  CatalogType.get_Type()|Starting.
+2019-10-09 16:13:08.2533|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogType|  CatalogType.get_Type()|Succeeded: returnValue = "T-Shirt".
+2019-10-09 16:13:08.2533|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogType|  CatalogType.get_Type()|Starting.
+2019-10-09 16:13:08.2533|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogType|  CatalogType.get_Type()|Succeeded: returnValue = "T-Shirt".
+2019-10-09 16:13:08.2533|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.BaseEntity|  BaseEntity.get_Id()|Starting.
+2019-10-09 16:13:08.2533|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.BaseEntity|  BaseEntity.get_Id()|Succeeded: returnValue = 2.
+2019-10-09 16:13:08.2533|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.BaseEntity|  BaseEntity.get_Id()|Starting.
+2019-10-09 16:13:08.2533|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.BaseEntity|  BaseEntity.get_Id()|Succeeded: returnValue = 0.
+2019-10-09 16:13:08.2533|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.BaseEntity|  BaseEntity.get_Id()|Starting.
+2019-10-09 16:13:08.2533|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.BaseEntity|  BaseEntity.get_Id()|Succeeded: returnValue = 0.
+2019-10-09 16:13:08.2533|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.BaseEntity|  BaseEntity.get_Id()|Starting.
+2019-10-09 16:13:08.2533|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.BaseEntity|  BaseEntity.get_Id()|Succeeded: returnValue = 0.
+2019-10-09 16:13:08.2533|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.BaseEntity|  BaseEntity.set_Id(3)|Starting.
+2019-10-09 16:13:08.2533|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.BaseEntity|  BaseEntity.set_Id(3)|Succeeded.
+2019-10-09 16:13:08.2533|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.BaseEntity|  BaseEntity.get_Id()|Starting.
+2019-10-09 16:13:08.2533|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.BaseEntity|  BaseEntity.get_Id()|Succeeded: returnValue = 3.
+2019-10-09 16:13:08.2533|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.BaseEntity|  BaseEntity.get_Id()|Starting.
+2019-10-09 16:13:08.2533|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.BaseEntity|  BaseEntity.get_Id()|Succeeded: returnValue = 3.
+2019-10-09 16:13:08.2533|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogType|  CatalogType.get_Type()|Starting.
+2019-10-09 16:13:08.2662|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogType|  CatalogType.get_Type()|Succeeded: returnValue = "Sheet".
+2019-10-09 16:13:08.2662|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogType|  CatalogType.get_Type()|Starting.
+2019-10-09 16:13:08.2662|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogType|  CatalogType.get_Type()|Succeeded: returnValue = "Sheet".
+2019-10-09 16:13:08.2662|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.BaseEntity|  BaseEntity.get_Id()|Starting.
+2019-10-09 16:13:08.2662|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.BaseEntity|  BaseEntity.get_Id()|Succeeded: returnValue = 3.
+2019-10-09 16:13:08.2662|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.BaseEntity|  BaseEntity.get_Id()|Starting.
+2019-10-09 16:13:08.2662|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.BaseEntity|  BaseEntity.get_Id()|Succeeded: returnValue = 0.
+2019-10-09 16:13:08.2662|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.BaseEntity|  BaseEntity.get_Id()|Starting.
+2019-10-09 16:13:08.2662|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.BaseEntity|  BaseEntity.get_Id()|Succeeded: returnValue = 0.
+2019-10-09 16:13:08.2662|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.BaseEntity|  BaseEntity.get_Id()|Starting.
+2019-10-09 16:13:08.2662|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.BaseEntity|  BaseEntity.get_Id()|Succeeded: returnValue = 0.
+2019-10-09 16:13:08.2662|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.BaseEntity|  BaseEntity.set_Id(4)|Starting.
+2019-10-09 16:13:08.2662|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.BaseEntity|  BaseEntity.set_Id(4)|Succeeded.
+2019-10-09 16:13:08.2662|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.BaseEntity|  BaseEntity.get_Id()|Starting.
+2019-10-09 16:13:08.2662|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.BaseEntity|  BaseEntity.get_Id()|Succeeded: returnValue = 4.
+2019-10-09 16:13:08.2662|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.BaseEntity|  BaseEntity.get_Id()|Starting.
+2019-10-09 16:13:08.2662|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.BaseEntity|  BaseEntity.get_Id()|Succeeded: returnValue = 4.
+2019-10-09 16:13:08.2662|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogType|  CatalogType.get_Type()|Starting.
+2019-10-09 16:13:08.2662|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogType|  CatalogType.get_Type()|Succeeded: returnValue = "USB Memory Stick".
+2019-10-09 16:13:08.2880|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogType|  CatalogType.get_Type()|Starting.
+2019-10-09 16:13:08.2880|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogType|  CatalogType.get_Type()|Succeeded: returnValue = "USB Memory Stick".
+2019-10-09 16:13:08.2880|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.BaseEntity|  BaseEntity.get_Id()|Starting.
+2019-10-09 16:13:08.2880|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.BaseEntity|  BaseEntity.get_Id()|Succeeded: returnValue = 4.
+2019-10-09 16:13:08.2880|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.BaseEntity|  BaseEntity.get_Id()|Starting.
+2019-10-09 16:13:08.3072|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.BaseEntity|  BaseEntity.get_Id()|Succeeded: returnValue = 1.
+2019-10-09 16:13:08.3072|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogBrand|  CatalogBrand.get_Brand()|Starting.
+2019-10-09 16:13:08.3072|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogBrand|  CatalogBrand.get_Brand()|Succeeded: returnValue = "Azure".
+2019-10-09 16:13:08.3172|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.BaseEntity|  BaseEntity.get_Id()|Starting.
+2019-10-09 16:13:08.3172|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.BaseEntity|  BaseEntity.get_Id()|Succeeded: returnValue = 1.
+2019-10-09 16:13:08.3172|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.BaseEntity|  BaseEntity.get_Id()|Starting.
+2019-10-09 16:13:08.3172|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.BaseEntity|  BaseEntity.get_Id()|Succeeded: returnValue = 2.
+2019-10-09 16:13:08.3172|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogBrand|  CatalogBrand.get_Brand()|Starting.
+2019-10-09 16:13:08.3172|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogBrand|  CatalogBrand.get_Brand()|Succeeded: returnValue = ".NET".
+2019-10-09 16:13:08.3172|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.BaseEntity|  BaseEntity.get_Id()|Starting.
+2019-10-09 16:13:08.3172|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.BaseEntity|  BaseEntity.get_Id()|Succeeded: returnValue = 2.
+2019-10-09 16:13:08.3172|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.BaseEntity|  BaseEntity.get_Id()|Starting.
+2019-10-09 16:13:08.3172|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.BaseEntity|  BaseEntity.get_Id()|Succeeded: returnValue = 3.
+2019-10-09 16:13:08.3172|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogBrand|  CatalogBrand.get_Brand()|Starting.
+2019-10-09 16:13:08.3172|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogBrand|  CatalogBrand.get_Brand()|Succeeded: returnValue = "Visual Studio".
+2019-10-09 16:13:08.3172|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.BaseEntity|  BaseEntity.get_Id()|Starting.
+2019-10-09 16:13:08.3172|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.BaseEntity|  BaseEntity.get_Id()|Succeeded: returnValue = 3.
+2019-10-09 16:13:08.3172|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.BaseEntity|  BaseEntity.get_Id()|Starting.
+2019-10-09 16:13:08.3172|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.BaseEntity|  BaseEntity.get_Id()|Succeeded: returnValue = 4.
+2019-10-09 16:13:08.3172|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogBrand|  CatalogBrand.get_Brand()|Starting.
+2019-10-09 16:13:08.3172|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogBrand|  CatalogBrand.get_Brand()|Succeeded: returnValue = "SQL Server".
+2019-10-09 16:13:08.3387|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.BaseEntity|  BaseEntity.get_Id()|Starting.
+2019-10-09 16:13:08.3387|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.BaseEntity|  BaseEntity.get_Id()|Succeeded: returnValue = 4.
+2019-10-09 16:13:08.3493|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.BaseEntity|  BaseEntity.get_Id()|Starting.
+2019-10-09 16:13:08.3493|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.BaseEntity|  BaseEntity.get_Id()|Succeeded: returnValue = 5.
+2019-10-09 16:13:08.3777|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogBrand|  CatalogBrand.get_Brand()|Starting.
+2019-10-09 16:13:08.3777|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogBrand|  CatalogBrand.get_Brand()|Succeeded: returnValue = "Other".
+2019-10-09 16:13:08.3777|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.BaseEntity|  BaseEntity.get_Id()|Starting.
+2019-10-09 16:13:08.4004|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.BaseEntity|  BaseEntity.get_Id()|Succeeded: returnValue = 5.
+2019-10-09 16:13:08.4004|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.BaseEntity|  BaseEntity.get_Id()|Starting.
+2019-10-09 16:13:08.4004|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.BaseEntity|  BaseEntity.get_Id()|Succeeded: returnValue = 1.
+2019-10-09 16:13:08.4004|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogType|  CatalogType.get_Type()|Starting.
+2019-10-09 16:13:08.4004|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogType|  CatalogType.get_Type()|Succeeded: returnValue = "Mug".
+2019-10-09 16:13:08.4004|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.BaseEntity|  BaseEntity.get_Id()|Starting.
+2019-10-09 16:13:08.4004|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.BaseEntity|  BaseEntity.get_Id()|Succeeded: returnValue = 1.
+2019-10-09 16:13:08.4004|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.BaseEntity|  BaseEntity.get_Id()|Starting.
+2019-10-09 16:13:08.4004|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.BaseEntity|  BaseEntity.get_Id()|Succeeded: returnValue = 2.
+2019-10-09 16:13:08.4004|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogType|  CatalogType.get_Type()|Starting.
+2019-10-09 16:13:08.4004|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogType|  CatalogType.get_Type()|Succeeded: returnValue = "T-Shirt".
+2019-10-09 16:13:08.4004|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.BaseEntity|  BaseEntity.get_Id()|Starting.
+2019-10-09 16:13:08.4004|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.BaseEntity|  BaseEntity.get_Id()|Succeeded: returnValue = 2.
+2019-10-09 16:13:08.4004|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.BaseEntity|  BaseEntity.get_Id()|Starting.
+2019-10-09 16:13:08.4004|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.BaseEntity|  BaseEntity.get_Id()|Succeeded: returnValue = 3.
+2019-10-09 16:13:08.4004|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogType|  CatalogType.get_Type()|Starting.
+2019-10-09 16:13:08.4004|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogType|  CatalogType.get_Type()|Succeeded: returnValue = "Sheet".
+2019-10-09 16:13:08.4004|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.BaseEntity|  BaseEntity.get_Id()|Starting.
+2019-10-09 16:13:08.4004|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.BaseEntity|  BaseEntity.get_Id()|Succeeded: returnValue = 3.
+2019-10-09 16:13:08.4004|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.BaseEntity|  BaseEntity.get_Id()|Starting.
+2019-10-09 16:13:08.4004|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.BaseEntity|  BaseEntity.get_Id()|Succeeded: returnValue = 4.
+2019-10-09 16:13:08.4004|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogType|  CatalogType.get_Type()|Starting.
+2019-10-09 16:13:08.4004|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogType|  CatalogType.get_Type()|Succeeded: returnValue = "USB Memory Stick".
+2019-10-09 16:13:08.4004|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.BaseEntity|  BaseEntity.get_Id()|Starting.
+2019-10-09 16:13:08.4004|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.BaseEntity|  BaseEntity.get_Id()|Succeeded: returnValue = 4.
+2019-10-09 16:13:08.4004|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.BaseEntity|  BaseEntity.get_Id()|Starting.
+2019-10-09 16:13:08.4133|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.BaseEntity|  BaseEntity.get_Id()|Succeeded: returnValue = 1.
+2019-10-09 16:13:08.4133|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.BaseEntity|  BaseEntity.get_Id()|Starting.
+2019-10-09 16:13:08.4133|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.BaseEntity|  BaseEntity.get_Id()|Succeeded: returnValue = 1.
+2019-10-09 16:13:08.4133|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogType|  CatalogType.get_Type()|Starting.
+2019-10-09 16:13:08.4133|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogType|  CatalogType.get_Type()|Succeeded: returnValue = "Mug".
+2019-10-09 16:13:08.4133|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.BaseEntity|  BaseEntity.get_Id()|Starting.
+2019-10-09 16:13:08.4133|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.BaseEntity|  BaseEntity.get_Id()|Succeeded: returnValue = 2.
+2019-10-09 16:13:08.4133|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.BaseEntity|  BaseEntity.get_Id()|Starting.
+2019-10-09 16:13:08.4259|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.BaseEntity|  BaseEntity.get_Id()|Succeeded: returnValue = 2.
+2019-10-09 16:13:08.4259|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogType|  CatalogType.get_Type()|Starting.
+2019-10-09 16:13:08.4259|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogType|  CatalogType.get_Type()|Succeeded: returnValue = "T-Shirt".
+2019-10-09 16:13:08.4259|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.BaseEntity|  BaseEntity.get_Id()|Starting.
+2019-10-09 16:13:08.4259|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.BaseEntity|  BaseEntity.get_Id()|Succeeded: returnValue = 3.
+2019-10-09 16:13:08.4259|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.BaseEntity|  BaseEntity.get_Id()|Starting.
+2019-10-09 16:13:08.4259|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.BaseEntity|  BaseEntity.get_Id()|Succeeded: returnValue = 3.
+2019-10-09 16:13:08.4259|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogType|  CatalogType.get_Type()|Starting.
+2019-10-09 16:13:08.4259|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogType|  CatalogType.get_Type()|Succeeded: returnValue = "Sheet".
+2019-10-09 16:13:08.4259|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.BaseEntity|  BaseEntity.get_Id()|Starting.
+2019-10-09 16:13:08.4259|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.BaseEntity|  BaseEntity.get_Id()|Succeeded: returnValue = 4.
+2019-10-09 16:13:08.4259|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.BaseEntity|  BaseEntity.get_Id()|Starting.
+2019-10-09 16:13:08.4259|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.BaseEntity|  BaseEntity.get_Id()|Succeeded: returnValue = 4.
+2019-10-09 16:13:08.4259|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogType|  CatalogType.get_Type()|Starting.
+2019-10-09 16:13:08.4259|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogType|  CatalogType.get_Type()|Succeeded: returnValue = "USB Memory Stick".
+2019-10-09 16:13:08.4259|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.BaseEntity|  BaseEntity.get_Id()|Starting.
+2019-10-09 16:13:08.4259|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.BaseEntity|  BaseEntity.get_Id()|Succeeded: returnValue = 1.
+2019-10-09 16:13:08.4259|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogType|  CatalogType.get_Type()|Starting.
+2019-10-09 16:13:08.4259|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogType|  CatalogType.get_Type()|Succeeded: returnValue = "Mug".
+2019-10-09 16:13:08.4259|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.BaseEntity|  BaseEntity.get_Id()|Starting.
+2019-10-09 16:13:08.4259|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.BaseEntity|  BaseEntity.get_Id()|Succeeded: returnValue = 2.
+2019-10-09 16:13:08.4259|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogType|  CatalogType.get_Type()|Starting.
+2019-10-09 16:13:08.4259|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogType|  CatalogType.get_Type()|Succeeded: returnValue = "T-Shirt".
+2019-10-09 16:13:08.4259|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.BaseEntity|  BaseEntity.get_Id()|Starting.
+2019-10-09 16:13:08.4259|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.BaseEntity|  BaseEntity.get_Id()|Succeeded: returnValue = 3.
+2019-10-09 16:13:08.4259|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogType|  CatalogType.get_Type()|Starting.
+2019-10-09 16:13:08.4259|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogType|  CatalogType.get_Type()|Succeeded: returnValue = "Sheet".
+2019-10-09 16:13:08.4259|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.BaseEntity|  BaseEntity.get_Id()|Starting.
+2019-10-09 16:13:08.4374|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.BaseEntity|  BaseEntity.get_Id()|Succeeded: returnValue = 4.
+2019-10-09 16:13:08.4374|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogType|  CatalogType.get_Type()|Starting.
+2019-10-09 16:13:08.4374|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogType|  CatalogType.get_Type()|Succeeded: returnValue = "USB Memory Stick".
+2019-10-09 16:13:08.4374|DEBUG|Microsoft.eShopWeb.Infrastructure.Data.CatalogContext|  CatalogContext.get_CatalogItems()|Starting.
+2019-10-09 16:13:08.4374|DEBUG|Microsoft.eShopWeb.Infrastructure.Data.CatalogContext|  CatalogContext.get_CatalogItems()|Succeeded: returnValue = {value(Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryable`1[Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem])}.
+2019-10-09 16:13:08.4374|DEBUG|Microsoft.eShopWeb.Infrastructure.Data.CatalogContext|  CatalogContext.get_CatalogItems()|Starting.
+2019-10-09 16:13:08.4374|DEBUG|Microsoft.eShopWeb.Infrastructure.Data.CatalogContext|  CatalogContext.get_CatalogItems()|Succeeded: returnValue = {value(Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryable`1[Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem])}.
+2019-10-09 16:13:08.4374|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.set_CatalogTypeId(2)|Starting.
+2019-10-09 16:13:08.4374|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.set_CatalogTypeId(2)|Succeeded.
+2019-10-09 16:13:08.4374|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.set_CatalogBrandId(2)|Starting.
+2019-10-09 16:13:08.4374|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.set_CatalogBrandId(2)|Succeeded.
+2019-10-09 16:13:08.4374|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.set_Description(".NET Bot Black Sweatshirt")|Starting.
+2019-10-09 16:13:08.4374|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.set_Description(".NET Bot Black Sweatshirt")|Succeeded.
+2019-10-09 16:13:08.4374|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.set_Name(".NET Bot Black Sweatshirt")|Starting.
+2019-10-09 16:13:08.4374|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.set_Name(".NET Bot Black Sweatshirt")|Succeeded.
+2019-10-09 16:13:08.4615|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.set_Price({19.5})|Starting.
+2019-10-09 16:13:08.4615|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.set_Price({19.5})|Succeeded.
+2019-10-09 16:13:08.4615|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.set_PictureUri("http://catalogbaseurltobereplaced/images/products/1.png")|Starting.
+2019-10-09 16:13:08.4615|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.set_PictureUri("http://catalogbaseurltobereplaced/images/products/1.png")|Succeeded.
+2019-10-09 16:13:08.4615|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.set_CatalogTypeId(1)|Starting.
+2019-10-09 16:13:08.4615|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.set_CatalogTypeId(1)|Succeeded.
+2019-10-09 16:13:08.4615|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.set_CatalogBrandId(2)|Starting.
+2019-10-09 16:13:08.4615|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.set_CatalogBrandId(2)|Succeeded.
+2019-10-09 16:13:08.4615|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.set_Description(".NET Black & White Mug")|Starting.
+2019-10-09 16:13:08.4615|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.set_Description(".NET Black & White Mug")|Succeeded.
+2019-10-09 16:13:08.4615|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.set_Name(".NET Black & White Mug")|Starting.
+2019-10-09 16:13:08.4615|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.set_Name(".NET Black & White Mug")|Succeeded.
+2019-10-09 16:13:08.4615|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.set_Price({8.50})|Starting.
+2019-10-09 16:13:08.4615|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.set_Price({8.50})|Succeeded.
+2019-10-09 16:13:08.4615|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.set_PictureUri("http://catalogbaseurltobereplaced/images/products/2.png")|Starting.
+2019-10-09 16:13:08.4615|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.set_PictureUri("http://catalogbaseurltobereplaced/images/products/2.png")|Succeeded.
+2019-10-09 16:13:08.4615|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.set_CatalogTypeId(2)|Starting.
+2019-10-09 16:13:08.4615|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.set_CatalogTypeId(2)|Succeeded.
+2019-10-09 16:13:08.4615|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.set_CatalogBrandId(5)|Starting.
+2019-10-09 16:13:08.4615|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.set_CatalogBrandId(5)|Succeeded.
+2019-10-09 16:13:08.4615|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.set_Description("Prism White T-Shirt")|Starting.
+2019-10-09 16:13:08.4615|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.set_Description("Prism White T-Shirt")|Succeeded.
+2019-10-09 16:13:08.4615|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.set_Name("Prism White T-Shirt")|Starting.
+2019-10-09 16:13:08.4615|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.set_Name("Prism White T-Shirt")|Succeeded.
+2019-10-09 16:13:08.4615|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.set_Price({12})|Starting.
+2019-10-09 16:13:08.4615|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.set_Price({12})|Succeeded.
+2019-10-09 16:13:08.4615|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.set_PictureUri("http://catalogbaseurltobereplaced/images/products/3.png")|Starting.
+2019-10-09 16:13:08.4615|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.set_PictureUri("http://catalogbaseurltobereplaced/images/products/3.png")|Succeeded.
+2019-10-09 16:13:08.4615|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.set_CatalogTypeId(2)|Starting.
+2019-10-09 16:13:08.4615|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.set_CatalogTypeId(2)|Succeeded.
+2019-10-09 16:13:08.4615|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.set_CatalogBrandId(2)|Starting.
+2019-10-09 16:13:08.4615|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.set_CatalogBrandId(2)|Succeeded.
+2019-10-09 16:13:08.4615|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.set_Description(".NET Foundation Sweatshirt")|Starting.
+2019-10-09 16:13:08.4615|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.set_Description(".NET Foundation Sweatshirt")|Succeeded.
+2019-10-09 16:13:08.4615|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.set_Name(".NET Foundation Sweatshirt")|Starting.
+2019-10-09 16:13:08.4615|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.set_Name(".NET Foundation Sweatshirt")|Succeeded.
+2019-10-09 16:13:08.4615|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.set_Price({12})|Starting.
+2019-10-09 16:13:08.4615|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.set_Price({12})|Succeeded.
+2019-10-09 16:13:08.4697|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.set_PictureUri("http://catalogbaseurltobereplaced/images/products/4.png")|Starting.
+2019-10-09 16:13:08.4697|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.set_PictureUri("http://catalogbaseurltobereplaced/images/products/4.png")|Succeeded.
+2019-10-09 16:13:08.4697|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.set_CatalogTypeId(3)|Starting.
+2019-10-09 16:13:08.4697|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.set_CatalogTypeId(3)|Succeeded.
+2019-10-09 16:13:08.4697|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.set_CatalogBrandId(5)|Starting.
+2019-10-09 16:13:08.4697|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.set_CatalogBrandId(5)|Succeeded.
+2019-10-09 16:13:08.4697|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.set_Description("Roslyn Red Sheet")|Starting.
+2019-10-09 16:13:08.4697|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.set_Description("Roslyn Red Sheet")|Succeeded.
+2019-10-09 16:13:08.4697|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.set_Name("Roslyn Red Sheet")|Starting.
+2019-10-09 16:13:08.4697|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.set_Name("Roslyn Red Sheet")|Succeeded.
+2019-10-09 16:13:08.4697|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.set_Price({8.5})|Starting.
+2019-10-09 16:13:08.4697|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.set_Price({8.5})|Succeeded.
+2019-10-09 16:13:08.4697|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.set_PictureUri("http://catalogbaseurltobereplaced/images/products/5.png")|Starting.
+2019-10-09 16:13:08.4697|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.set_PictureUri("http://catalogbaseurltobereplaced/images/products/5.png")|Succeeded.
+2019-10-09 16:13:08.4697|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.set_CatalogTypeId(2)|Starting.
+2019-10-09 16:13:08.4697|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.set_CatalogTypeId(2)|Succeeded.
+2019-10-09 16:13:08.4697|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.set_CatalogBrandId(2)|Starting.
+2019-10-09 16:13:08.4697|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.set_CatalogBrandId(2)|Succeeded.
+2019-10-09 16:13:08.4697|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.set_Description(".NET Blue Sweatshirt")|Starting.
+2019-10-09 16:13:08.4697|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.set_Description(".NET Blue Sweatshirt")|Succeeded.
+2019-10-09 16:13:08.4697|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.set_Name(".NET Blue Sweatshirt")|Starting.
+2019-10-09 16:13:08.4697|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.set_Name(".NET Blue Sweatshirt")|Succeeded.
+2019-10-09 16:13:08.4697|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.set_Price({12})|Starting.
+2019-10-09 16:13:08.4697|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.set_Price({12})|Succeeded.
+2019-10-09 16:13:08.4697|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.set_PictureUri("http://catalogbaseurltobereplaced/images/products/6.png")|Starting.
+2019-10-09 16:13:08.4697|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.set_PictureUri("http://catalogbaseurltobereplaced/images/products/6.png")|Succeeded.
+2019-10-09 16:13:08.4697|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.set_CatalogTypeId(2)|Starting.
+2019-10-09 16:13:08.4697|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.set_CatalogTypeId(2)|Succeeded.
+2019-10-09 16:13:08.4697|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.set_CatalogBrandId(5)|Starting.
+2019-10-09 16:13:08.4697|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.set_CatalogBrandId(5)|Succeeded.
+2019-10-09 16:13:08.4697|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.set_Description("Roslyn Red T-Shirt")|Starting.
+2019-10-09 16:13:08.4697|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.set_Description("Roslyn Red T-Shirt")|Succeeded.
+2019-10-09 16:13:08.4697|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.set_Name("Roslyn Red T-Shirt")|Starting.
+2019-10-09 16:13:08.4697|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.set_Name("Roslyn Red T-Shirt")|Succeeded.
+2019-10-09 16:13:08.4697|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.set_Price({12})|Starting.
+2019-10-09 16:13:08.4697|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.set_Price({12})|Succeeded.
+2019-10-09 16:13:08.4697|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.set_PictureUri("http://catalogbaseurltobereplaced/images/products/7.png")|Starting.
+2019-10-09 16:13:08.4697|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.set_PictureUri("http://catalogbaseurltobereplaced/images/products/7.png")|Succeeded.
+2019-10-09 16:13:08.4697|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.set_CatalogTypeId(2)|Starting.
+2019-10-09 16:13:08.4697|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.set_CatalogTypeId(2)|Succeeded.
+2019-10-09 16:13:08.4697|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.set_CatalogBrandId(5)|Starting.
+2019-10-09 16:13:08.4697|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.set_CatalogBrandId(5)|Succeeded.
+2019-10-09 16:13:08.4697|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.set_Description("Kudu Purple Sweatshirt")|Starting.
+2019-10-09 16:13:08.4697|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.set_Description("Kudu Purple Sweatshirt")|Succeeded.
+2019-10-09 16:13:08.4697|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.set_Name("Kudu Purple Sweatshirt")|Starting.
+2019-10-09 16:13:08.4697|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.set_Name("Kudu Purple Sweatshirt")|Succeeded.
+2019-10-09 16:13:08.4697|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.set_Price({8.5})|Starting.
+2019-10-09 16:13:08.4697|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.set_Price({8.5})|Succeeded.
+2019-10-09 16:13:08.4697|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.set_PictureUri("http://catalogbaseurltobereplaced/images/products/8.png")|Starting.
+2019-10-09 16:13:08.4697|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.set_PictureUri("http://catalogbaseurltobereplaced/images/products/8.png")|Succeeded.
+2019-10-09 16:13:08.4697|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.set_CatalogTypeId(1)|Starting.
+2019-10-09 16:13:08.4697|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.set_CatalogTypeId(1)|Succeeded.
+2019-10-09 16:13:08.4697|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.set_CatalogBrandId(5)|Starting.
+2019-10-09 16:13:08.4697|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.set_CatalogBrandId(5)|Succeeded.
+2019-10-09 16:13:08.4697|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.set_Description("Cup<T> White Mug")|Starting.
+2019-10-09 16:13:08.4697|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.set_Description("Cup<T> White Mug")|Succeeded.
+2019-10-09 16:13:08.4697|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.set_Name("Cup<T> White Mug")|Starting.
+2019-10-09 16:13:08.4697|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.set_Name("Cup<T> White Mug")|Succeeded.
+2019-10-09 16:13:08.4697|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.set_Price({12})|Starting.
+2019-10-09 16:13:08.4697|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.set_Price({12})|Succeeded.
+2019-10-09 16:13:08.4697|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.set_PictureUri("http://catalogbaseurltobereplaced/images/products/9.png")|Starting.
+2019-10-09 16:13:08.4697|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.set_PictureUri("http://catalogbaseurltobereplaced/images/products/9.png")|Succeeded.
+2019-10-09 16:13:08.4697|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.set_CatalogTypeId(3)|Starting.
+2019-10-09 16:13:08.4697|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.set_CatalogTypeId(3)|Succeeded.
+2019-10-09 16:13:08.4697|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.set_CatalogBrandId(2)|Starting.
+2019-10-09 16:13:08.4697|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.set_CatalogBrandId(2)|Succeeded.
+2019-10-09 16:13:08.4697|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.set_Description(".NET Foundation Sheet")|Starting.
+2019-10-09 16:13:08.4697|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.set_Description(".NET Foundation Sheet")|Succeeded.
+2019-10-09 16:13:08.4697|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.set_Name(".NET Foundation Sheet")|Starting.
+2019-10-09 16:13:08.4697|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.set_Name(".NET Foundation Sheet")|Succeeded.
+2019-10-09 16:13:08.4697|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.set_Price({12})|Starting.
+2019-10-09 16:13:08.4697|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.set_Price({12})|Succeeded.
+2019-10-09 16:13:08.4697|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.set_PictureUri("http://catalogbaseurltobereplaced/images/products/10.png")|Starting.
+2019-10-09 16:13:08.4697|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.set_PictureUri("http://catalogbaseurltobereplaced/images/products/10.png")|Succeeded.
+2019-10-09 16:13:08.4697|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.set_CatalogTypeId(3)|Starting.
+2019-10-09 16:13:08.4697|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.set_CatalogTypeId(3)|Succeeded.
+2019-10-09 16:13:08.4697|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.set_CatalogBrandId(2)|Starting.
+2019-10-09 16:13:08.4697|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.set_CatalogBrandId(2)|Succeeded.
+2019-10-09 16:13:08.4697|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.set_Description("Cup<T> Sheet")|Starting.
+2019-10-09 16:13:08.4697|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.set_Description("Cup<T> Sheet")|Succeeded.
+2019-10-09 16:13:08.4697|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.set_Name("Cup<T> Sheet")|Starting.
+2019-10-09 16:13:08.4697|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.set_Name("Cup<T> Sheet")|Succeeded.
+2019-10-09 16:13:08.4697|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.set_Price({8.5})|Starting.
+2019-10-09 16:13:08.4697|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.set_Price({8.5})|Succeeded.
+2019-10-09 16:13:08.4697|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.set_PictureUri("http://catalogbaseurltobereplaced/images/products/11.png")|Starting.
+2019-10-09 16:13:08.4697|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.set_PictureUri("http://catalogbaseurltobereplaced/images/products/11.png")|Succeeded.
+2019-10-09 16:13:08.4697|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.set_CatalogTypeId(2)|Starting.
+2019-10-09 16:13:08.4697|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.set_CatalogTypeId(2)|Succeeded.
+2019-10-09 16:13:08.4697|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.set_CatalogBrandId(5)|Starting.
+2019-10-09 16:13:08.4697|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.set_CatalogBrandId(5)|Succeeded.
+2019-10-09 16:13:08.4697|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.set_Description("Prism White TShirt")|Starting.
+2019-10-09 16:13:08.4697|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.set_Description("Prism White TShirt")|Succeeded.
+2019-10-09 16:13:08.4697|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.set_Name("Prism White TShirt")|Starting.
+2019-10-09 16:13:08.4697|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.set_Name("Prism White TShirt")|Succeeded.
+2019-10-09 16:13:08.4697|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.set_Price({12})|Starting.
+2019-10-09 16:13:08.4697|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.set_Price({12})|Succeeded.
+2019-10-09 16:13:08.4697|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.set_PictureUri("http://catalogbaseurltobereplaced/images/products/12.png")|Starting.
+2019-10-09 16:13:08.4697|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.set_PictureUri("http://catalogbaseurltobereplaced/images/products/12.png")|Succeeded.
+2019-10-09 16:13:08.4697|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.BaseEntity|  BaseEntity.get_Id()|Starting.
+2019-10-09 16:13:08.4697|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.BaseEntity|  BaseEntity.get_Id()|Succeeded: returnValue = 0.
+2019-10-09 16:13:08.4843|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.get_CatalogBrandId()|Starting.
+2019-10-09 16:13:08.4843|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.get_CatalogBrandId()|Succeeded: returnValue = 2.
+2019-10-09 16:13:08.4843|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.get_CatalogTypeId()|Starting.
+2019-10-09 16:13:08.4843|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.get_CatalogTypeId()|Succeeded: returnValue = 2.
+2019-10-09 16:13:08.4843|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.BaseEntity|  BaseEntity.get_Id()|Starting.
+2019-10-09 16:13:08.4843|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.BaseEntity|  BaseEntity.get_Id()|Succeeded: returnValue = 0.
+2019-10-09 16:13:08.4843|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.BaseEntity|  BaseEntity.get_Id()|Starting.
+2019-10-09 16:13:08.4843|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.BaseEntity|  BaseEntity.get_Id()|Succeeded: returnValue = 0.
+2019-10-09 16:13:08.4843|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.BaseEntity|  BaseEntity.set_Id(1)|Starting.
+2019-10-09 16:13:08.4843|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.BaseEntity|  BaseEntity.set_Id(1)|Succeeded.
+2019-10-09 16:13:08.4843|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.BaseEntity|  BaseEntity.get_Id()|Starting.
+2019-10-09 16:13:08.4843|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.BaseEntity|  BaseEntity.get_Id()|Succeeded: returnValue = 1.
+2019-10-09 16:13:08.4843|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.BaseEntity|  BaseEntity.get_Id()|Starting.
+2019-10-09 16:13:08.4843|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.BaseEntity|  BaseEntity.get_Id()|Succeeded: returnValue = 1.
+2019-10-09 16:13:08.4843|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.get_CatalogBrandId()|Starting.
+2019-10-09 16:13:08.4843|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.get_CatalogBrandId()|Succeeded: returnValue = 2.
+2019-10-09 16:13:08.5009|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.get_CatalogTypeId()|Starting.
+2019-10-09 16:13:08.5009|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.get_CatalogTypeId()|Succeeded: returnValue = 2.
+2019-10-09 16:13:08.5009|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.get_Description()|Starting.
+2019-10-09 16:13:08.5009|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.get_Description()|Succeeded: returnValue = ".NET Bot Black Sweatshirt".
+2019-10-09 16:13:08.5009|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.get_Description()|Starting.
+2019-10-09 16:13:08.5009|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.get_Description()|Succeeded: returnValue = ".NET Bot Black Sweatshirt".
+2019-10-09 16:13:08.5009|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.get_Name()|Starting.
+2019-10-09 16:13:08.5009|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.get_Name()|Succeeded: returnValue = ".NET Bot Black Sweatshirt".
+2019-10-09 16:13:08.5009|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.get_Name()|Starting.
+2019-10-09 16:13:08.5009|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.get_Name()|Succeeded: returnValue = ".NET Bot Black Sweatshirt".
+2019-10-09 16:13:08.5009|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.get_PictureUri()|Starting.
+2019-10-09 16:13:08.5009|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.get_PictureUri()|Succeeded: returnValue = "http://catalogbaseurltobereplaced/images/products/1.png".
+2019-10-09 16:13:08.5009|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.get_PictureUri()|Starting.
+2019-10-09 16:13:08.5009|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.get_PictureUri()|Succeeded: returnValue = "http://catalogbaseurltobereplaced/images/products/1.png".
+2019-10-09 16:13:08.5009|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.get_Price()|Starting.
+2019-10-09 16:13:08.5009|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.get_Price()|Succeeded: returnValue = {19.5}.
+2019-10-09 16:13:08.5009|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.BaseEntity|  BaseEntity.get_Id()|Starting.
+2019-10-09 16:13:08.5009|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.BaseEntity|  BaseEntity.get_Id()|Succeeded: returnValue = 1.
+2019-10-09 16:13:08.5009|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.get_CatalogBrandId()|Starting.
+2019-10-09 16:13:08.5009|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.get_CatalogBrandId()|Succeeded: returnValue = 2.
+2019-10-09 16:13:08.5009|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.get_CatalogTypeId()|Starting.
+2019-10-09 16:13:08.5009|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.get_CatalogTypeId()|Succeeded: returnValue = 2.
+2019-10-09 16:13:08.5009|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.get_CatalogBrand()|Starting.
+2019-10-09 16:13:08.5009|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.get_CatalogBrand()|Succeeded: returnValue = null.
+2019-10-09 16:13:08.5170|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.get_CatalogType()|Starting.
+2019-10-09 16:13:08.5170|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.get_CatalogType()|Succeeded: returnValue = null.
+2019-10-09 16:13:08.5170|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.get_CatalogBrandId()|Starting.
+2019-10-09 16:13:08.5170|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.get_CatalogBrandId()|Succeeded: returnValue = 2.
+2019-10-09 16:13:08.5170|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.get_CatalogBrand()|Starting.
+2019-10-09 16:13:08.5170|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.get_CatalogBrand()|Succeeded: returnValue = null.
+2019-10-09 16:13:08.5170|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.set_CatalogBrand({Microsoft.eShopWeb.ApplicationCore.Entities.CatalogBrand})|Starting.
+2019-10-09 16:13:08.5170|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.set_CatalogBrand({Microsoft.eShopWeb.ApplicationCore.Entities.CatalogBrand})|Succeeded.
+2019-10-09 16:13:08.5170|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.get_CatalogTypeId()|Starting.
+2019-10-09 16:13:08.5170|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.get_CatalogTypeId()|Succeeded: returnValue = 2.
+2019-10-09 16:13:08.5170|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.get_CatalogType()|Starting.
+2019-10-09 16:13:08.5170|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.get_CatalogType()|Succeeded: returnValue = null.
+2019-10-09 16:13:08.5170|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.set_CatalogType({Microsoft.eShopWeb.ApplicationCore.Entities.CatalogType})|Starting.
+2019-10-09 16:13:08.5170|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.set_CatalogType({Microsoft.eShopWeb.ApplicationCore.Entities.CatalogType})|Succeeded.
+2019-10-09 16:13:08.5303|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.get_CatalogBrand()|Starting.
+2019-10-09 16:13:08.5303|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.get_CatalogBrand()|Succeeded: returnValue = {Microsoft.eShopWeb.ApplicationCore.Entities.CatalogBrand}.
+2019-10-09 16:13:08.5303|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.BaseEntity|  BaseEntity.get_Id()|Starting.
+2019-10-09 16:13:08.5303|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.BaseEntity|  BaseEntity.get_Id()|Succeeded: returnValue = 2.
+2019-10-09 16:13:08.5303|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.get_CatalogBrandId()|Starting.
+2019-10-09 16:13:08.5303|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.get_CatalogBrandId()|Succeeded: returnValue = 2.
+2019-10-09 16:13:08.5303|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.get_CatalogType()|Starting.
+2019-10-09 16:13:08.5303|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.get_CatalogType()|Succeeded: returnValue = {Microsoft.eShopWeb.ApplicationCore.Entities.CatalogType}.
+2019-10-09 16:13:08.5303|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.BaseEntity|  BaseEntity.get_Id()|Starting.
+2019-10-09 16:13:08.5303|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.BaseEntity|  BaseEntity.get_Id()|Succeeded: returnValue = 2.
+2019-10-09 16:13:08.5303|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.get_CatalogTypeId()|Starting.
+2019-10-09 16:13:08.5303|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.get_CatalogTypeId()|Succeeded: returnValue = 2.
+2019-10-09 16:13:08.5303|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.get_CatalogBrand()|Starting.
+2019-10-09 16:13:08.5303|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.get_CatalogBrand()|Succeeded: returnValue = {Microsoft.eShopWeb.ApplicationCore.Entities.CatalogBrand}.
+2019-10-09 16:13:08.5303|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.get_CatalogType()|Starting.
+2019-10-09 16:13:08.5303|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.get_CatalogType()|Succeeded: returnValue = {Microsoft.eShopWeb.ApplicationCore.Entities.CatalogType}.
+2019-10-09 16:13:08.5303|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.BaseEntity|  BaseEntity.get_Id()|Starting.
+2019-10-09 16:13:08.5303|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.BaseEntity|  BaseEntity.get_Id()|Succeeded: returnValue = 0.
+2019-10-09 16:13:08.5303|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.get_CatalogBrandId()|Starting.
+2019-10-09 16:13:08.5303|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.get_CatalogBrandId()|Succeeded: returnValue = 2.
+2019-10-09 16:13:08.5303|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.get_CatalogTypeId()|Starting.
+2019-10-09 16:13:08.5303|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.get_CatalogTypeId()|Succeeded: returnValue = 1.
+2019-10-09 16:13:08.5303|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.BaseEntity|  BaseEntity.get_Id()|Starting.
+2019-10-09 16:13:08.5303|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.BaseEntity|  BaseEntity.get_Id()|Succeeded: returnValue = 0.
+2019-10-09 16:13:08.5303|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.BaseEntity|  BaseEntity.get_Id()|Starting.
+2019-10-09 16:13:08.5303|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.BaseEntity|  BaseEntity.get_Id()|Succeeded: returnValue = 0.
+2019-10-09 16:13:08.5303|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.BaseEntity|  BaseEntity.set_Id(2)|Starting.
+2019-10-09 16:13:08.5303|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.BaseEntity|  BaseEntity.set_Id(2)|Succeeded.
+2019-10-09 16:13:08.5303|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.BaseEntity|  BaseEntity.get_Id()|Starting.
+2019-10-09 16:13:08.5303|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.BaseEntity|  BaseEntity.get_Id()|Succeeded: returnValue = 2.
+2019-10-09 16:13:08.5303|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.BaseEntity|  BaseEntity.get_Id()|Starting.
+2019-10-09 16:13:08.5303|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.BaseEntity|  BaseEntity.get_Id()|Succeeded: returnValue = 2.
+2019-10-09 16:13:08.5303|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.get_CatalogBrandId()|Starting.
+2019-10-09 16:13:08.5303|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.get_CatalogBrandId()|Succeeded: returnValue = 2.
+2019-10-09 16:13:08.5303|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.get_CatalogTypeId()|Starting.
+2019-10-09 16:13:08.5303|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.get_CatalogTypeId()|Succeeded: returnValue = 1.
+2019-10-09 16:13:08.5303|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.get_Description()|Starting.
+2019-10-09 16:13:08.5303|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.get_Description()|Succeeded: returnValue = ".NET Black & White Mug".
+2019-10-09 16:13:08.5303|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.get_Description()|Starting.
+2019-10-09 16:13:08.5303|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.get_Description()|Succeeded: returnValue = ".NET Black & White Mug".
+2019-10-09 16:13:08.5303|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.get_Name()|Starting.
+2019-10-09 16:13:08.5303|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.get_Name()|Succeeded: returnValue = ".NET Black & White Mug".
+2019-10-09 16:13:08.5303|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.get_Name()|Starting.
+2019-10-09 16:13:08.5303|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.get_Name()|Succeeded: returnValue = ".NET Black & White Mug".
+2019-10-09 16:13:08.5303|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.get_PictureUri()|Starting.
+2019-10-09 16:13:08.5303|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.get_PictureUri()|Succeeded: returnValue = "http://catalogbaseurltobereplaced/images/products/2.png".
+2019-10-09 16:13:08.5303|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.get_PictureUri()|Starting.
+2019-10-09 16:13:08.5303|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.get_PictureUri()|Succeeded: returnValue = "http://catalogbaseurltobereplaced/images/products/2.png".
+2019-10-09 16:13:08.5303|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.get_Price()|Starting.
+2019-10-09 16:13:08.5303|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.get_Price()|Succeeded: returnValue = {8.50}.
+2019-10-09 16:13:08.5303|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.BaseEntity|  BaseEntity.get_Id()|Starting.
+2019-10-09 16:13:08.5303|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.BaseEntity|  BaseEntity.get_Id()|Succeeded: returnValue = 2.
+2019-10-09 16:13:08.5303|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.get_CatalogBrandId()|Starting.
+2019-10-09 16:13:08.5303|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.get_CatalogBrandId()|Succeeded: returnValue = 2.
+2019-10-09 16:13:08.5303|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.get_CatalogTypeId()|Starting.
+2019-10-09 16:13:08.5303|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.get_CatalogTypeId()|Succeeded: returnValue = 1.
+2019-10-09 16:13:08.5303|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.get_CatalogBrand()|Starting.
+2019-10-09 16:13:08.5303|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.get_CatalogBrand()|Succeeded: returnValue = null.
+2019-10-09 16:13:08.5303|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.get_CatalogType()|Starting.
+2019-10-09 16:13:08.5303|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.get_CatalogType()|Succeeded: returnValue = null.
+2019-10-09 16:13:08.5303|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.get_CatalogBrandId()|Starting.
+2019-10-09 16:13:08.5303|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.get_CatalogBrandId()|Succeeded: returnValue = 2.
+2019-10-09 16:13:08.5303|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.get_CatalogBrand()|Starting.
+2019-10-09 16:13:08.5303|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.get_CatalogBrand()|Succeeded: returnValue = null.
+2019-10-09 16:13:08.5303|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.set_CatalogBrand({Microsoft.eShopWeb.ApplicationCore.Entities.CatalogBrand})|Starting.
+2019-10-09 16:13:08.5303|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.set_CatalogBrand({Microsoft.eShopWeb.ApplicationCore.Entities.CatalogBrand})|Succeeded.
+2019-10-09 16:13:08.5303|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.get_CatalogTypeId()|Starting.
+2019-10-09 16:13:08.5303|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.get_CatalogTypeId()|Succeeded: returnValue = 1.
+2019-10-09 16:13:08.5303|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.get_CatalogType()|Starting.
+2019-10-09 16:13:08.5303|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.get_CatalogType()|Succeeded: returnValue = null.
+2019-10-09 16:13:08.5303|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.set_CatalogType({Microsoft.eShopWeb.ApplicationCore.Entities.CatalogType})|Starting.
+2019-10-09 16:13:08.5303|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.set_CatalogType({Microsoft.eShopWeb.ApplicationCore.Entities.CatalogType})|Succeeded.
+2019-10-09 16:13:08.5303|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.get_CatalogBrand()|Starting.
+2019-10-09 16:13:08.5303|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.get_CatalogBrand()|Succeeded: returnValue = {Microsoft.eShopWeb.ApplicationCore.Entities.CatalogBrand}.
+2019-10-09 16:13:08.5303|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.BaseEntity|  BaseEntity.get_Id()|Starting.
+2019-10-09 16:13:08.5468|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.BaseEntity|  BaseEntity.get_Id()|Succeeded: returnValue = 2.
+2019-10-09 16:13:08.5468|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.get_CatalogBrandId()|Starting.
+2019-10-09 16:13:08.5468|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.get_CatalogBrandId()|Succeeded: returnValue = 2.
+2019-10-09 16:13:08.5468|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.get_CatalogType()|Starting.
+2019-10-09 16:13:08.5468|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.get_CatalogType()|Succeeded: returnValue = {Microsoft.eShopWeb.ApplicationCore.Entities.CatalogType}.
+2019-10-09 16:13:08.5468|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.BaseEntity|  BaseEntity.get_Id()|Starting.
+2019-10-09 16:13:08.5468|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.BaseEntity|  BaseEntity.get_Id()|Succeeded: returnValue = 1.
+2019-10-09 16:13:08.5468|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.get_CatalogTypeId()|Starting.
+2019-10-09 16:13:08.5468|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.get_CatalogTypeId()|Succeeded: returnValue = 1.
+2019-10-09 16:13:08.5468|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.get_CatalogBrand()|Starting.
+2019-10-09 16:13:08.5468|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.get_CatalogBrand()|Succeeded: returnValue = {Microsoft.eShopWeb.ApplicationCore.Entities.CatalogBrand}.
+2019-10-09 16:13:08.5468|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.get_CatalogType()|Starting.
+2019-10-09 16:13:08.5468|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.get_CatalogType()|Succeeded: returnValue = {Microsoft.eShopWeb.ApplicationCore.Entities.CatalogType}.
+2019-10-09 16:13:08.5468|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.BaseEntity|  BaseEntity.get_Id()|Starting.
+2019-10-09 16:13:08.5468|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.BaseEntity|  BaseEntity.get_Id()|Succeeded: returnValue = 0.
+2019-10-09 16:13:08.5468|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.get_CatalogBrandId()|Starting.
+2019-10-09 16:13:08.5468|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.get_CatalogBrandId()|Succeeded: returnValue = 5.
+2019-10-09 16:13:08.5468|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.get_CatalogTypeId()|Starting.
+2019-10-09 16:13:08.5468|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.get_CatalogTypeId()|Succeeded: returnValue = 2.
+2019-10-09 16:13:08.5468|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.BaseEntity|  BaseEntity.get_Id()|Starting.
+2019-10-09 16:13:08.5468|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.BaseEntity|  BaseEntity.get_Id()|Succeeded: returnValue = 0.
+2019-10-09 16:13:08.5468|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.BaseEntity|  BaseEntity.get_Id()|Starting.
+2019-10-09 16:13:08.5468|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.BaseEntity|  BaseEntity.get_Id()|Succeeded: returnValue = 0.
+2019-10-09 16:13:08.5468|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.BaseEntity|  BaseEntity.set_Id(3)|Starting.
+2019-10-09 16:13:08.5468|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.BaseEntity|  BaseEntity.set_Id(3)|Succeeded.
+2019-10-09 16:13:08.5468|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.BaseEntity|  BaseEntity.get_Id()|Starting.
+2019-10-09 16:13:08.5468|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.BaseEntity|  BaseEntity.get_Id()|Succeeded: returnValue = 3.
+2019-10-09 16:13:08.5468|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.BaseEntity|  BaseEntity.get_Id()|Starting.
+2019-10-09 16:13:08.5468|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.BaseEntity|  BaseEntity.get_Id()|Succeeded: returnValue = 3.
+2019-10-09 16:13:08.5468|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.get_CatalogBrandId()|Starting.
+2019-10-09 16:13:08.5468|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.get_CatalogBrandId()|Succeeded: returnValue = 5.
+2019-10-09 16:13:08.5468|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.get_CatalogTypeId()|Starting.
+2019-10-09 16:13:08.5468|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.get_CatalogTypeId()|Succeeded: returnValue = 2.
+2019-10-09 16:13:08.5468|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.get_Description()|Starting.
+2019-10-09 16:13:08.5468|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.get_Description()|Succeeded: returnValue = "Prism White T-Shirt".
+2019-10-09 16:13:08.5468|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.get_Description()|Starting.
+2019-10-09 16:13:08.5468|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.get_Description()|Succeeded: returnValue = "Prism White T-Shirt".
+2019-10-09 16:13:08.5468|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.get_Name()|Starting.
+2019-10-09 16:13:08.5468|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.get_Name()|Succeeded: returnValue = "Prism White T-Shirt".
+2019-10-09 16:13:08.5468|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.get_Name()|Starting.
+2019-10-09 16:13:08.5468|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.get_Name()|Succeeded: returnValue = "Prism White T-Shirt".
+2019-10-09 16:13:08.5468|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.get_PictureUri()|Starting.
+2019-10-09 16:13:08.5468|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.get_PictureUri()|Succeeded: returnValue = "http://catalogbaseurltobereplaced/images/products/3.png".
+2019-10-09 16:13:08.5468|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.get_PictureUri()|Starting.
+2019-10-09 16:13:08.5468|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.get_PictureUri()|Succeeded: returnValue = "http://catalogbaseurltobereplaced/images/products/3.png".
+2019-10-09 16:13:08.5468|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.get_Price()|Starting.
+2019-10-09 16:13:08.5468|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.get_Price()|Succeeded: returnValue = {12}.
+2019-10-09 16:13:08.5468|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.BaseEntity|  BaseEntity.get_Id()|Starting.
+2019-10-09 16:13:08.5468|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.BaseEntity|  BaseEntity.get_Id()|Succeeded: returnValue = 3.
+2019-10-09 16:13:08.5468|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.get_CatalogBrandId()|Starting.
+2019-10-09 16:13:08.5468|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.get_CatalogBrandId()|Succeeded: returnValue = 5.
+2019-10-09 16:13:08.5468|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.get_CatalogTypeId()|Starting.
+2019-10-09 16:13:08.5468|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.get_CatalogTypeId()|Succeeded: returnValue = 2.
+2019-10-09 16:13:08.5468|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.get_CatalogBrand()|Starting.
+2019-10-09 16:13:08.5468|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.get_CatalogBrand()|Succeeded: returnValue = null.
+2019-10-09 16:13:08.5468|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.get_CatalogType()|Starting.
+2019-10-09 16:13:08.5468|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.get_CatalogType()|Succeeded: returnValue = null.
+2019-10-09 16:13:08.5468|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.get_CatalogBrandId()|Starting.
+2019-10-09 16:13:08.5468|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.get_CatalogBrandId()|Succeeded: returnValue = 5.
+2019-10-09 16:13:08.5468|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.get_CatalogBrand()|Starting.
+2019-10-09 16:13:08.5468|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.get_CatalogBrand()|Succeeded: returnValue = null.
+2019-10-09 16:13:08.5468|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.set_CatalogBrand({Microsoft.eShopWeb.ApplicationCore.Entities.CatalogBrand})|Starting.
+2019-10-09 16:13:08.5468|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.set_CatalogBrand({Microsoft.eShopWeb.ApplicationCore.Entities.CatalogBrand})|Succeeded.
+2019-10-09 16:13:08.5468|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.get_CatalogTypeId()|Starting.
+2019-10-09 16:13:08.5468|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.get_CatalogTypeId()|Succeeded: returnValue = 2.
+2019-10-09 16:13:08.5468|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.get_CatalogType()|Starting.
+2019-10-09 16:13:08.5468|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.get_CatalogType()|Succeeded: returnValue = null.
+2019-10-09 16:13:08.5468|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.set_CatalogType({Microsoft.eShopWeb.ApplicationCore.Entities.CatalogType})|Starting.
+2019-10-09 16:13:08.5468|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.set_CatalogType({Microsoft.eShopWeb.ApplicationCore.Entities.CatalogType})|Succeeded.
+2019-10-09 16:13:08.5468|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.get_CatalogBrand()|Starting.
+2019-10-09 16:13:08.5468|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.get_CatalogBrand()|Succeeded: returnValue = {Microsoft.eShopWeb.ApplicationCore.Entities.CatalogBrand}.
+2019-10-09 16:13:08.5468|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.BaseEntity|  BaseEntity.get_Id()|Starting.
+2019-10-09 16:13:08.5468|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.BaseEntity|  BaseEntity.get_Id()|Succeeded: returnValue = 5.
+2019-10-09 16:13:08.5468|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.get_CatalogBrandId()|Starting.
+2019-10-09 16:13:08.5468|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.get_CatalogBrandId()|Succeeded: returnValue = 5.
+2019-10-09 16:13:08.5468|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.get_CatalogType()|Starting.
+2019-10-09 16:13:08.5468|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.get_CatalogType()|Succeeded: returnValue = {Microsoft.eShopWeb.ApplicationCore.Entities.CatalogType}.
+2019-10-09 16:13:08.5468|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.BaseEntity|  BaseEntity.get_Id()|Starting.
+2019-10-09 16:13:08.5468|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.BaseEntity|  BaseEntity.get_Id()|Succeeded: returnValue = 2.
+2019-10-09 16:13:08.5468|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.get_CatalogTypeId()|Starting.
+2019-10-09 16:13:08.5468|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.get_CatalogTypeId()|Succeeded: returnValue = 2.
+2019-10-09 16:13:08.5468|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.get_CatalogBrand()|Starting.
+2019-10-09 16:13:08.5468|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.get_CatalogBrand()|Succeeded: returnValue = {Microsoft.eShopWeb.ApplicationCore.Entities.CatalogBrand}.
+2019-10-09 16:13:08.5468|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.get_CatalogType()|Starting.
+2019-10-09 16:13:08.5468|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.get_CatalogType()|Succeeded: returnValue = {Microsoft.eShopWeb.ApplicationCore.Entities.CatalogType}.
+2019-10-09 16:13:08.5468|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.BaseEntity|  BaseEntity.get_Id()|Starting.
+2019-10-09 16:13:08.5468|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.BaseEntity|  BaseEntity.get_Id()|Succeeded: returnValue = 0.
+2019-10-09 16:13:08.5468|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.get_CatalogBrandId()|Starting.
+2019-10-09 16:13:08.5468|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.get_CatalogBrandId()|Succeeded: returnValue = 2.
+2019-10-09 16:13:08.5468|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.get_CatalogTypeId()|Starting.
+2019-10-09 16:13:08.5468|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.get_CatalogTypeId()|Succeeded: returnValue = 2.
+2019-10-09 16:13:08.5468|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.BaseEntity|  BaseEntity.get_Id()|Starting.
+2019-10-09 16:13:08.5468|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.BaseEntity|  BaseEntity.get_Id()|Succeeded: returnValue = 0.
+2019-10-09 16:13:08.5468|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.BaseEntity|  BaseEntity.get_Id()|Starting.
+2019-10-09 16:13:08.5468|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.BaseEntity|  BaseEntity.get_Id()|Succeeded: returnValue = 0.
+2019-10-09 16:13:08.5468|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.BaseEntity|  BaseEntity.set_Id(4)|Starting.
+2019-10-09 16:13:08.5468|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.BaseEntity|  BaseEntity.set_Id(4)|Succeeded.
+2019-10-09 16:13:08.5468|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.BaseEntity|  BaseEntity.get_Id()|Starting.
+2019-10-09 16:13:08.5468|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.BaseEntity|  BaseEntity.get_Id()|Succeeded: returnValue = 4.
+2019-10-09 16:13:08.5468|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.BaseEntity|  BaseEntity.get_Id()|Starting.
+2019-10-09 16:13:08.5468|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.BaseEntity|  BaseEntity.get_Id()|Succeeded: returnValue = 4.
+2019-10-09 16:13:08.5468|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.get_CatalogBrandId()|Starting.
+2019-10-09 16:13:08.5468|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.get_CatalogBrandId()|Succeeded: returnValue = 2.
+2019-10-09 16:13:08.5622|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.get_CatalogTypeId()|Starting.
+2019-10-09 16:13:08.5622|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.get_CatalogTypeId()|Succeeded: returnValue = 2.
+2019-10-09 16:13:08.5622|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.get_Description()|Starting.
+2019-10-09 16:13:08.5622|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.get_Description()|Succeeded: returnValue = ".NET Foundation Sweatshirt".
+2019-10-09 16:13:08.5622|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.get_Description()|Starting.
+2019-10-09 16:13:08.5622|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.get_Description()|Succeeded: returnValue = ".NET Foundation Sweatshirt".
+2019-10-09 16:13:08.5622|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.get_Name()|Starting.
+2019-10-09 16:13:08.5622|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.get_Name()|Succeeded: returnValue = ".NET Foundation Sweatshirt".
+2019-10-09 16:13:08.5622|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.get_Name()|Starting.
+2019-10-09 16:13:08.5622|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.get_Name()|Succeeded: returnValue = ".NET Foundation Sweatshirt".
+2019-10-09 16:13:08.5622|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.get_PictureUri()|Starting.
+2019-10-09 16:13:08.5622|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.get_PictureUri()|Succeeded: returnValue = "http://catalogbaseurltobereplaced/images/products/4.png".
+2019-10-09 16:13:08.5622|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.get_PictureUri()|Starting.
+2019-10-09 16:13:08.5622|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.get_PictureUri()|Succeeded: returnValue = "http://catalogbaseurltobereplaced/images/products/4.png".
+2019-10-09 16:13:08.5622|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.get_Price()|Starting.
+2019-10-09 16:13:08.5622|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.get_Price()|Succeeded: returnValue = {12}.
+2019-10-09 16:13:08.5622|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.BaseEntity|  BaseEntity.get_Id()|Starting.
+2019-10-09 16:13:08.5622|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.BaseEntity|  BaseEntity.get_Id()|Succeeded: returnValue = 4.
+2019-10-09 16:13:08.5622|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.get_CatalogBrandId()|Starting.
+2019-10-09 16:13:08.5622|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.get_CatalogBrandId()|Succeeded: returnValue = 2.
+2019-10-09 16:13:08.5622|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.get_CatalogTypeId()|Starting.
+2019-10-09 16:13:08.5622|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.get_CatalogTypeId()|Succeeded: returnValue = 2.
+2019-10-09 16:13:08.5622|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.get_CatalogBrand()|Starting.
+2019-10-09 16:13:08.5622|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.get_CatalogBrand()|Succeeded: returnValue = null.
+2019-10-09 16:13:08.5622|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.get_CatalogType()|Starting.
+2019-10-09 16:13:08.5622|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.get_CatalogType()|Succeeded: returnValue = null.
+2019-10-09 16:13:08.5622|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.get_CatalogBrandId()|Starting.
+2019-10-09 16:13:08.5622|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.get_CatalogBrandId()|Succeeded: returnValue = 2.
+2019-10-09 16:13:08.5622|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.get_CatalogBrand()|Starting.
+2019-10-09 16:13:08.5622|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.get_CatalogBrand()|Succeeded: returnValue = null.
+2019-10-09 16:13:08.5622|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.set_CatalogBrand({Microsoft.eShopWeb.ApplicationCore.Entities.CatalogBrand})|Starting.
+2019-10-09 16:13:08.5622|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.set_CatalogBrand({Microsoft.eShopWeb.ApplicationCore.Entities.CatalogBrand})|Succeeded.
+2019-10-09 16:13:08.5622|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.get_CatalogTypeId()|Starting.
+2019-10-09 16:13:08.5622|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.get_CatalogTypeId()|Succeeded: returnValue = 2.
+2019-10-09 16:13:08.5622|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.get_CatalogType()|Starting.
+2019-10-09 16:13:08.5622|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.get_CatalogType()|Succeeded: returnValue = null.
+2019-10-09 16:13:08.5622|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.set_CatalogType({Microsoft.eShopWeb.ApplicationCore.Entities.CatalogType})|Starting.
+2019-10-09 16:13:08.5622|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.set_CatalogType({Microsoft.eShopWeb.ApplicationCore.Entities.CatalogType})|Succeeded.
+2019-10-09 16:13:08.5622|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.get_CatalogBrand()|Starting.
+2019-10-09 16:13:08.5622|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.get_CatalogBrand()|Succeeded: returnValue = {Microsoft.eShopWeb.ApplicationCore.Entities.CatalogBrand}.
+2019-10-09 16:13:08.5622|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.BaseEntity|  BaseEntity.get_Id()|Starting.
+2019-10-09 16:13:08.5622|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.BaseEntity|  BaseEntity.get_Id()|Succeeded: returnValue = 2.
+2019-10-09 16:13:08.5622|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.get_CatalogBrandId()|Starting.
+2019-10-09 16:13:08.5622|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.get_CatalogBrandId()|Succeeded: returnValue = 2.
+2019-10-09 16:13:08.5622|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.get_CatalogType()|Starting.
+2019-10-09 16:13:08.5622|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.get_CatalogType()|Succeeded: returnValue = {Microsoft.eShopWeb.ApplicationCore.Entities.CatalogType}.
+2019-10-09 16:13:08.5622|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.BaseEntity|  BaseEntity.get_Id()|Starting.
+2019-10-09 16:13:08.5622|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.BaseEntity|  BaseEntity.get_Id()|Succeeded: returnValue = 2.
+2019-10-09 16:13:08.5622|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.get_CatalogTypeId()|Starting.
+2019-10-09 16:13:08.5622|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.get_CatalogTypeId()|Succeeded: returnValue = 2.
+2019-10-09 16:13:08.5622|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.get_CatalogBrand()|Starting.
+2019-10-09 16:13:08.5622|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.get_CatalogBrand()|Succeeded: returnValue = {Microsoft.eShopWeb.ApplicationCore.Entities.CatalogBrand}.
+2019-10-09 16:13:08.5622|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.get_CatalogType()|Starting.
+2019-10-09 16:13:08.5622|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.get_CatalogType()|Succeeded: returnValue = {Microsoft.eShopWeb.ApplicationCore.Entities.CatalogType}.
+2019-10-09 16:13:08.5622|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.BaseEntity|  BaseEntity.get_Id()|Starting.
+2019-10-09 16:13:08.5622|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.BaseEntity|  BaseEntity.get_Id()|Succeeded: returnValue = 0.
+2019-10-09 16:13:08.5622|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.get_CatalogBrandId()|Starting.
+2019-10-09 16:13:08.5622|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.get_CatalogBrandId()|Succeeded: returnValue = 5.
+2019-10-09 16:13:08.5622|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.get_CatalogTypeId()|Starting.
+2019-10-09 16:13:08.5622|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.get_CatalogTypeId()|Succeeded: returnValue = 3.
+2019-10-09 16:13:08.5622|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.BaseEntity|  BaseEntity.get_Id()|Starting.
+2019-10-09 16:13:08.5622|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.BaseEntity|  BaseEntity.get_Id()|Succeeded: returnValue = 0.
+2019-10-09 16:13:08.5622|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.BaseEntity|  BaseEntity.get_Id()|Starting.
+2019-10-09 16:13:08.5622|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.BaseEntity|  BaseEntity.get_Id()|Succeeded: returnValue = 0.
+2019-10-09 16:13:08.5622|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.BaseEntity|  BaseEntity.set_Id(5)|Starting.
+2019-10-09 16:13:08.5622|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.BaseEntity|  BaseEntity.set_Id(5)|Succeeded.
+2019-10-09 16:13:08.5622|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.BaseEntity|  BaseEntity.get_Id()|Starting.
+2019-10-09 16:13:08.5622|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.BaseEntity|  BaseEntity.get_Id()|Succeeded: returnValue = 5.
+2019-10-09 16:13:08.5622|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.BaseEntity|  BaseEntity.get_Id()|Starting.
+2019-10-09 16:13:08.5622|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.BaseEntity|  BaseEntity.get_Id()|Succeeded: returnValue = 5.
+2019-10-09 16:13:08.5622|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.get_CatalogBrandId()|Starting.
+2019-10-09 16:13:08.5622|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.get_CatalogBrandId()|Succeeded: returnValue = 5.
+2019-10-09 16:13:08.5622|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.get_CatalogTypeId()|Starting.
+2019-10-09 16:13:08.5622|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.get_CatalogTypeId()|Succeeded: returnValue = 3.
+2019-10-09 16:13:08.5622|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.get_Description()|Starting.
+2019-10-09 16:13:08.5622|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.get_Description()|Succeeded: returnValue = "Roslyn Red Sheet".
+2019-10-09 16:13:08.5622|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.get_Description()|Starting.
+2019-10-09 16:13:08.5622|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.get_Description()|Succeeded: returnValue = "Roslyn Red Sheet".
+2019-10-09 16:13:08.5622|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.get_Name()|Starting.
+2019-10-09 16:13:08.5622|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.get_Name()|Succeeded: returnValue = "Roslyn Red Sheet".
+2019-10-09 16:13:08.5622|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.get_Name()|Starting.
+2019-10-09 16:13:08.5622|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.get_Name()|Succeeded: returnValue = "Roslyn Red Sheet".
+2019-10-09 16:13:08.5622|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.get_PictureUri()|Starting.
+2019-10-09 16:13:08.5622|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.get_PictureUri()|Succeeded: returnValue = "http://catalogbaseurltobereplaced/images/products/5.png".
+2019-10-09 16:13:08.5622|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.get_PictureUri()|Starting.
+2019-10-09 16:13:08.5622|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.get_PictureUri()|Succeeded: returnValue = "http://catalogbaseurltobereplaced/images/products/5.png".
+2019-10-09 16:13:08.5622|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.get_Price()|Starting.
+2019-10-09 16:13:08.5622|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.get_Price()|Succeeded: returnValue = {8.5}.
+2019-10-09 16:13:08.5622|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.BaseEntity|  BaseEntity.get_Id()|Starting.
+2019-10-09 16:13:08.5622|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.BaseEntity|  BaseEntity.get_Id()|Succeeded: returnValue = 5.
+2019-10-09 16:13:08.5622|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.get_CatalogBrandId()|Starting.
+2019-10-09 16:13:08.5622|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.get_CatalogBrandId()|Succeeded: returnValue = 5.
+2019-10-09 16:13:08.5622|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.get_CatalogTypeId()|Starting.
+2019-10-09 16:13:08.5622|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.get_CatalogTypeId()|Succeeded: returnValue = 3.
+2019-10-09 16:13:08.5622|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.get_CatalogBrand()|Starting.
+2019-10-09 16:13:08.5622|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.get_CatalogBrand()|Succeeded: returnValue = null.
+2019-10-09 16:13:08.5622|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.get_CatalogType()|Starting.
+2019-10-09 16:13:08.5622|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.get_CatalogType()|Succeeded: returnValue = null.
+2019-10-09 16:13:08.5622|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.get_CatalogBrandId()|Starting.
+2019-10-09 16:13:08.5622|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.get_CatalogBrandId()|Succeeded: returnValue = 5.
+2019-10-09 16:13:08.5622|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.get_CatalogBrand()|Starting.
+2019-10-09 16:13:08.5622|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.get_CatalogBrand()|Succeeded: returnValue = null.
+2019-10-09 16:13:08.5622|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.set_CatalogBrand({Microsoft.eShopWeb.ApplicationCore.Entities.CatalogBrand})|Starting.
+2019-10-09 16:13:08.5622|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.set_CatalogBrand({Microsoft.eShopWeb.ApplicationCore.Entities.CatalogBrand})|Succeeded.
+2019-10-09 16:13:08.5622|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.get_CatalogTypeId()|Starting.
+2019-10-09 16:13:08.5622|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.get_CatalogTypeId()|Succeeded: returnValue = 3.
+2019-10-09 16:13:08.5622|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.get_CatalogType()|Starting.
+2019-10-09 16:13:08.5622|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.get_CatalogType()|Succeeded: returnValue = null.
+2019-10-09 16:13:08.5622|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.set_CatalogType({Microsoft.eShopWeb.ApplicationCore.Entities.CatalogType})|Starting.
+2019-10-09 16:13:08.5622|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.set_CatalogType({Microsoft.eShopWeb.ApplicationCore.Entities.CatalogType})|Succeeded.
+2019-10-09 16:13:08.5622|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.get_CatalogBrand()|Starting.
+2019-10-09 16:13:08.5622|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.get_CatalogBrand()|Succeeded: returnValue = {Microsoft.eShopWeb.ApplicationCore.Entities.CatalogBrand}.
+2019-10-09 16:13:08.5622|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.BaseEntity|  BaseEntity.get_Id()|Starting.
+2019-10-09 16:13:08.5622|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.BaseEntity|  BaseEntity.get_Id()|Succeeded: returnValue = 5.
+2019-10-09 16:13:08.5622|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.get_CatalogBrandId()|Starting.
+2019-10-09 16:13:08.5622|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.get_CatalogBrandId()|Succeeded: returnValue = 5.
+2019-10-09 16:13:08.5622|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.get_CatalogType()|Starting.
+2019-10-09 16:13:08.5773|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.get_CatalogType()|Succeeded: returnValue = {Microsoft.eShopWeb.ApplicationCore.Entities.CatalogType}.
+2019-10-09 16:13:08.5773|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.BaseEntity|  BaseEntity.get_Id()|Starting.
+2019-10-09 16:13:08.5773|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.BaseEntity|  BaseEntity.get_Id()|Succeeded: returnValue = 3.
+2019-10-09 16:13:08.5773|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.get_CatalogTypeId()|Starting.
+2019-10-09 16:13:08.5773|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.get_CatalogTypeId()|Succeeded: returnValue = 3.
+2019-10-09 16:13:08.5773|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.get_CatalogBrand()|Starting.
+2019-10-09 16:13:08.5773|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.get_CatalogBrand()|Succeeded: returnValue = {Microsoft.eShopWeb.ApplicationCore.Entities.CatalogBrand}.
+2019-10-09 16:13:08.5773|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.get_CatalogType()|Starting.
+2019-10-09 16:13:08.5773|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.get_CatalogType()|Succeeded: returnValue = {Microsoft.eShopWeb.ApplicationCore.Entities.CatalogType}.
+2019-10-09 16:13:08.5773|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.BaseEntity|  BaseEntity.get_Id()|Starting.
+2019-10-09 16:13:08.5773|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.BaseEntity|  BaseEntity.get_Id()|Succeeded: returnValue = 0.
+2019-10-09 16:13:08.5773|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.get_CatalogBrandId()|Starting.
+2019-10-09 16:13:08.5773|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.get_CatalogBrandId()|Succeeded: returnValue = 2.
+2019-10-09 16:13:08.5773|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.get_CatalogTypeId()|Starting.
+2019-10-09 16:13:08.5773|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.get_CatalogTypeId()|Succeeded: returnValue = 2.
+2019-10-09 16:13:08.5773|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.BaseEntity|  BaseEntity.get_Id()|Starting.
+2019-10-09 16:13:08.5773|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.BaseEntity|  BaseEntity.get_Id()|Succeeded: returnValue = 0.
+2019-10-09 16:13:08.5773|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.BaseEntity|  BaseEntity.get_Id()|Starting.
+2019-10-09 16:13:08.5773|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.BaseEntity|  BaseEntity.get_Id()|Succeeded: returnValue = 0.
+2019-10-09 16:13:08.5773|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.BaseEntity|  BaseEntity.set_Id(6)|Starting.
+2019-10-09 16:13:08.5773|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.BaseEntity|  BaseEntity.set_Id(6)|Succeeded.
+2019-10-09 16:13:08.5773|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.BaseEntity|  BaseEntity.get_Id()|Starting.
+2019-10-09 16:13:08.5773|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.BaseEntity|  BaseEntity.get_Id()|Succeeded: returnValue = 6.
+2019-10-09 16:13:08.5773|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.BaseEntity|  BaseEntity.get_Id()|Starting.
+2019-10-09 16:13:08.5773|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.BaseEntity|  BaseEntity.get_Id()|Succeeded: returnValue = 6.
+2019-10-09 16:13:08.5773|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.get_CatalogBrandId()|Starting.
+2019-10-09 16:13:08.5773|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.get_CatalogBrandId()|Succeeded: returnValue = 2.
+2019-10-09 16:13:08.5773|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.get_CatalogTypeId()|Starting.
+2019-10-09 16:13:08.5773|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.get_CatalogTypeId()|Succeeded: returnValue = 2.
+2019-10-09 16:13:08.5773|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.get_Description()|Starting.
+2019-10-09 16:13:08.5773|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.get_Description()|Succeeded: returnValue = ".NET Blue Sweatshirt".
+2019-10-09 16:13:08.5773|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.get_Description()|Starting.
+2019-10-09 16:13:08.5773|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.get_Description()|Succeeded: returnValue = ".NET Blue Sweatshirt".
+2019-10-09 16:13:08.5773|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.get_Name()|Starting.
+2019-10-09 16:13:08.5773|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.get_Name()|Succeeded: returnValue = ".NET Blue Sweatshirt".
+2019-10-09 16:13:08.5773|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.get_Name()|Starting.
+2019-10-09 16:13:08.5773|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.get_Name()|Succeeded: returnValue = ".NET Blue Sweatshirt".
+2019-10-09 16:13:08.5773|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.get_PictureUri()|Starting.
+2019-10-09 16:13:08.5773|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.get_PictureUri()|Succeeded: returnValue = "http://catalogbaseurltobereplaced/images/products/6.png".
+2019-10-09 16:13:08.5773|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.get_PictureUri()|Starting.
+2019-10-09 16:13:08.5773|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.get_PictureUri()|Succeeded: returnValue = "http://catalogbaseurltobereplaced/images/products/6.png".
+2019-10-09 16:13:08.5773|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.get_Price()|Starting.
+2019-10-09 16:13:08.5773|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.get_Price()|Succeeded: returnValue = {12}.
+2019-10-09 16:13:08.5773|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.BaseEntity|  BaseEntity.get_Id()|Starting.
+2019-10-09 16:13:08.5773|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.BaseEntity|  BaseEntity.get_Id()|Succeeded: returnValue = 6.
+2019-10-09 16:13:08.5773|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.get_CatalogBrandId()|Starting.
+2019-10-09 16:13:08.5773|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.get_CatalogBrandId()|Succeeded: returnValue = 2.
+2019-10-09 16:13:08.5773|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.get_CatalogTypeId()|Starting.
+2019-10-09 16:13:08.5773|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.get_CatalogTypeId()|Succeeded: returnValue = 2.
+2019-10-09 16:13:08.5773|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.get_CatalogBrand()|Starting.
+2019-10-09 16:13:08.5773|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.get_CatalogBrand()|Succeeded: returnValue = null.
+2019-10-09 16:13:08.5773|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.get_CatalogType()|Starting.
+2019-10-09 16:13:08.5773|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.get_CatalogType()|Succeeded: returnValue = null.
+2019-10-09 16:13:08.5773|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.get_CatalogBrandId()|Starting.
+2019-10-09 16:13:08.5773|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.get_CatalogBrandId()|Succeeded: returnValue = 2.
+2019-10-09 16:13:08.5773|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.get_CatalogBrand()|Starting.
+2019-10-09 16:13:08.5773|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.get_CatalogBrand()|Succeeded: returnValue = null.
+2019-10-09 16:13:08.5773|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.set_CatalogBrand({Microsoft.eShopWeb.ApplicationCore.Entities.CatalogBrand})|Starting.
+2019-10-09 16:13:08.5773|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.set_CatalogBrand({Microsoft.eShopWeb.ApplicationCore.Entities.CatalogBrand})|Succeeded.
+2019-10-09 16:13:08.5773|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.get_CatalogTypeId()|Starting.
+2019-10-09 16:13:08.5773|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.get_CatalogTypeId()|Succeeded: returnValue = 2.
+2019-10-09 16:13:08.5773|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.get_CatalogType()|Starting.
+2019-10-09 16:13:08.5773|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.get_CatalogType()|Succeeded: returnValue = null.
+2019-10-09 16:13:08.5773|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.set_CatalogType({Microsoft.eShopWeb.ApplicationCore.Entities.CatalogType})|Starting.
+2019-10-09 16:13:08.5773|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.set_CatalogType({Microsoft.eShopWeb.ApplicationCore.Entities.CatalogType})|Succeeded.
+2019-10-09 16:13:08.5773|DEBUG|Microsoft.eShopWeb.ApplicationCore.Entities.CatalogItem|  CatalogItem.get_CatalogBrand()|Starting.

@@ -1,0 +1,53 @@
+0 1
+1 1
+1 2
+1 3
+1 4
+5 6
+7 1
+8 6
+9 6
+9 4
+10 1
+11 12
+org.jhotdraw.app.action.AbstractSaveUnsavedChangesAction 0
+org.jhotdraw.gui.JSheet 1
+org.jhotdraw.util.Methods 2
+org.jhotdraw.gui.event.SheetListener 3
+org.jhotdraw.gui.URIChooser 4
+org.jhotdraw.app.action.AbstractSaveUnsavedChangesAction.1 5
+org.jhotdraw.gui.event.SheetEvent 6
+org.jhotdraw.app.action.app.ExitAction 7
+org.jhotdraw.app.action.app.ExitAction.1 8
+org.jhotdraw.app.action.app.ExitAction.2 9
+org.jhotdraw.app.action.app.ExitAction.5 10
+org.jhotdraw.app.action.edit.DuplicateAction 11
+org.jhotdraw.gui.EditableComponent 12
+
+
+83.33% of gui0 1
+1 1
+1 2
+1 3
+1 4
+5 6
+7 1
+8 6
+9 6
+9 4
+10 1
+11 12
+org.jhotdraw.app.action.AbstractSaveUnsavedChangesAction 0
+org.jhotdraw.gui.JSheet 1
+org.jhotdraw.util.Methods 2
+org.jhotdraw.gui.event.SheetListener 3
+org.jhotdraw.gui.URIChooser 4
+org.jhotdraw.app.action.AbstractSaveUnsavedChangesAction.1 5
+org.jhotdraw.gui.event.SheetEvent 6
+org.jhotdraw.app.action.app.ExitAction 7
+org.jhotdraw.app.action.app.ExitAction.1 8
+org.jhotdraw.app.action.app.ExitAction.2 9
+org.jhotdraw.app.action.app.ExitAction.5 10
+org.jhotdraw.app.action.edit.DuplicateAction 11
+org.jhotdraw.gui.EditableComponent 12
+

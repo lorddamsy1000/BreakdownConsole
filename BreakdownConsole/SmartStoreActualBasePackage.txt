@@ -1,0 +1,7 @@
+SmartStore.Web.Controllers.TaskSchedulerController 56 13 34
+SmartStore.Web.Controllers.CatalogHelper 11 12 11
+SmartStore.Admin.Controllers.ProductController 8 5 6
+SmartStore.Web.Controllers.MenuController 1 9 5
+SmartStore.Admin.Controllers.CommonController 2 8 5
+SmartStore.Web.Controllers.CommonController 6 3 4
+SmartStore.Web.Controllers.MediaController 5 4 4

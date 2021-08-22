@@ -1,0 +1,601 @@
+{
+"useCases": 
+ [
+{
+"name": "Home",
+"nanoentitiesRead": [ 
+"DemoShopWebControllersHomeController.Index()"
+,
+]
+,
+"nanoentitiesWritten": [ 
+"DemoShopServicesImplementationsProductsService.GetAllAsync()"
+,
+"DemoShopServicesImplementationsProductsService.CreateAsync()"
+,
+]
+}
+,
+{
+"name": "ProductsService",
+"nanoentitiesRead": [ 
+"DemoShopServicesImplementationsProductsService.GetAllAsync()"
+,
+"DemoShopServicesImplementationsProductsService.CreateAsync()"
+,
+]
+,
+"nanoentitiesWritten": [ 
+"DemoShopWebControllersHomeController.Index()"
+,
+"DemoShopServicesImplementationsBaseService.IsEntityStateValid()"
+,
+"DemoShopWebControllersProductsController.Create()"
+,
+"DemoShopServicesImplementationsOrdersService.CreateAsync()"
+,
+"DemoShopServicesImplementationsOrdersService.GetByIdAsync()"
+,
+"DemoShopServicesImplementationsOrdersService.GetAllForUserAsync()"
+,
+"DemoShopWebControllersOrdersController.OrderProduct()"
+,
+"DemoShopWebControllersOrdersController.My()"
+,
+]
+}
+,
+{
+"name": "Products",
+"nanoentitiesRead": [ 
+"DemoShopWebControllersProductsController.Create()"
+,
+]
+,
+"nanoentitiesWritten": [ 
+"DemoShopServicesImplementationsProductsService.GetAllAsync()"
+,
+"DemoShopServicesImplementationsProductsService.CreateAsync()"
+,
+]
+}
+,
+{
+"name": "Orders",
+"nanoentitiesRead": [ 
+"DemoShopWebControllersOrdersController.OrderProduct()"
+,
+"DemoShopWebControllersOrdersController.My()"
+,
+]
+,
+"nanoentitiesWritten": [ 
+"DemoShopServicesImplementationsOrdersService.CreateAsync()"
+,
+"DemoShopServicesImplementationsOrdersService.GetByIdAsync()"
+,
+"DemoShopServicesImplementationsOrdersService.GetAllForUserAsync()"
+,
+"DemoShopServicesImplementationsBaseService.IsEntityStateValid()"
+,
+"DemoShopWebControllersCardPaymentsController.Pay()"
+,
+]
+}
+,
+{
+"name": "OrdersService",
+"nanoentitiesRead": [ 
+"DemoShopServicesImplementationsOrdersService.CreateAsync()"
+,
+"DemoShopServicesImplementationsOrdersService.GetByIdAsync()"
+,
+"DemoShopServicesImplementationsOrdersService.GetAllForUserAsync()"
+,
+]
+,
+"nanoentitiesWritten": [ 
+"DemoShopServicesImplementationsBaseService.IsEntityStateValid()"
+,
+"DemoShopWebControllersOrdersController.OrderProduct()"
+,
+"DemoShopWebControllersOrdersController.My()"
+,
+"DemoShopWebControllersCardPaymentsController.Pay()"
+,
+"DemoShopServicesImplementationsProductsService.GetAllAsync()"
+,
+"DemoShopServicesImplementationsProductsService.CreateAsync()"
+,
+"DemoShopWebControllersHomeController.Index()"
+,
+"DemoShopWebControllersDirectPaymentsController.Pay()"
+,
+]
+}
+,
+{
+"name": "CardPayments",
+"nanoentitiesRead": [ 
+"DemoShopWebControllersCardPaymentsController.Pay()"
+,
+]
+,
+"nanoentitiesWritten": [ 
+"DemoShopServicesImplementationsOrdersService.CreateAsync()"
+,
+"DemoShopServicesImplementationsOrdersService.GetByIdAsync()"
+,
+"DemoShopServicesImplementationsOrdersService.GetAllForUserAsync()"
+,
+"DemoShopServicesImplementationsBaseService.IsEntityStateValid()"
+,
+]
+}
+,
+{
+"name": "DirectPayments",
+"nanoentitiesRead": [ 
+"DemoShopWebControllersDirectPaymentsController.Pay()"
+,
+]
+,
+"nanoentitiesWritten": [ 
+"DemoShopServicesImplementationsOrdersService.CreateAsync()"
+,
+"DemoShopServicesImplementationsOrdersService.GetByIdAsync()"
+,
+"DemoShopServicesImplementationsOrdersService.GetAllForUserAsync()"
+,
+]
+}
+,
+{
+"name": "Home",
+"nanoentitiesRead": [ 
+"BankSystemWebControllersHomeController.Index()"
+,
+]
+,
+"nanoentitiesWritten": [ 
+"BankSystemServicesImplementationsUserService.GetUserIdByUsernameAsync()"
+,
+"BankSystemServicesImplementationsUserService.GetAccountOwnerFullnameAsync()"
+,
+"BankSystemServicesImplementationsBankAccountService.GetAllAccountsByUserIdAsync()"
+,
+"BankSystemServicesImplementationsBankAccountService.CreateAsync()"
+,
+"BankSystemServicesImplementationsBankAccountService.GetByIdAsync()"
+,
+"BankSystemServicesImplementationsBankAccountService.GetByUniqueIdAsync()"
+,
+]
+}
+,
+{
+"name": "UserService",
+"nanoentitiesRead": [ 
+"BankSystemServicesImplementationsUserService.GetUserIdByUsernameAsync()"
+,
+"BankSystemServicesImplementationsUserService.GetAccountOwnerFullnameAsync()"
+,
+]
+,
+"nanoentitiesWritten": [ 
+"BankSystemWebControllersHomeController.Index()"
+,
+"BankSystemWebAreasCardsControllersCardsController.Index()"
+,
+"BankSystemWebAreasCardsControllersCardsController.Create()"
+,
+"BankSystemWebAreasCardsControllersCardsController.Delete()"
+,
+"BankSystemServicesImplementationsCardService.GetCardsAsync()"
+,
+"BankSystemServicesImplementationsCardService.GetCountOfAllCardsOwnedByUserAsync()"
+,
+"BankSystemServicesImplementationsCardService.CreateAsync()"
+,
+"BankSystemServicesImplementationsCardService.GetAsync()"
+,
+"BankSystemServicesImplementationsCardService.DeleteAsync()"
+,
+"BankSystemServicesImplementationsBankAccountService.GetAllAccountsByUserIdAsync()"
+,
+"BankSystemServicesImplementationsBankAccountService.CreateAsync()"
+,
+"BankSystemServicesImplementationsBankAccountService.GetByIdAsync()"
+,
+"BankSystemServicesImplementationsBankAccountService.GetByUniqueIdAsync()"
+,
+"BankSystemWebAreasMoneyTransfersControllersInternalController.Create()"
+,
+"BankSystemWebControllersBankAccountsController.Create()"
+,
+"BankSystemWebControllersBankAccountsController.Details()"
+,
+"BankSystemWebAreasMoneyTransfersControllersBaseMoneyTransferController.GetAllAccountsAsync()"
+,
+"BankSystemWebAreasMoneyTransfersControllersGlobalController.Create()"
+,
+"BankSystemWebAreasMoneyTransfersControllersHomeController.All()"
+,
+"BankSystemServicesImplementationsMoneyTransferService.GetLast10MoneyTransfersForUserAsync()"
+,
+"BankSystemServicesImplementationsMoneyTransferService.GetCountOfAllMoneyTransfersForAccountAsync()"
+,
+"BankSystemServicesImplementationsMoneyTransferService.GetMoneyTransfersForAccountAsync()"
+,
+"BankSystemServicesImplementationsMoneyTransferService.GetMoneyTransfersAsync()"
+,
+"BankSystemServicesImplementationsMoneyTransferService.GetCountOfAllMoneyTransfersForUserAsync()"
+,
+"BankSystemServicesImplementationsMoneyTransferService.CreateMoneyTransferAsync()"
+,
+]
+}
+,
+{
+"name": "BankAccountService",
+"nanoentitiesRead": [ 
+"BankSystemServicesImplementationsBankAccountService.GetAllAccountsByUserIdAsync()"
+,
+"BankSystemServicesImplementationsBankAccountService.CreateAsync()"
+,
+"BankSystemServicesImplementationsBankAccountService.GetByIdAsync()"
+,
+"BankSystemServicesImplementationsBankAccountService.GetByUniqueIdAsync()"
+,
+]
+,
+"nanoentitiesWritten": [ 
+"BankSystemWebControllersHomeController.Index()"
+,
+"BankSystemServicesImplementationsMoneyTransferService.GetLast10MoneyTransfersForUserAsync()"
+,
+"BankSystemServicesImplementationsMoneyTransferService.GetCountOfAllMoneyTransfersForAccountAsync()"
+,
+"BankSystemServicesImplementationsMoneyTransferService.GetMoneyTransfersForAccountAsync()"
+,
+"BankSystemServicesImplementationsMoneyTransferService.GetMoneyTransfersAsync()"
+,
+"BankSystemServicesImplementationsMoneyTransferService.GetCountOfAllMoneyTransfersForUserAsync()"
+,
+"BankSystemServicesImplementationsMoneyTransferService.CreateMoneyTransferAsync()"
+,
+"BankSystemWebAreasMoneyTransfersControllersBaseMoneyTransferController.GetAllAccountsAsync()"
+,
+"BankSystemWebControllersBaseController.ShowErrorMessage()"
+,
+"BankSystemWebControllersBaseController.RedirectToHome()"
+,
+"BankSystemWebControllersBaseController.ShowSuccessMessage()"
+,
+"BankSystemServicesImplementationsBaseService.IsEntityStateValid()"
+,
+"BankSystemServicesImplementationsBankAccountUniqueIdHelper.GenerateAccountUniqueId()"
+,
+"BankSystemServicesImplementationsBankAccountUniqueIdHelper.IsUniqueIdValid()"
+,
+"BankSystemWebControllersBankAccountsController.Create()"
+,
+"BankSystemWebControllersBankAccountsController.Details()"
+,
+"BankSystemWebAreasCardsControllersCardsController.Index()"
+,
+"BankSystemWebAreasCardsControllersCardsController.Create()"
+,
+"BankSystemWebAreasCardsControllersCardsController.Delete()"
+,
+"BankSystemServicesImplementationsCardService.GetCardsAsync()"
+,
+"BankSystemServicesImplementationsCardService.GetCountOfAllCardsOwnedByUserAsync()"
+,
+"BankSystemServicesImplementationsCardService.CreateAsync()"
+,
+"BankSystemServicesImplementationsCardService.GetAsync()"
+,
+"BankSystemServicesImplementationsCardService.DeleteAsync()"
+,
+"BankSystemServicesImplementationsUserService.GetUserIdByUsernameAsync()"
+,
+"BankSystemServicesImplementationsUserService.GetAccountOwnerFullnameAsync()"
+,
+"BankSystemWebAreasMoneyTransfersControllersInternalController.Create()"
+,
+"BankSystemWebAreasMoneyTransfersControllersGlobalController.Create()"
+,
+]
+}
+,
+{
+"name": "MoneyTransferService",
+"nanoentitiesRead": [ 
+"BankSystemServicesImplementationsMoneyTransferService.GetLast10MoneyTransfersForUserAsync()"
+,
+"BankSystemServicesImplementationsMoneyTransferService.GetCountOfAllMoneyTransfersForAccountAsync()"
+,
+"BankSystemServicesImplementationsMoneyTransferService.GetMoneyTransfersForAccountAsync()"
+,
+"BankSystemServicesImplementationsMoneyTransferService.GetMoneyTransfersAsync()"
+,
+"BankSystemServicesImplementationsMoneyTransferService.GetCountOfAllMoneyTransfersForUserAsync()"
+,
+"BankSystemServicesImplementationsMoneyTransferService.CreateMoneyTransferAsync()"
+,
+]
+,
+"nanoentitiesWritten": [ 
+"BankSystemWebControllersHomeController.Index()"
+,
+"BankSystemWebControllersBankAccountsController.Create()"
+,
+"BankSystemWebControllersBankAccountsController.Details()"
+,
+"BankSystemWebAreasMoneyTransfersControllersHomeController.All()"
+,
+"BankSystemServicesImplementationsBaseService.IsEntityStateValid()"
+,
+"BankSystemWebAreasMoneyTransfersControllersInternalController.Create()"
+,
+]
+}
+,
+{
+"name": "Cards",
+"nanoentitiesRead": [ 
+"BankSystemWebAreasCardsControllersCardsController.Index()"
+,
+"BankSystemWebAreasCardsControllersCardsController.Create()"
+,
+"BankSystemWebAreasCardsControllersCardsController.Delete()"
+,
+]
+,
+"nanoentitiesWritten": [ 
+"BankSystemServicesImplementationsUserService.GetUserIdByUsernameAsync()"
+,
+"BankSystemServicesImplementationsUserService.GetAccountOwnerFullnameAsync()"
+,
+"BankSystemServicesImplementationsCardService.GetCardsAsync()"
+,
+"BankSystemServicesImplementationsCardService.GetCountOfAllCardsOwnedByUserAsync()"
+,
+"BankSystemServicesImplementationsCardService.CreateAsync()"
+,
+"BankSystemServicesImplementationsCardService.GetAsync()"
+,
+"BankSystemServicesImplementationsCardService.DeleteAsync()"
+,
+"BankSystemWebControllersBaseController.ShowErrorMessage()"
+,
+"BankSystemWebControllersBaseController.RedirectToHome()"
+,
+"BankSystemWebControllersBaseController.ShowSuccessMessage()"
+,
+]
+}
+,
+{
+"name": "CardService",
+"nanoentitiesRead": [ 
+"BankSystemServicesImplementationsCardService.GetCardsAsync()"
+,
+"BankSystemServicesImplementationsCardService.GetCountOfAllCardsOwnedByUserAsync()"
+,
+"BankSystemServicesImplementationsCardService.CreateAsync()"
+,
+"BankSystemServicesImplementationsCardService.GetAsync()"
+,
+"BankSystemServicesImplementationsCardService.DeleteAsync()"
+,
+]
+,
+"nanoentitiesWritten": [ 
+"BankSystemWebAreasCardsControllersCardsController.Index()"
+,
+"BankSystemWebAreasCardsControllersCardsController.Create()"
+,
+"BankSystemWebAreasCardsControllersCardsController.Delete()"
+,
+"BankSystemServicesImplementationsBaseService.IsEntityStateValid()"
+,
+"BankSystemServicesImplementationsCardHelper.Generate16DigitNumber()"
+,
+"BankSystemServicesImplementationsCardHelper.CheckLuhn()"
+,
+"BankSystemServicesImplementationsCardHelper.Generate3DigitSecurityCode()"
+,
+"BankSystemServicesImplementationsUserService.GetUserIdByUsernameAsync()"
+,
+"BankSystemServicesImplementationsUserService.GetAccountOwnerFullnameAsync()"
+,
+"CentralApiServicesImplementationsBanksService.GetAllBanksSupportingPaymentsAsync()"
+,
+]
+}
+,
+{
+"name": "Internal",
+"nanoentitiesRead": [ 
+"BankSystemWebAreasMoneyTransfersControllersInternalController.Create()"
+,
+]
+,
+"nanoentitiesWritten": [ 
+"BankSystemServicesImplementationsUserService.GetUserIdByUsernameAsync()"
+,
+"BankSystemServicesImplementationsUserService.GetAccountOwnerFullnameAsync()"
+,
+"BankSystemWebAreasMoneyTransfersControllersBaseMoneyTransferController.GetAllAccountsAsync()"
+,
+"BankSystemServicesImplementationsMoneyTransferService.GetLast10MoneyTransfersForUserAsync()"
+,
+"BankSystemServicesImplementationsMoneyTransferService.GetCountOfAllMoneyTransfersForAccountAsync()"
+,
+"BankSystemServicesImplementationsMoneyTransferService.GetMoneyTransfersForAccountAsync()"
+,
+"BankSystemServicesImplementationsMoneyTransferService.GetMoneyTransfersAsync()"
+,
+"BankSystemServicesImplementationsMoneyTransferService.GetCountOfAllMoneyTransfersForUserAsync()"
+,
+"BankSystemServicesImplementationsMoneyTransferService.CreateMoneyTransferAsync()"
+,
+]
+}
+,
+{
+"name": "BaseMoneyTransfer",
+"nanoentitiesRead": [ 
+"BankSystemWebAreasMoneyTransfersControllersBaseMoneyTransferController.GetAllAccountsAsync()"
+,
+]
+,
+"nanoentitiesWritten": [ 
+"BankSystemServicesImplementationsBankAccountService.GetAllAccountsByUserIdAsync()"
+,
+"BankSystemServicesImplementationsBankAccountService.CreateAsync()"
+,
+"BankSystemServicesImplementationsBankAccountService.GetByIdAsync()"
+,
+"BankSystemServicesImplementationsBankAccountService.GetByUniqueIdAsync()"
+,
+"BankSystemWebAreasMoneyTransfersControllersInternalController.Create()"
+,
+"BankSystemWebAreasMoneyTransfersControllersGlobalController.Create()"
+,
+]
+}
+,
+{
+"name": "BankAccounts",
+"nanoentitiesRead": [ 
+"BankSystemWebControllersBankAccountsController.Create()"
+,
+"BankSystemWebControllersBankAccountsController.Details()"
+,
+]
+,
+"nanoentitiesWritten": [ 
+"BankSystemServicesImplementationsUserService.GetUserIdByUsernameAsync()"
+,
+"BankSystemServicesImplementationsUserService.GetAccountOwnerFullnameAsync()"
+,
+"BankSystemServicesImplementationsBankAccountService.GetAllAccountsByUserIdAsync()"
+,
+"BankSystemServicesImplementationsBankAccountService.CreateAsync()"
+,
+"BankSystemServicesImplementationsBankAccountService.GetByIdAsync()"
+,
+"BankSystemServicesImplementationsBankAccountService.GetByUniqueIdAsync()"
+,
+]
+}
+,
+{
+"name": "Global",
+"nanoentitiesRead": [ 
+"BankSystemWebAreasMoneyTransfersControllersGlobalController.Create()"
+,
+]
+,
+"nanoentitiesWritten": [ 
+"BankSystemServicesImplementationsUserService.GetUserIdByUsernameAsync()"
+,
+"BankSystemServicesImplementationsUserService.GetAccountOwnerFullnameAsync()"
+,
+"BankSystemWebAreasMoneyTransfersControllersBaseMoneyTransferController.GetAllAccountsAsync()"
+,
+]
+}
+,
+{
+"name": "Home",
+"nanoentitiesRead": [ 
+"BankSystemWebAreasMoneyTransfersControllersHomeController.All()"
+,
+]
+,
+"nanoentitiesWritten": [ 
+"BankSystemServicesImplementationsUserService.GetUserIdByUsernameAsync()"
+,
+"BankSystemServicesImplementationsUserService.GetAccountOwnerFullnameAsync()"
+,
+"BankSystemServicesImplementationsMoneyTransferService.GetLast10MoneyTransfersForUserAsync()"
+,
+"BankSystemServicesImplementationsMoneyTransferService.GetCountOfAllMoneyTransfersForAccountAsync()"
+,
+"BankSystemServicesImplementationsMoneyTransferService.GetMoneyTransfersForAccountAsync()"
+,
+"BankSystemServicesImplementationsMoneyTransferService.GetMoneyTransfersAsync()"
+,
+"BankSystemServicesImplementationsMoneyTransferService.GetCountOfAllMoneyTransfersForUserAsync()"
+,
+"BankSystemServicesImplementationsMoneyTransferService.CreateMoneyTransferAsync()"
+,
+"BankSystemServicesImplementationsBankAccountUniqueIdHelper.GenerateAccountUniqueId()"
+,
+"BankSystemServicesImplementationsBankAccountUniqueIdHelper.IsUniqueIdValid()"
+,
+"BankSystemServicesImplementationsBaseService.IsEntityStateValid()"
+,
+"BankSystemServicesImplementationsBankAccountService.GetAllAccountsByUserIdAsync()"
+,
+"BankSystemServicesImplementationsBankAccountService.CreateAsync()"
+,
+"BankSystemServicesImplementationsBankAccountService.GetByIdAsync()"
+,
+"BankSystemServicesImplementationsBankAccountService.GetByUniqueIdAsync()"
+,
+"BankSystemWebControllersBaseController.ShowErrorMessage()"
+,
+"BankSystemWebControllersBaseController.RedirectToHome()"
+,
+"BankSystemWebControllersBaseController.ShowSuccessMessage()"
+,
+"BankSystemWebAreasMoneyTransfersControllersBaseMoneyTransferController.GetAllAccountsAsync()"
+,
+]
+}
+,
+{
+"name": "BankAccountUniqueIdHelper",
+"nanoentitiesRead": [ 
+"BankSystemServicesImplementationsBankAccountUniqueIdHelper.GenerateAccountUniqueId()"
+,
+"BankSystemServicesImplementationsBankAccountUniqueIdHelper.IsUniqueIdValid()"
+,
+]
+,
+"nanoentitiesWritten": [ 
+"BankSystemServicesImplementationsBaseService.IsEntityStateValid()"
+,
+"BankSystemServicesImplementationsMoneyTransferService.GetLast10MoneyTransfersForUserAsync()"
+,
+"BankSystemServicesImplementationsMoneyTransferService.GetCountOfAllMoneyTransfersForAccountAsync()"
+,
+"BankSystemServicesImplementationsMoneyTransferService.GetMoneyTransfersForAccountAsync()"
+,
+"BankSystemServicesImplementationsMoneyTransferService.GetMoneyTransfersAsync()"
+,
+"BankSystemServicesImplementationsMoneyTransferService.GetCountOfAllMoneyTransfersForUserAsync()"
+,
+"BankSystemServicesImplementationsMoneyTransferService.CreateMoneyTransferAsync()"
+,
+]
+}
+,
+]
+"compatibilities": 
+ {
+"structuralVolatility": 
+ [
+ {
+"characteristic": "Often",
+"nanoentities": [
+]
+}
+]
+}
+}

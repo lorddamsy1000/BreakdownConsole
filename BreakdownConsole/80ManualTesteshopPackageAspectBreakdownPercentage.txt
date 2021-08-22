@@ -1,0 +1,17 @@
+Microsoft.eShopWeb.Web -> Microsoft.eShopWeb.Web 80.64516 48.07692
+Microsoft.eShopWeb.Web -> Microsoft.eShopWeb 6.451612 66.66667
+Microsoft.eShopWeb.Infrastructure.Data -> Microsoft.eShopWeb.Infrastructure.Data 5.208333 35.71429
+Microsoft.eShopWeb.Infrastructure.Data -> Microsoft.eShopWeb.ApplicationCore 85.41667 77.35849
+Microsoft.eShopWeb.Web -> Microsoft.eShopWeb.Web.Services 9.677419 30
+Microsoft.eShopWeb.Web.Services -> Microsoft.eShopWeb.Web.Services 11.29032 70
+Microsoft.eShopWeb.Web.Services -> Microsoft.eShopWeb.Infrastructure.Data 11.29032 50
+Microsoft.eShopWeb.Infrastructure.Data -> Microsoft.eShopWeb.ApplicationCore.Specifications 9.375 90
+Microsoft.eShopWeb.Web.Services -> Microsoft.eShopWeb.ApplicationCore 29.03226 16.98113
+Microsoft.eShopWeb.Web.Services -> Microsoft.eShopWeb.ApplicationCore.Services 3.225806 66.66667
+Microsoft.eShopWeb.ApplicationCore.Services -> Microsoft.eShopWeb 25 33.33334
+Microsoft.eShopWeb.Web.Services -> Microsoft.eShopWeb.Web 43.54839 51.92308
+Microsoft.eShopWeb.Web.Services -> Microsoft.eShopWeb.ApplicationCore.Specifications 1.612903 10
+Microsoft.eShopWeb.Web -> Microsoft.eShopWeb.ApplicationCore.Services 3.225806 33.33334
+Microsoft.eShopWeb.ApplicationCore.Services -> Microsoft.eShopWeb.Infrastructure.Data 50 14.28572
+Microsoft.eShopWeb.ApplicationCore.Services -> Microsoft.eShopWeb.ApplicationCore 25 0.9433962
+Microsoft.eShopWeb.ApplicationCore -> Microsoft.eShopWeb.ApplicationCore 100 4.716981

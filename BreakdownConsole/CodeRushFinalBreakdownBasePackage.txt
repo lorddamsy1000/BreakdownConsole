@@ -1,0 +1,100 @@
+Microservice 1
+coderushControllersApiCurrencyController -> coderushControllersGoodsReceivedNoteController [label="Rule 3"]
+coderushControllersApiCurrencyController -> coderushControllersApiUnitOfMeasureController [label="Rule 3"]
+coderushControllersApiCurrencyController -> coderushControllersBranchController [label="Rule 4"]
+coderushControllersApiCurrencyController -> coderushControllersWarehouseController [label="Rule 4"]
+coderushControllersApiUnitOfMeasureController -> coderushControllersApiProductController [label="Rule 3"]
+coderushControllersApiUnitOfMeasureController -> coderushControllersApiProductTypeController [label="Rule 3"]
+Microservice 2
+coderushControllersApiBranchController -> coderushControllersApiProductTypeController [label="Rule 3"]
+coderushControllersApiBranchController -> coderushControllersCashBankController [label="Rule 4"]
+Microservice 3
+Microservice 4
+Microservice 5
+coderushControllersApiInvoiceController -> coderushControllersShipmentController [label="Rule 3"]
+Microservice 6
+coderushControllersApiPaymentTypeController -> coderushControllersShipmentTypeController [label="Rule 4"]
+Microservice 7
+coderushControllersApiGoodsReceivedNoteController -> coderushControllersGoodsReceivedNoteController [label="Rule 3"]
+coderushControllersApiGoodsReceivedNoteController -> coderushControllersApiBillTypeController [label="Rule 3"]
+coderushControllersApiGoodsReceivedNoteController -> coderushControllersApiPaymentVoucherController [label="Rule 3"]
+coderushControllersApiGoodsReceivedNoteController -> coderushControllersPaymentVoucherController [label="Rule 4"]
+Microservice 8
+coderushControllersUserRoleController -> coderushControllersAccountController [label="Rule 3"]
+coderushControllersUserRoleController -> coderushControllersApiUploadProfilePictureController [label="Rule 3"]
+
+
+Microservice 1
+coderushControllersApiCurrencyController -> coderushControllersVendorTypeController [label="Rule 2"]
+coderushControllersApiCurrencyController -> coderushControllersGoodsReceivedNoteController [label="Rule 3"]
+coderushControllersApiCurrencyController -> coderushControllersApiUnitOfMeasureController [label="Rule 3"]
+coderushControllersApiCurrencyController -> coderushControllersBranchController [label="Rule 4"]
+coderushControllersApiCurrencyController -> coderushControllersWarehouseController [label="Rule 4"]
+coderushControllersApiCurrencyController -> coderushControllersApiVendorTypeController [label="Rule 7"]
+coderushControllersApiVendorTypeController -> coderushControllersApiVendorController [label="Rule 3"]
+coderushControllersApiVendorTypeController -> coderushControllersGoodsReceivedNoteController [label="Rule 3"]
+coderushControllersApiVendorTypeController -> coderushControllersVendorController [label="Rule 4"]
+coderushControllersApiVendorTypeController -> coderushControllersPurchaseTypeController [label="Rule 4"]
+coderushControllersApiCurrencyController -> coderushControllersApiWarehouseController [label="Rule 5"]
+coderushControllersApiCurrencyController -> coderushControllersApiGoodsReceivedNoteController [label="Rule 5"]
+Microservice 2
+coderushControllersApiBranchController -> coderushControllersProductTypeController [label="Rule 2"]
+coderushControllersApiBranchController -> coderushControllersApiProductTypeController [label="Rule 3"]
+coderushControllersApiBranchController -> coderushControllersCashBankController [label="Rule 4"]
+coderushControllersApiBranchController -> coderushControllersApiCashBankController [label="Rule 7"]
+coderushControllersApiCashBankController -> coderushControllersPaymentTypeController [label="Rule 4"]
+coderushControllersApiBranchController -> coderushControllersApiVendorController [label="Rule 7"]
+coderushControllersApiBranchController -> coderushControllersApiPurchaseTypeController [label="Rule 7"]
+coderushControllersApiPurchaseTypeController -> coderushControllersGoodsReceivedNoteController [label="Rule 3"]
+coderushControllersApiBranchController -> coderushControllersApiPurchaseOrderController [label="Rule 7"]
+Microservice 3
+coderushControllersApiSalesOrderController -> coderushControllersInvoiceController [label="Rule 2"]
+Microservice 4
+coderushControllersApiWarehouseController -> coderushControllersBillController [label="Rule 2"]
+coderushControllersApiWarehouseController -> coderushControllersApiBillController [label="Rule 7"]
+coderushControllersApiBillController -> coderushControllersApiPaymentVoucherController [label="Rule 3"]
+Microservice 5
+coderushControllersApiInvoiceController -> coderushControllersApiPaymentReceiveController [label="Rule 2"]
+coderushControllersApiInvoiceController -> coderushControllersShipmentController [label="Rule 3"]
+Microservice 6
+coderushControllersApiPaymentTypeController -> coderushControllersBillTypeController [label="Rule 2"]
+coderushControllersApiPaymentTypeController -> coderushControllersShipmentTypeController [label="Rule 4"]
+Microservice 7
+coderushControllersApiGoodsReceivedNoteController -> coderushControllersPaymentVoucherController [label="Rule 4"]
+coderushControllersApiGoodsReceivedNoteController -> coderushControllersGoodsReceivedNoteController [label="Rule 3"]
+coderushControllersApiGoodsReceivedNoteController -> coderushControllersApiBillTypeController [label="Rule 3"]
+coderushControllersApiGoodsReceivedNoteController -> coderushControllersApiPaymentVoucherController [label="Rule 3"]
+Microservice 8
+coderushControllersUserRoleController -> coderushControllersAccountController [label="Rule 3"]
+coderushControllersUserRoleController -> coderushControllersApiUploadProfilePictureController [label="Rule 3"]
+coderushControllersUserRoleController -> coderushControllersDashboardController [label="Rule 2"]
+Microservice 1
+coderushControllersApiBranchController -> coderushControllersApiProductTypeController [label="Rule 3"]
+coderushControllersApiBranchController -> coderushControllersApiCashBankController [label="Rule 7"]
+coderushControllersApiBranchController -> coderushControllersApiVendorController [label="Rule 7"]
+coderushControllersApiBranchController -> coderushControllersApiPurchaseTypeController [label="Rule 7"]
+coderushControllersApiBranchController -> coderushControllersApiPurchaseOrderController [label="Rule 7"]
+Microservice 2
+coderushControllersApiCurrencyController -> coderushControllersApiVendorTypeController [label="Rule 7"]
+coderushControllersApiVendorTypeController -> coderushControllersApiVendorController [label="Rule 3"]
+coderushControllersApiCurrencyController -> coderushControllersApiUnitOfMeasureController [label="Rule 3"]
+coderushControllersApiCurrencyController -> coderushControllersApiWarehouseController [label="Rule 5"]
+coderushControllersApiCurrencyController -> coderushControllersApiGoodsReceivedNoteController [label="Rule 5"]
+Microservice 3
+coderushControllersApiShipmentController -> coderushControllersApiInvoiceTypeController [label="Rule 3"]
+Microservice 4
+coderushControllersApiWarehouseController -> coderushControllersApiShipmentTypeController [label="Rule 7"]
+coderushControllersApiWarehouseController -> coderushControllersApiBillController [label="Rule 5"]
+Microservice 5
+coderushControllersApiInvoiceController -> coderushControllersApiPaymentReceiveController [label="Rule 2"]
+Microservice 6
+coderushControllersApiGoodsReceivedNoteController -> coderushControllersApiPaymentVoucherController [label="Rule 3"]
+coderushControllersApiGoodsReceivedNoteController -> coderushControllersApiBillTypeController [label="Rule 3"]
+Microservice 7
+coderushControllersApiBillController -> coderushControllersApiPaymentVoucherController [label="Rule 3"]
+Microservice 8
+coderushControllersApiCustomerController -> coderushControllersApiCustomerTypeController [label="Rule 7"]
+coderushControllersApiCustomerController -> coderushControllersApiBranchController [label="Rule 5"]
+coderushControllersApiCustomerController -> coderushControllersApiShipmentController [label="Rule 7"]
+coderushControllersApiShipmentController -> coderushControllersApiInvoiceTypeController [label="Rule 3"]
+coderushControllersApiCustomerController -> coderushControllersApiSalesOrderController [label="Rule 5"]

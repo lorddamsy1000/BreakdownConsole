@@ -1,0 +1,4 @@
+org.jhotdraw.undo.UndoRedoManager org.jhotdraw.util.ResourceBundleUtil
+org.jhotdraw.util.ResourceBundleUtil org.jhotdraw.util.LocaleUtil
+org.jhotdraw.util.ResourceBundleUtil org.jhotdraw.util.ResourceBundleUtil
+org.jhotdraw.undo.CompositeEdit org.jhotdraw.util.ResourceBundleUtil

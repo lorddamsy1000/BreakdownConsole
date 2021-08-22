@@ -1,0 +1,2332 @@
+{
+"name": "blogifier",
+"entities": [
+{
+"name": "coderushControllersApiUserController"
+,
+"nanoentities": [
+"GetByApplicationUserId()"
+,
+"GetUser()"
+,
+"Insert()"
+,
+"Update()"
+,
+"Remove()"
+,
+"ChangePassword()"
+,
+"ChangeRole()"
+]
+}
+,
+{
+"name": "coderushControllersApiCustomerTypeController"
+,
+"nanoentities": [
+"GetCustomerType()"
+,
+"Insert()"
+,
+"Update()"
+,
+"Remove()"
+]
+}
+,
+{
+"name": "coderushControllersApiCustomerController"
+,
+"nanoentities": [
+"GetCustomer()"
+,
+"Insert()"
+,
+"Update()"
+,
+"Remove()"
+]
+}
+,
+{
+"name": "coderushControllersApiSalesTypeController"
+,
+"nanoentities": [
+"GetSalesType()"
+,
+"Insert()"
+,
+"Update()"
+,
+"Remove()"
+]
+}
+,
+{
+"name": "coderushControllersApiSalesOrderController"
+,
+"nanoentities": [
+"GetSalesOrder()"
+,
+"GetNotShippedYet()"
+,
+"Insert()"
+,
+"Update()"
+,
+"Remove()"
+]
+}
+,
+{
+"name": "coderushControllersApiBranchController"
+,
+"nanoentities": [
+"GetBranch()"
+,
+"Insert()"
+,
+"Update()"
+,
+"Remove()"
+]
+}
+,
+{
+"name": "coderushControllersApiCurrencyController"
+,
+"nanoentities": [
+"GetCurrency()"
+,
+"GetByBranchId()"
+,
+"Insert()"
+,
+"Remove()"
+]
+}
+,
+{
+"name": "coderushControllersApiShipmentController"
+,
+"nanoentities": [
+"GetShipment()"
+,
+"Insert()"
+,
+"Update()"
+,
+"Remove()"
+,
+"GetNotInvoicedYet()"
+]
+}
+,
+{
+"name": "coderushControllersApiShipmentTypeController"
+,
+"nanoentities": [
+"GetShipmentType()"
+,
+"Insert()"
+,
+"Update()"
+,
+"Remove()"
+]
+}
+,
+{
+"name": "coderushControllersApiWarehouseController"
+,
+"nanoentities": [
+"GetWarehouse()"
+,
+"Insert()"
+,
+"Update()"
+,
+"Remove()"
+]
+}
+,
+{
+"name": "coderushControllersApiInvoiceController"
+,
+"nanoentities": [
+"GetInvoice()"
+,
+"GetNotPaidYet()"
+,
+"Insert()"
+,
+"Update()"
+,
+"Remove()"
+]
+}
+,
+{
+"name": "coderushControllersApiInvoiceTypeController"
+,
+"nanoentities": [
+"GetInvoiceType()"
+,
+"Insert()"
+,
+"Update()"
+,
+"Remove()"
+]
+}
+,
+{
+"name": "coderushControllersApiPaymentReceiveController"
+,
+"nanoentities": [
+"GetPaymentReceive()"
+,
+"Insert()"
+,
+"Update()"
+]
+}
+,
+{
+"name": "coderushControllersApiPaymentTypeController"
+,
+"nanoentities": [
+"GetPaymentType()"
+,
+"Insert()"
+,
+"Update()"
+,
+"Remove()"
+]
+}
+,
+{
+"name": "coderushControllersApiBillTypeController"
+,
+"nanoentities": [
+"GetBillType()"
+,
+"Insert()"
+,
+"Update()"
+,
+"Remove()"
+]
+}
+,
+{
+"name": "coderushControllersApiVendorTypeController"
+,
+"nanoentities": [
+"GetVendorType()"
+,
+"Insert()"
+,
+"Update()"
+,
+"Remove()"
+]
+}
+,
+{
+"name": "coderushControllersApiGoodsReceivedNoteController"
+,
+"nanoentities": [
+"GetGoodsReceivedNote()"
+,
+"Insert()"
+,
+"Update()"
+,
+"Remove()"
+,
+"GetNotBilledYet()"
+]
+}
+,
+{
+"name": "coderushControllersApiPurchaseOrderController"
+,
+"nanoentities": [
+"GetPurchaseOrder()"
+,
+"Insert()"
+,
+"Update()"
+,
+"Remove()"
+,
+"GetNotReceivedYet()"
+]
+}
+,
+{
+"name": "coderushControllersApiBillController"
+,
+"nanoentities": [
+"GetBill()"
+,
+"Insert()"
+,
+"Update()"
+,
+"Remove()"
+,
+"GetNotPaidYet()"
+]
+}
+,
+{
+"name": "coderushControllersApiPaymentVoucherController"
+,
+"nanoentities": [
+"GetPaymentVoucher()"
+,
+"Insert()"
+,
+"Update()"
+,
+"Remove()"
+]
+}
+,
+{
+"name": "coderushControllersApiCashBankController"
+,
+"nanoentities": [
+"GetCashBank()"
+,
+"Insert()"
+,
+"Update()"
+,
+"Remove()"
+]
+}
+,
+{
+"name": "coderushControllersApiProductController"
+,
+"nanoentities": [
+"GetProduct()"
+,
+"Insert()"
+,
+"Update()"
+,
+"Remove()"
+]
+}
+,
+{
+"name": "coderushControllersApiUnitOfMeasureController"
+,
+"nanoentities": [
+"GetUnitOfMeasure()"
+,
+"Insert()"
+,
+"Remove()"
+]
+}
+,
+{
+"name": "coderushControllersApiProductTypeController"
+,
+"nanoentities": [
+"GetProductType()"
+,
+"Insert()"
+,
+"Remove()"
+]
+}
+,
+{
+"name": "coderushControllersApiRoleController"
+,
+"nanoentities": [
+"GetRole()"
+,
+"GetRoleByApplicationUserId()"
+]
+}
+,
+{
+"name": "coderushControllersApiVendorController"
+,
+"nanoentities": [
+"GetVendor()"
+,
+"Insert()"
+,
+"Remove()"
+]
+}
+,
+{
+"name": "coderushControllersApiPurchaseTypeController"
+,
+"nanoentities": [
+"GetPurchaseType()"
+,
+"Insert()"
+,
+"Update()"
+,
+"Remove()"
+]
+}
+,
+{
+"name": "coderushControllersApiUploadProfilePictureController"
+,
+"nanoentities": [
+"PostUploadProfilePicture()"
+]
+}
+]
+,
+"relations": [
+{
+"origin": "coderushControllersApiCustomerTypeController",
+"destination": "coderushControllersApiCustomerController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "coderushControllersApiCustomerTypeController",
+"destination": "coderushControllersApiSalesTypeController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "coderushControllersApiCustomerController",
+"destination": "coderushControllersApiCustomerTypeController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "coderushControllersApiCustomerController",
+"destination": "coderushControllersApiBranchController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "coderushControllersApiCustomerController",
+"destination": "coderushControllersApiSalesTypeController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "coderushControllersApiCustomerController",
+"destination": "coderushControllersApiShipmentController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "coderushControllersApiCustomerController",
+"destination": "coderushControllersApiCurrencyController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "coderushControllersApiCustomerController",
+"destination": "coderushControllersApiSalesOrderController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "coderushControllersApiSalesTypeController",
+"destination": "coderushControllersApiSalesOrderController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "coderushControllersApiSalesTypeController",
+"destination": "coderushControllersApiCustomerController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "coderushControllersApiSalesTypeController",
+"destination": "coderushControllersApiBranchController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "coderushControllersApiSalesTypeController",
+"destination": "coderushControllersApiCurrencyController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "coderushControllersApiSalesOrderController",
+"destination": "coderushControllersApiBranchController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "coderushControllersApiSalesOrderController",
+"destination": "coderushControllersApiShipmentTypeController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "coderushControllersApiSalesOrderController",
+"destination": "coderushControllersApiInvoiceController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "coderushControllersApiSalesOrderController",
+"destination": "coderushControllersApiSalesTypeController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "coderushControllersApiSalesOrderController",
+"destination": "coderushControllersApiCustomerController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "coderushControllersApiSalesOrderController",
+"destination": "coderushControllersApiWarehouseController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "coderushControllersApiSalesOrderController",
+"destination": "coderushControllersApiCurrencyController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "coderushControllersApiSalesOrderController",
+"destination": "coderushControllersApiShipmentController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "coderushControllersApiBranchController",
+"destination": "coderushControllersApiCustomerController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "coderushControllersApiBranchController",
+"destination": "coderushControllersApiCurrencyController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "coderushControllersApiBranchController",
+"destination": "coderushControllersApiSalesTypeController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "coderushControllersApiBranchController",
+"destination": "coderushControllersApiProductTypeController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "coderushControllersApiBranchController",
+"destination": "coderushControllersApiUnitOfMeasureController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "coderushControllersApiBranchController",
+"destination": "coderushControllersApiCashBankController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "coderushControllersApiBranchController",
+"destination": "coderushControllersApiVendorController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "coderushControllersApiBranchController",
+"destination": "coderushControllersApiPurchaseTypeController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "coderushControllersApiBranchController",
+"destination": "coderushControllersApiPurchaseOrderController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "coderushControllersApiBranchController",
+"destination": "coderushControllersApiWarehouseController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "coderushControllersApiShipmentController",
+"destination": "coderushControllersApiSalesOrderController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "coderushControllersApiShipmentController",
+"destination": "coderushControllersApiInvoiceTypeController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "coderushControllersApiShipmentController",
+"destination": "coderushControllersApiPaymentReceiveController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "coderushControllersApiShipmentController",
+"destination": "coderushControllersApiWarehouseController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "coderushControllersApiShipmentController",
+"destination": "coderushControllersApiShipmentTypeController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "coderushControllersApiShipmentController",
+"destination": "coderushControllersApiInvoiceController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "coderushControllersApiShipmentTypeController",
+"destination": "coderushControllersApiWarehouseController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "coderushControllersApiShipmentTypeController",
+"destination": "coderushControllersApiSalesOrderController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "coderushControllersApiShipmentTypeController",
+"destination": "coderushControllersApiInvoiceController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "coderushControllersApiShipmentTypeController",
+"destination": "coderushControllersApiInvoiceTypeController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "coderushControllersApiWarehouseController",
+"destination": "coderushControllersApiShipmentTypeController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "coderushControllersApiWarehouseController",
+"destination": "coderushControllersApiSalesOrderController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "coderushControllersApiWarehouseController",
+"destination": "coderushControllersApiInvoiceController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "coderushControllersApiWarehouseController",
+"destination": "coderushControllersApiPurchaseOrderController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "coderushControllersApiWarehouseController",
+"destination": "coderushControllersApiBranchController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "coderushControllersApiWarehouseController",
+"destination": "coderushControllersApiShipmentController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "coderushControllersApiWarehouseController",
+"destination": "coderushControllersApiGoodsReceivedNoteController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "coderushControllersApiWarehouseController",
+"destination": "coderushControllersApiBillController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "coderushControllersApiInvoiceController",
+"destination": "coderushControllersApiShipmentController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "coderushControllersApiInvoiceController",
+"destination": "coderushControllersApiPaymentTypeController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "coderushControllersApiInvoiceController",
+"destination": "coderushControllersApiInvoiceTypeController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "coderushControllersApiInvoiceController",
+"destination": "coderushControllersApiPaymentReceiveController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "coderushControllersApiInvoiceController",
+"destination": "coderushControllersApiVendorTypeController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "coderushControllersApiPaymentReceiveController",
+"destination": "coderushControllersApiInvoiceController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "coderushControllersApiPaymentReceiveController",
+"destination": "coderushControllersApiPaymentTypeController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "coderushControllersApiPaymentTypeController",
+"destination": "coderushControllersApiInvoiceController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "coderushControllersApiPaymentTypeController",
+"destination": "coderushControllersApiBillTypeController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "coderushControllersApiPaymentTypeController",
+"destination": "coderushControllersApiBillController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "coderushControllersApiPaymentTypeController",
+"destination": "coderushControllersApiCashBankController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "coderushControllersApiPaymentTypeController",
+"destination": "coderushControllersApiProductController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "coderushControllersApiPaymentTypeController",
+"destination": "coderushControllersApiShipmentTypeController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "coderushControllersApiBillTypeController",
+"destination": "coderushControllersApiCustomerTypeController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "coderushControllersApiBillTypeController",
+"destination": "coderushControllersApiGoodsReceivedNoteController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "coderushControllersApiBillTypeController",
+"destination": "coderushControllersApiBillController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "coderushControllersApiBillTypeController",
+"destination": "coderushControllersApiUserController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "coderushControllersApiCurrencyController",
+"destination": "coderushControllersApiBranchController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "coderushControllersApiCurrencyController",
+"destination": "coderushControllersApiSalesTypeController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "coderushControllersApiCurrencyController",
+"destination": "coderushControllersApiCustomerController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "coderushControllersApiCurrencyController",
+"destination": "coderushControllersApiVendorTypeController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "coderushControllersApiCurrencyController",
+"destination": "coderushControllersApiUnitOfMeasureController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "coderushControllersApiCurrencyController",
+"destination": "coderushControllersApiWarehouseController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "coderushControllersApiCurrencyController",
+"destination": "coderushControllersApiSalesOrderController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "coderushControllersApiCurrencyController",
+"destination": "coderushControllersApiPurchaseOrderController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "coderushControllersApiCurrencyController",
+"destination": "coderushControllersApiVendorController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "coderushControllersApiCurrencyController",
+"destination": "coderushControllersApiGoodsReceivedNoteController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "coderushControllersApiCurrencyController",
+"destination": "coderushControllersApiProductController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "coderushControllersApiInvoiceTypeController",
+"destination": "coderushControllersApiShipmentController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "coderushControllersApiInvoiceTypeController",
+"destination": "coderushControllersApiUserController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "coderushControllersApiInvoiceTypeController",
+"destination": "coderushControllersApiRoleController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "coderushControllersApiInvoiceTypeController",
+"destination": "coderushControllersApiInvoiceController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "coderushControllersApiInvoiceTypeController",
+"destination": "coderushControllersApiBillTypeController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "coderushControllersApiVendorTypeController",
+"destination": "coderushControllersApiGoodsReceivedNoteController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "coderushControllersApiVendorTypeController",
+"destination": "coderushControllersApiVendorController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "coderushControllersApiVendorTypeController",
+"destination": "coderushControllersApiPurchaseTypeController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "coderushControllersApiGoodsReceivedNoteController",
+"destination": "coderushControllersApiWarehouseController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "coderushControllersApiGoodsReceivedNoteController",
+"destination": "coderushControllersApiBillTypeController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "coderushControllersApiGoodsReceivedNoteController",
+"destination": "coderushControllersApiPaymentVoucherController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "coderushControllersApiGoodsReceivedNoteController",
+"destination": "coderushControllersApiPurchaseOrderController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "coderushControllersApiGoodsReceivedNoteController",
+"destination": "coderushControllersApiBillController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "coderushControllersApiPurchaseOrderController",
+"destination": "coderushControllersApiWarehouseController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "coderushControllersApiPurchaseOrderController",
+"destination": "coderushControllersApiBillController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "coderushControllersApiPurchaseOrderController",
+"destination": "coderushControllersApiBranchController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "coderushControllersApiPurchaseOrderController",
+"destination": "coderushControllersApiPurchaseTypeController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "coderushControllersApiPurchaseOrderController",
+"destination": "coderushControllersApiVendorController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "coderushControllersApiPurchaseOrderController",
+"destination": "coderushControllersApiGoodsReceivedNoteController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "coderushControllersApiBillController",
+"destination": "coderushControllersApiBillTypeController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "coderushControllersApiBillController",
+"destination": "coderushControllersApiCashBankController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "coderushControllersApiBillController",
+"destination": "coderushControllersApiPaymentTypeController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "coderushControllersApiBillController",
+"destination": "coderushControllersApiGoodsReceivedNoteController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "coderushControllersApiBillController",
+"destination": "coderushControllersApiPaymentVoucherController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "coderushControllersApiPaymentVoucherController",
+"destination": "coderushControllersApiCashBankController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "coderushControllersApiPaymentVoucherController",
+"destination": "coderushControllersApiBillController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "coderushControllersApiPaymentVoucherController",
+"destination": "coderushControllersApiPaymentTypeController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "coderushControllersApiCashBankController",
+"destination": "coderushControllersApiBillController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "coderushControllersApiCashBankController",
+"destination": "coderushControllersApiPaymentTypeController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "coderushControllersApiProductController",
+"destination": "coderushControllersApiCurrencyController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "coderushControllersApiProductController",
+"destination": "coderushControllersApiUnitOfMeasureController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "coderushControllersApiProductController",
+"destination": "coderushControllersApiBranchController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "coderushControllersApiUnitOfMeasureController",
+"destination": "coderushControllersApiCurrencyController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "coderushControllersApiUnitOfMeasureController",
+"destination": "coderushControllersApiBranchController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "coderushControllersApiUnitOfMeasureController",
+"destination": "coderushControllersApiProductTypeController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "coderushControllersApiUnitOfMeasureController",
+"destination": "coderushControllersApiProductController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "coderushControllersApiProductTypeController",
+"destination": "coderushControllersApiUnitOfMeasureController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "coderushControllersApiProductTypeController",
+"destination": "coderushControllersApiProductController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "coderushControllersApiProductTypeController",
+"destination": "coderushControllersApiCurrencyController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "coderushControllersApiRoleController",
+"destination": "coderushControllersApiCustomerTypeController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "coderushControllersApiRoleController",
+"destination": "coderushControllersApiUserController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "coderushControllersApiVendorController",
+"destination": "coderushControllersApiVendorTypeController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "coderushControllersApiVendorController",
+"destination": "coderushControllersApiBranchController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "coderushControllersApiVendorController",
+"destination": "coderushControllersApiPurchaseTypeController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "coderushControllersApiVendorController",
+"destination": "coderushControllersApiCurrencyController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "coderushControllersApiPurchaseTypeController",
+"destination": "coderushControllersApiPurchaseOrderController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "coderushControllersApiPurchaseTypeController",
+"destination": "coderushControllersApiCurrencyController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "coderushControllersApiPurchaseTypeController",
+"destination": "coderushControllersApiVendorController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "coderushControllersApiPurchaseTypeController",
+"destination": "coderushControllersApiBranchController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "coderushControllersApiPurchaseTypeController",
+"destination": "coderushControllersApiGoodsReceivedNoteController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "coderushControllersApiUserController",
+"destination": "coderushControllersApiRoleController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "coderushControllersApiUploadProfilePictureController",
+"destination": "coderushControllersApiUserController",
+"type": "AGGREGATION"
+}
+]
+}
+{
+"name": "Code Rush",
+"entities": [
+{
+"name": "coderushControllersApiUserController"
+,
+"nanoentities": [
+"GetByApplicationUserId()"
+,
+"GetUser()"
+,
+"Insert()"
+,
+"Update()"
+,
+"Remove()"
+,
+"ChangePassword()"
+,
+"ChangeRole()"
+]
+}
+,
+{
+"name": "coderushControllersApiCustomerTypeController"
+,
+"nanoentities": [
+"GetCustomerType()"
+,
+"Insert()"
+,
+"Update()"
+,
+"Remove()"
+]
+}
+,
+{
+"name": "coderushControllersApiCustomerController"
+,
+"nanoentities": [
+"GetCustomer()"
+,
+"Insert()"
+,
+"Update()"
+,
+"Remove()"
+]
+}
+,
+{
+"name": "coderushControllersApiSalesTypeController"
+,
+"nanoentities": [
+"GetSalesType()"
+,
+"Insert()"
+,
+"Update()"
+,
+"Remove()"
+]
+}
+,
+{
+"name": "coderushControllersApiSalesOrderController"
+,
+"nanoentities": [
+"GetSalesOrder()"
+,
+"GetNotShippedYet()"
+,
+"Insert()"
+,
+"Update()"
+,
+"Remove()"
+]
+}
+,
+{
+"name": "coderushControllersApiBranchController"
+,
+"nanoentities": [
+"GetBranch()"
+,
+"Insert()"
+,
+"Update()"
+,
+"Remove()"
+]
+}
+,
+{
+"name": "coderushControllersApiCurrencyController"
+,
+"nanoentities": [
+"GetCurrency()"
+,
+"GetByBranchId()"
+,
+"Insert()"
+,
+"Remove()"
+]
+}
+,
+{
+"name": "coderushControllersApiShipmentController"
+,
+"nanoentities": [
+"GetShipment()"
+,
+"Insert()"
+,
+"Update()"
+,
+"Remove()"
+,
+"GetNotInvoicedYet()"
+]
+}
+,
+{
+"name": "coderushControllersApiShipmentTypeController"
+,
+"nanoentities": [
+"GetShipmentType()"
+,
+"Insert()"
+,
+"Update()"
+,
+"Remove()"
+]
+}
+,
+{
+"name": "coderushControllersApiWarehouseController"
+,
+"nanoentities": [
+"GetWarehouse()"
+,
+"Insert()"
+,
+"Update()"
+,
+"Remove()"
+]
+}
+,
+{
+"name": "coderushControllersApiInvoiceController"
+,
+"nanoentities": [
+"GetInvoice()"
+,
+"GetNotPaidYet()"
+,
+"Insert()"
+,
+"Update()"
+,
+"Remove()"
+]
+}
+,
+{
+"name": "coderushControllersApiInvoiceTypeController"
+,
+"nanoentities": [
+"GetInvoiceType()"
+,
+"Insert()"
+,
+"Update()"
+,
+"Remove()"
+]
+}
+,
+{
+"name": "coderushControllersApiPaymentReceiveController"
+,
+"nanoentities": [
+"GetPaymentReceive()"
+,
+"Insert()"
+,
+"Update()"
+]
+}
+,
+{
+"name": "coderushControllersApiPaymentTypeController"
+,
+"nanoentities": [
+"GetPaymentType()"
+,
+"Insert()"
+,
+"Update()"
+,
+"Remove()"
+]
+}
+,
+{
+"name": "coderushControllersApiBillTypeController"
+,
+"nanoentities": [
+"GetBillType()"
+,
+"Insert()"
+,
+"Update()"
+,
+"Remove()"
+]
+}
+,
+{
+"name": "coderushControllersApiVendorTypeController"
+,
+"nanoentities": [
+"GetVendorType()"
+,
+"Insert()"
+,
+"Update()"
+,
+"Remove()"
+]
+}
+,
+{
+"name": "coderushControllersApiGoodsReceivedNoteController"
+,
+"nanoentities": [
+"GetGoodsReceivedNote()"
+,
+"Insert()"
+,
+"Update()"
+,
+"Remove()"
+,
+"GetNotBilledYet()"
+]
+}
+,
+{
+"name": "coderushControllersApiPurchaseOrderController"
+,
+"nanoentities": [
+"GetPurchaseOrder()"
+,
+"Insert()"
+,
+"Update()"
+,
+"Remove()"
+,
+"GetNotReceivedYet()"
+]
+}
+,
+{
+"name": "coderushControllersApiBillController"
+,
+"nanoentities": [
+"GetBill()"
+,
+"Insert()"
+,
+"Update()"
+,
+"Remove()"
+,
+"GetNotPaidYet()"
+]
+}
+,
+{
+"name": "coderushControllersApiPaymentVoucherController"
+,
+"nanoentities": [
+"GetPaymentVoucher()"
+,
+"Insert()"
+,
+"Update()"
+,
+"Remove()"
+]
+}
+,
+{
+"name": "coderushControllersApiCashBankController"
+,
+"nanoentities": [
+"GetCashBank()"
+,
+"Insert()"
+,
+"Update()"
+,
+"Remove()"
+]
+}
+,
+{
+"name": "coderushControllersApiProductController"
+,
+"nanoentities": [
+"GetProduct()"
+,
+"Insert()"
+,
+"Update()"
+,
+"Remove()"
+]
+}
+,
+{
+"name": "coderushControllersApiUnitOfMeasureController"
+,
+"nanoentities": [
+"GetUnitOfMeasure()"
+,
+"Insert()"
+,
+"Remove()"
+]
+}
+,
+{
+"name": "coderushControllersApiProductTypeController"
+,
+"nanoentities": [
+"GetProductType()"
+,
+"Insert()"
+,
+"Remove()"
+]
+}
+,
+{
+"name": "coderushControllersApiRoleController"
+,
+"nanoentities": [
+"GetRole()"
+,
+"GetRoleByApplicationUserId()"
+]
+}
+,
+{
+"name": "coderushControllersApiVendorController"
+,
+"nanoentities": [
+"GetVendor()"
+,
+"Insert()"
+,
+"Remove()"
+]
+}
+,
+{
+"name": "coderushControllersApiPurchaseTypeController"
+,
+"nanoentities": [
+"GetPurchaseType()"
+,
+"Insert()"
+,
+"Update()"
+,
+"Remove()"
+]
+}
+,
+{
+"name": "coderushControllersApiUploadProfilePictureController"
+,
+"nanoentities": [
+"PostUploadProfilePicture()"
+]
+}
+]
+,
+"relations": [
+{
+"origin": "coderushControllersApiCustomerTypeController",
+"destination": "coderushControllersApiCustomerController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "coderushControllersApiCustomerTypeController",
+"destination": "coderushControllersApiSalesTypeController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "coderushControllersApiCustomerController",
+"destination": "coderushControllersApiCustomerTypeController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "coderushControllersApiCustomerController",
+"destination": "coderushControllersApiBranchController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "coderushControllersApiCustomerController",
+"destination": "coderushControllersApiSalesTypeController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "coderushControllersApiCustomerController",
+"destination": "coderushControllersApiShipmentController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "coderushControllersApiCustomerController",
+"destination": "coderushControllersApiCurrencyController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "coderushControllersApiCustomerController",
+"destination": "coderushControllersApiSalesOrderController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "coderushControllersApiSalesTypeController",
+"destination": "coderushControllersApiSalesOrderController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "coderushControllersApiSalesTypeController",
+"destination": "coderushControllersApiCustomerController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "coderushControllersApiSalesTypeController",
+"destination": "coderushControllersApiBranchController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "coderushControllersApiSalesTypeController",
+"destination": "coderushControllersApiCurrencyController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "coderushControllersApiSalesOrderController",
+"destination": "coderushControllersApiBranchController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "coderushControllersApiSalesOrderController",
+"destination": "coderushControllersApiShipmentTypeController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "coderushControllersApiSalesOrderController",
+"destination": "coderushControllersApiInvoiceController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "coderushControllersApiSalesOrderController",
+"destination": "coderushControllersApiSalesTypeController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "coderushControllersApiSalesOrderController",
+"destination": "coderushControllersApiCustomerController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "coderushControllersApiSalesOrderController",
+"destination": "coderushControllersApiWarehouseController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "coderushControllersApiSalesOrderController",
+"destination": "coderushControllersApiCurrencyController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "coderushControllersApiSalesOrderController",
+"destination": "coderushControllersApiShipmentController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "coderushControllersApiBranchController",
+"destination": "coderushControllersApiCustomerController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "coderushControllersApiBranchController",
+"destination": "coderushControllersApiCurrencyController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "coderushControllersApiBranchController",
+"destination": "coderushControllersApiSalesTypeController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "coderushControllersApiBranchController",
+"destination": "coderushControllersApiProductTypeController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "coderushControllersApiBranchController",
+"destination": "coderushControllersApiUnitOfMeasureController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "coderushControllersApiBranchController",
+"destination": "coderushControllersApiCashBankController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "coderushControllersApiBranchController",
+"destination": "coderushControllersApiVendorController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "coderushControllersApiBranchController",
+"destination": "coderushControllersApiPurchaseTypeController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "coderushControllersApiBranchController",
+"destination": "coderushControllersApiPurchaseOrderController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "coderushControllersApiBranchController",
+"destination": "coderushControllersApiWarehouseController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "coderushControllersApiShipmentController",
+"destination": "coderushControllersApiSalesOrderController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "coderushControllersApiShipmentController",
+"destination": "coderushControllersApiInvoiceTypeController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "coderushControllersApiShipmentController",
+"destination": "coderushControllersApiPaymentReceiveController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "coderushControllersApiShipmentController",
+"destination": "coderushControllersApiWarehouseController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "coderushControllersApiShipmentController",
+"destination": "coderushControllersApiShipmentTypeController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "coderushControllersApiShipmentController",
+"destination": "coderushControllersApiInvoiceController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "coderushControllersApiShipmentTypeController",
+"destination": "coderushControllersApiWarehouseController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "coderushControllersApiShipmentTypeController",
+"destination": "coderushControllersApiSalesOrderController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "coderushControllersApiShipmentTypeController",
+"destination": "coderushControllersApiInvoiceController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "coderushControllersApiShipmentTypeController",
+"destination": "coderushControllersApiInvoiceTypeController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "coderushControllersApiWarehouseController",
+"destination": "coderushControllersApiShipmentTypeController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "coderushControllersApiWarehouseController",
+"destination": "coderushControllersApiSalesOrderController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "coderushControllersApiWarehouseController",
+"destination": "coderushControllersApiInvoiceController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "coderushControllersApiWarehouseController",
+"destination": "coderushControllersApiPurchaseOrderController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "coderushControllersApiWarehouseController",
+"destination": "coderushControllersApiBranchController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "coderushControllersApiWarehouseController",
+"destination": "coderushControllersApiShipmentController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "coderushControllersApiWarehouseController",
+"destination": "coderushControllersApiGoodsReceivedNoteController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "coderushControllersApiWarehouseController",
+"destination": "coderushControllersApiBillController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "coderushControllersApiInvoiceController",
+"destination": "coderushControllersApiShipmentController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "coderushControllersApiInvoiceController",
+"destination": "coderushControllersApiPaymentTypeController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "coderushControllersApiInvoiceController",
+"destination": "coderushControllersApiInvoiceTypeController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "coderushControllersApiInvoiceController",
+"destination": "coderushControllersApiPaymentReceiveController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "coderushControllersApiInvoiceController",
+"destination": "coderushControllersApiVendorTypeController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "coderushControllersApiPaymentReceiveController",
+"destination": "coderushControllersApiInvoiceController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "coderushControllersApiPaymentReceiveController",
+"destination": "coderushControllersApiPaymentTypeController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "coderushControllersApiPaymentTypeController",
+"destination": "coderushControllersApiInvoiceController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "coderushControllersApiPaymentTypeController",
+"destination": "coderushControllersApiBillTypeController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "coderushControllersApiPaymentTypeController",
+"destination": "coderushControllersApiBillController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "coderushControllersApiPaymentTypeController",
+"destination": "coderushControllersApiCashBankController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "coderushControllersApiPaymentTypeController",
+"destination": "coderushControllersApiProductController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "coderushControllersApiPaymentTypeController",
+"destination": "coderushControllersApiShipmentTypeController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "coderushControllersApiBillTypeController",
+"destination": "coderushControllersApiCustomerTypeController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "coderushControllersApiBillTypeController",
+"destination": "coderushControllersApiGoodsReceivedNoteController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "coderushControllersApiBillTypeController",
+"destination": "coderushControllersApiBillController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "coderushControllersApiBillTypeController",
+"destination": "coderushControllersApiUserController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "coderushControllersApiCurrencyController",
+"destination": "coderushControllersApiBranchController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "coderushControllersApiCurrencyController",
+"destination": "coderushControllersApiSalesTypeController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "coderushControllersApiCurrencyController",
+"destination": "coderushControllersApiCustomerController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "coderushControllersApiCurrencyController",
+"destination": "coderushControllersApiVendorTypeController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "coderushControllersApiCurrencyController",
+"destination": "coderushControllersApiUnitOfMeasureController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "coderushControllersApiCurrencyController",
+"destination": "coderushControllersApiWarehouseController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "coderushControllersApiCurrencyController",
+"destination": "coderushControllersApiSalesOrderController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "coderushControllersApiCurrencyController",
+"destination": "coderushControllersApiPurchaseOrderController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "coderushControllersApiCurrencyController",
+"destination": "coderushControllersApiVendorController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "coderushControllersApiCurrencyController",
+"destination": "coderushControllersApiGoodsReceivedNoteController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "coderushControllersApiCurrencyController",
+"destination": "coderushControllersApiProductController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "coderushControllersApiInvoiceTypeController",
+"destination": "coderushControllersApiShipmentController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "coderushControllersApiInvoiceTypeController",
+"destination": "coderushControllersApiUserController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "coderushControllersApiInvoiceTypeController",
+"destination": "coderushControllersApiRoleController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "coderushControllersApiInvoiceTypeController",
+"destination": "coderushControllersApiInvoiceController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "coderushControllersApiInvoiceTypeController",
+"destination": "coderushControllersApiBillTypeController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "coderushControllersApiVendorTypeController",
+"destination": "coderushControllersApiGoodsReceivedNoteController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "coderushControllersApiVendorTypeController",
+"destination": "coderushControllersApiVendorController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "coderushControllersApiVendorTypeController",
+"destination": "coderushControllersApiPurchaseTypeController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "coderushControllersApiGoodsReceivedNoteController",
+"destination": "coderushControllersApiWarehouseController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "coderushControllersApiGoodsReceivedNoteController",
+"destination": "coderushControllersApiBillTypeController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "coderushControllersApiGoodsReceivedNoteController",
+"destination": "coderushControllersApiPaymentVoucherController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "coderushControllersApiGoodsReceivedNoteController",
+"destination": "coderushControllersApiPurchaseOrderController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "coderushControllersApiGoodsReceivedNoteController",
+"destination": "coderushControllersApiBillController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "coderushControllersApiPurchaseOrderController",
+"destination": "coderushControllersApiWarehouseController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "coderushControllersApiPurchaseOrderController",
+"destination": "coderushControllersApiBillController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "coderushControllersApiPurchaseOrderController",
+"destination": "coderushControllersApiBranchController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "coderushControllersApiPurchaseOrderController",
+"destination": "coderushControllersApiPurchaseTypeController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "coderushControllersApiPurchaseOrderController",
+"destination": "coderushControllersApiVendorController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "coderushControllersApiPurchaseOrderController",
+"destination": "coderushControllersApiGoodsReceivedNoteController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "coderushControllersApiBillController",
+"destination": "coderushControllersApiBillTypeController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "coderushControllersApiBillController",
+"destination": "coderushControllersApiCashBankController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "coderushControllersApiBillController",
+"destination": "coderushControllersApiPaymentTypeController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "coderushControllersApiBillController",
+"destination": "coderushControllersApiGoodsReceivedNoteController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "coderushControllersApiBillController",
+"destination": "coderushControllersApiPaymentVoucherController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "coderushControllersApiPaymentVoucherController",
+"destination": "coderushControllersApiCashBankController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "coderushControllersApiPaymentVoucherController",
+"destination": "coderushControllersApiBillController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "coderushControllersApiPaymentVoucherController",
+"destination": "coderushControllersApiPaymentTypeController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "coderushControllersApiCashBankController",
+"destination": "coderushControllersApiBillController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "coderushControllersApiCashBankController",
+"destination": "coderushControllersApiPaymentTypeController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "coderushControllersApiProductController",
+"destination": "coderushControllersApiCurrencyController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "coderushControllersApiProductController",
+"destination": "coderushControllersApiUnitOfMeasureController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "coderushControllersApiProductController",
+"destination": "coderushControllersApiBranchController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "coderushControllersApiUnitOfMeasureController",
+"destination": "coderushControllersApiCurrencyController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "coderushControllersApiUnitOfMeasureController",
+"destination": "coderushControllersApiBranchController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "coderushControllersApiUnitOfMeasureController",
+"destination": "coderushControllersApiProductTypeController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "coderushControllersApiUnitOfMeasureController",
+"destination": "coderushControllersApiProductController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "coderushControllersApiProductTypeController",
+"destination": "coderushControllersApiUnitOfMeasureController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "coderushControllersApiProductTypeController",
+"destination": "coderushControllersApiProductController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "coderushControllersApiProductTypeController",
+"destination": "coderushControllersApiCurrencyController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "coderushControllersApiRoleController",
+"destination": "coderushControllersApiCustomerTypeController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "coderushControllersApiRoleController",
+"destination": "coderushControllersApiUserController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "coderushControllersApiVendorController",
+"destination": "coderushControllersApiVendorTypeController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "coderushControllersApiVendorController",
+"destination": "coderushControllersApiBranchController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "coderushControllersApiVendorController",
+"destination": "coderushControllersApiPurchaseTypeController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "coderushControllersApiVendorController",
+"destination": "coderushControllersApiCurrencyController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "coderushControllersApiPurchaseTypeController",
+"destination": "coderushControllersApiPurchaseOrderController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "coderushControllersApiPurchaseTypeController",
+"destination": "coderushControllersApiCurrencyController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "coderushControllersApiPurchaseTypeController",
+"destination": "coderushControllersApiVendorController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "coderushControllersApiPurchaseTypeController",
+"destination": "coderushControllersApiBranchController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "coderushControllersApiPurchaseTypeController",
+"destination": "coderushControllersApiGoodsReceivedNoteController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "coderushControllersApiUserController",
+"destination": "coderushControllersApiRoleController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "coderushControllersApiUploadProfilePictureController",
+"destination": "coderushControllersApiUserController",
+"type": "AGGREGATION"
+}
+]
+}

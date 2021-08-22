@@ -1,0 +1,170 @@
+Microservice 1
+MicrosofteShopWebWeb -> MicrosofteShopWebApplicationCoreServices [label="Rule 1"]
+MicrosofteShopWebWeb -> MicrosoftAspNetCoreMvc [label="Rule 1"]
+MicrosofteShopWebWeb -> MicrosofteShopWebInfrastructureLogging [label="Rule 2"]
+MicrosofteShopWebWeb -> MicrosofteShopWebApplicationCoreSpecifications [label="Rule 3"]
+MicrosofteShopWebWeb -> MicrosofteShopWeb [label="Rule 2"]
+MicrosofteShopWebWeb -> MicrosofteShopWebApplicationCore [label="Rule 7"]
+Microservice 2
+MicrosofteShopWebWebServices -> MicrosofteShopWebApplicationCoreServices [label="Rule 3"]
+MicrosofteShopWebWebServices -> MicrosofteShopWebApplicationCore [label="Rule 7"]
+MicrosofteShopWebWebServices -> MicrosofteShopWebApplicationCoreSpecifications [label="Rule 7"]
+MicrosofteShopWebApplicationCoreServices -> MicrosofteShopWebInfrastructureLogging [label="Rule 2"]
+MicrosofteShopWebApplicationCoreServices -> ArdalisGuardClasses [label="Rule 4"]
+MicrosofteShopWebApplicationCoreServices -> MicrosofteShopWeb [label="Rule 2"]
+Microservice 3
+MicrosofteShopWebInfrastructureData -> MicrosofteShopWebApplicationCore [label="Rule 1"]
+MicrosofteShopWebInfrastructureData -> MicrosofteShopWebApplicationCoreSpecifications [label="Rule 3"]
+
+
+
+Microservice 1
+MicrosofteShopWebWeb -> MicrosofteShopWebApplicationCoreServices [label="Rule 1"]
+MicrosofteShopWebApplicationCoreServices -> ArdalisGuardClauses [label="Rule 4"]
+MicrosofteShopWebWeb -> MicrosofteShopWebApplicationCoreSpecifications [label="Rule 3"]
+MicrosofteShopWebWeb -> MicrosoftAspNetCoreMvc [label="Rule 4"]
+MicrosofteShopWebWeb -> MicrosofteShopWeb [label="Rule 2"]
+MicrosofteShopWebWeb -> MicrosofteShopWebInfrastructureLogging [label="Rule 2"]
+MicrosofteShopWebWeb -> MicrosofteShopWebApplicationCore [label="Rule 7"]
+Microservice 2
+MicrosofteShopWebWebServices -> MicrosofteShopWebApplicationCoreServices [label="Rule 3"]
+MicrosofteShopWebApplicationCoreServices -> ArdalisGuardClauses [label="Rule 4"]
+MicrosofteShopWebWebServices -> MicrosofteShopWebApplicationCore [label="Rule 7"]
+MicrosofteShopWebWebServices -> MicrosofteShopWebApplicationCoreSpecifications [label="Rule 7"]
+Microservice 3
+MicrosofteShopWebInfrastructureData -> MicrosofteShopWebApplicationCore [label="Rule 3"]
+MicrosofteShopWebInfrastructureData -> MicrosofteShopWebApplicationCoreSpecifications [label="Rule 3"]
+
+
+Microservice 1
+MicrosofteShopWebWeb -> MicrosofteShopWebApplicationCoreServices [label="Rule 1"]
+MicrosofteShopWebApplicationCoreServices -> ArdalisGuardClauses [label="Rule 4"]
+MicrosofteShopWebWeb -> MicrosofteShopWebApplicationCoreSpecifications [label="Rule 3"]
+MicrosofteShopWebWeb -> MicrosoftAspNetCoreMvc [label="Rule 4"]
+MicrosofteShopWebWeb -> MicrosofteShopWeb [label="Rule 2"]
+MicrosofteShopWebWeb -> MicrosofteShopWebInfrastructureLogging [label="Rule 2"]
+MicrosofteShopWebWeb -> MicrosofteShopWebApplicationCore [label="Rule 7"]
+Microservice 2
+MicrosofteShopWebWebServices -> MicrosofteShopWebApplicationCoreServices [label="Rule 3"]
+MicrosofteShopWebApplicationCoreServices -> ArdalisGuardClauses [label="Rule 4"]
+MicrosofteShopWebWebServices -> MicrosofteShopWebApplicationCore [label="Rule 7"]
+MicrosofteShopWebWebServices -> MicrosofteShopWebApplicationCoreSpecifications [label="Rule 7"]
+Microservice 3
+MicrosofteShopWebInfrastructureData -> MicrosofteShopWebApplicationCore [label="Rule 3"]
+MicrosofteShopWebInfrastructureData -> MicrosofteShopWebApplicationCoreSpecifications [label="Rule 3"]
+
+Microservice 1
+MicrosofteShopWebWeb -> MicrosofteShopWebApplicationCoreServices [label="Rule 1"]
+MicrosofteShopWebApplicationCoreServices -> ArdalisGuardClauses [label="Rule 4"]
+MicrosofteShopWebWeb -> MicrosofteShopWebApplicationCoreSpecifications [label="Rule 3"]
+MicrosofteShopWebWeb -> MicrosoftAspNetCoreMvc [label="Rule 4"]
+MicrosofteShopWebWeb -> MicrosofteShopWeb [label="Rule 2"]
+MicrosofteShopWebWeb -> MicrosofteShopWebInfrastructureLogging [label="Rule 2"]
+Microservice 2
+MicrosofteShopWebWebServices -> MicrosofteShopWebApplicationCoreServices [label="Rule 3"]
+MicrosofteShopWebApplicationCoreServices -> ArdalisGuardClauses [label="Rule 4"]
+MicrosofteShopWebWebServices -> MicrosofteShopWebApplicationCoreSpecifications [label="Rule 7"]
+Microservice 3
+MicrosofteShopWebInfrastructureData -> MicrosofteShopWebApplicationCoreSpecifications [label="Rule 3"]
+MicrosofteShopWebApplicationCoreServices -> MicrosofteShopWebInfrastructureData [label="Rule 3"]
+Microservice 4
+MicrosofteShopWebApplicationCoreServices -> MicrosofteShopWebApplicationCore [label="Rule 7"]
+
+
+Microservice 1
+MicrosofteShopWebWebServicesCatalogViewModelService -> MicrosofteShopWebApplicationCoreServicesUriComposer [label="Rule 2"]
+MicrosofteShopWebApplicationCoreServicesUriComposer -> MicrosofteShopWebCatalogSettings [label="Rule 1"]
+Microservice 2
+MicrosofteShopWebWebControllersManageController -> MicrosofteShopWebWebServicesEmailSenderExtensions [label="Rule 4"]
+MicrosofteShopWebWebServicesEmailSenderExtensions -> MicrosofteShopWebWebControllersManageController [label="Rule 3"]
+Microservice 3
+
+
+Microservice 1
+MicrosofteShopWebWebServicesCachedCatalogViewModelService -> MicrosofteShopWebWebServicesCatalogViewModelService [label="Rule 3"]
+MicrosofteShopWebWebServicesCatalogViewModelService -> MicrosofteShopWebApplicationCoreServicesUriComposer [label="Rule 2"]
+MicrosofteShopWebApplicationCoreServicesUriComposer -> MicrosofteShopWebCatalogSettings [label="Rule 1"]
+Microservice 2
+MicrosofteShopWebWebControllersManageController -> MicrosofteShopWebWebServicesEmailSenderExtensions [label="Rule 4"]
+
+
+Microservice 1
+MicrosofteShopWebWeb -> MicrosofteShopWebWebServicesBasketViewModelService [label="Rule 3"]
+MicrosofteShopWebWeb -> MicrosofteShopWebApplicationCoreServicesBasketService [label="Rule 4"]
+MicrosofteShopWebWeb -> MicrosofteShopWebApplicationCoreServicesOrderService [label="Rule 4"]
+MicrosofteShopWebWebServicesEmailSenderExtensions -> MicrosofteShopWebWeb [label="Rule 3"]
+Microservice 2
+Microservice 3
+MicrosofteShopWebWebServicesCatalogViewModelService -> MicrosofteShopWebApplicationCoreServicesUriComposer [label="Rule 2"]
+MicrosofteShopWebApplicationCoreServicesUriComposer -> MicrosofteShopWebCatalogSettings [label="Rule 1"]
+
+
+Microservice 1
+MicrosofteShopWebWeb -> MicrosofteShopWebWebServicesCachedCatalogViewModelService [label="Rule 3"]
+Microservice 2
+MicrosofteShopWebWebServicesCatalogViewModelService -> MicrosofteShopWebApplicationCoreServicesUriComposer [label="Rule 2"]
+MicrosofteShopWebApplicationCoreServicesUriComposer -> MicrosofteShopWebCatalogSettings [label="Rule 1"]
+
+
+Microservice 1
+MicrosofteShopWebWeb -> MicrosofteShopWebApplicationCoreServicesBasketService [label="Rule 4"]
+MicrosofteShopWebWeb -> MicrosofteShopWebApplicationCoreServicesOrderService [label="Rule 4"]
+Microservice 2
+Microservice 3
+MicrosofteShopWebWebServicesCatalogViewModelService -> MicrosofteShopWebApplicationCoreServicesUriComposer [label="Rule 2"]
+MicrosofteShopWebApplicationCoreServicesUriComposer -> MicrosofteShopWebCatalogSettings [label="Rule 1"]
+Microservice 4
+MicrosofteShopWebWebServicesBasketViewModelService -> MicrosofteShopWebApplicationCoreServicesUriComposer [label="Rule 2"]
+MicrosofteShopWebApplicationCoreServicesUriComposer -> MicrosofteShopWebCatalogSettings [label="Rule 1"]
+Microservice 5
+MicrosofteShopWebWebControllersManageController -> MicrosofteShopWebWebServicesEmailSenderExtensions [label="Rule 4"]
+MicrosofteShopWebWebServicesEmailSenderExtensions -> MicrosofteShopWebWebControllersOrderController [label="Rule 4"]
+
+
+
+Microservice 1
+Microservice 2
+MicrosofteShopWebWebControllersManageController -> MicrosofteShopWebWebServicesEmailSenderExtensions [label="Rule 4"]
+MicrosofteShopWebWebServicesEmailSenderExtensions -> MicrosofteShopWebWebControllersManageController [label="Rule 3"]
+Microservice 3
+Microservice 4
+MicrosofteShopWebApplicationCoreServicesUriComposer -> MicrosofteShopWebCatalogSettings [label="Rule 1"]
+coderushControllersApiCurrencyController -> coderushControllersVendorTypeController [label="Rule 2"]
+coderushControllersApiCurrencyController -> coderushControllersUnitOfMeasureController [label="Rule 2"]
+coderushControllersApiCurrencyController -> coderushControllersCurrencyController [label="Rule 2"]
+coderushControllersApiBranchController -> coderushControllersProductTypeController [label="Rule 2"]
+coderushControllersApiBranchController -> coderushControllersUnitOfMeasureController [label="Rule 2"]
+coderushControllersApiSalesOrderController -> coderushControllersSalesTypeController [label="Rule 2"]
+coderushControllersApiSalesOrderController -> coderushControllersSalesOrderController [label="Rule 2"]
+coderushControllersApiSalesOrderController -> coderushControllersInvoiceController [label="Rule 2"]
+coderushControllersApiWarehouseController -> coderushControllersInvoiceController [label="Rule 2"]
+coderushControllersApiWarehouseController -> coderushControllersBillController [label="Rule 2"]
+coderushControllersApiInvoiceController -> coderushControllersApiPaymentReceiveController [label="Rule 2"]
+coderushControllersApiInvoiceController -> coderushControllersVendorTypeController [label="Rule 2"]
+coderushControllersApiPaymentTypeController -> coderushControllersBillTypeController [label="Rule 2"]
+coderushControllersApiPaymentTypeController -> coderushControllersProductController [label="Rule 2"]
+coderushControllersApiShipmentController -> coderushControllersApiSalesOrderController [label="Rule 7"]
+coderushControllersApiCurrencyController -> coderushControllersApiSalesOrderController [label="Rule 5"]
+coderushControllersApiCustomerController -> coderushControllersApiSalesOrderController [label="Rule 5"]
+coderushControllersApiSalesTypeController -> coderushControllersApiSalesOrderController [label="Rule 7"]
+coderushControllersApiSalesOrderController -> coderushControllersApiBranchController [label="Rule 5"]
+coderushControllersApiSalesOrderController -> coderushControllersApiShipmentTypeController [label="Rule 7"]
+coderushControllersApiSalesOrderController -> coderushControllersApiInvoiceController [label="Rule 5"]
+coderushControllersApiSalesOrderController -> coderushControllersApiSalesTypeController [label="Rule 7"]
+coderushControllersApiSalesOrderController -> coderushControllersApiCustomerController [label="Rule 5"]
+coderushControllersApiSalesOrderController -> coderushControllersApiWarehouseController [label="Rule 5"]
+coderushControllersApiSalesOrderController -> coderushControllersApiCurrencyController [label="Rule 5"]
+coderushControllersApiSalesOrderController -> coderushControllersApiShipmentController [label="Rule 7"]
+coderushControllersApiShipmentTypeController -> coderushControllersApiSalesOrderController [label="Rule 7"]
+coderushControllersApiWarehouseController -> coderushControllersApiSalesOrderController [label="Rule 5"]
+coderushControllersApiBillController -> coderushControllersApiBillTypeController [label="Rule 7"]
+coderushControllersApiBillController -> coderushControllersApiCashBankController [label="Rule 7"]
+coderushControllersApiBillController -> coderushControllersApiPaymentTypeController [label="Rule 7"]
+coderushControllersApiBillController -> coderushControllersApiGoodsReceivedNoteController [label="Rule 5"]
+coderushControllersApiGoodsReceivedNoteController -> coderushControllersApiBillController [label="Rule 5"]
+coderushControllersApiWarehouseController -> coderushControllersApiBillController [label="Rule 5"]
+coderushControllersApiPaymentTypeController -> coderushControllersApiBillController [label="Rule 7"]
+coderushControllersApiBillTypeController -> coderushControllersApiBillController [label="Rule 7"]
+coderushControllersApiPurchaseOrderController -> coderushControllersApiBillController [label="Rule 7"]
+coderushControllersApiPaymentVoucherController -> coderushControllersApiBillController [label="Rule 7"]
+coderushControllersApiCashBankController -> coderushControllersApiBillController [label="Rule 7"]

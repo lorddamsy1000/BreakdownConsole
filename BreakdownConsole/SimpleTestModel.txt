@@ -1,0 +1,2558 @@
+{
+"name": "Simpl Commerce",
+"entities": [
+{
+"name": "SimplCommerceModuleCore"
+,
+"nanoentities": [
+"Extensions"
+,
+"Models"
+,
+"ModuleInitializer"
+,
+"Data"
+,
+"Services"
+,
+"Areas"
+,
+"Events"
+,
+"SettingDefinitionProvider"
+]
+}
+,
+{
+"name": "SimplCommerceInfrastructure"
+,
+"nanoentities": [
+"Models"
+,
+"GlobalConfiguration"
+,
+"Modules"
+,
+"Localization"
+,
+"Web"
+,
+"Result"
+,
+"Extensions"
+,
+"Helpers"
+]
+}
+,
+{
+"name": "SimplCommerceWebHost"
+,
+"nanoentities": [
+"Startup"
+,
+"Extensions"
+,
+"IdentityServer"
+]
+}
+,
+{
+"name": "SimplCommerceModuleLocalization"
+,
+"nanoentities": [
+"Extensions"
+,
+"ModuleInitializer"
+,
+"Data"
+,
+"EfRequestCultureProvider"
+,
+"EfStringLocalizerFactory"
+]
+}
+,
+{
+"name": "SimplCommerceModuleActivityLog"
+,
+"nanoentities": [
+"ModuleInitializer"
+,
+"Data"
+,
+"Models"
+,
+"Events"
+,
+"Areas"
+]
+}
+,
+{
+"name": "SimplCommerceModuleCatalog"
+,
+"nanoentities": [
+"ModuleInitializer"
+,
+"Data"
+,
+"Models"
+,
+"Areas"
+,
+"Services"
+]
+}
+,
+{
+"name": "SimplCommerceModuleCms"
+,
+"nanoentities": [
+"ModuleInitializer"
+,
+"Data"
+,
+"Models"
+,
+"Areas"
+,
+"Services"
+,
+"Events"
+]
+}
+,
+{
+"name": "SimplCommerceModuleComments"
+,
+"nanoentities": [
+"ModuleInitializer"
+,
+"Data"
+,
+"Areas"
+]
+}
+,
+{
+"name": "SimplCommerceModuleContacts"
+,
+"nanoentities": [
+"ModuleInitializer"
+,
+"Data"
+,
+"Areas"
+,
+"Models"
+]
+}
+,
+{
+"name": "SimplCommerceModuleDinkToPdf"
+,
+"nanoentities": [
+"ModuleInitializer"
+]
+}
+,
+{
+"name": "SimplCommerceModuleEmailSenderSmtp"
+,
+"nanoentities": [
+"ModuleInitializer"
+,
+"Data"
+,
+"EmailConfig"
+,
+"EmailSender"
+]
+}
+,
+{
+"name": "SimplCommerceModuleInventory"
+,
+"nanoentities": [
+"ModuleInitializer"
+,
+"Data"
+,
+"Models"
+,
+"Areas"
+,
+"Services"
+]
+}
+,
+{
+"name": "SimplCommerceModuleNews"
+,
+"nanoentities": [
+"ModuleInitializer"
+,
+"Data"
+,
+"Services"
+,
+"Areas"
+,
+"Models"
+]
+}
+,
+{
+"name": "SimplCommerceModuleOrders"
+,
+"nanoentities": [
+"ModuleInitializer"
+,
+"Services"
+,
+"Data"
+,
+"Areas"
+,
+"Models"
+,
+"Events"
+]
+}
+,
+{
+"name": "SimplCommerceModulePaymentBraintree"
+,
+"nanoentities": [
+"ModuleInitializer"
+,
+"Data"
+,
+"Services"
+,
+"Areas"
+]
+}
+,
+{
+"name": "SimplCommerceModulePaymentCoD"
+,
+"nanoentities": [
+"ModuleInitializer"
+,
+"Data"
+,
+"Areas"
+,
+"Models"
+]
+}
+,
+{
+"name": "SimplCommerceModulePaymentPaypalExpress"
+,
+"nanoentities": [
+"ModuleInitializer"
+,
+"Data"
+,
+"Areas"
+,
+"ViewModels"
+]
+}
+,
+{
+"name": "SimplCommerceModulePayments"
+,
+"nanoentities": [
+"ModuleInitializer"
+,
+"Models"
+,
+"Data"
+,
+"Areas"
+]
+}
+,
+{
+"name": "SimplCommerceModulePaymentStripe"
+,
+"nanoentities": [
+"ModuleInitializer"
+,
+"Data"
+,
+"Areas"
+]
+}
+,
+{
+"name": "SimplCommerceModulePaymentMomo"
+,
+"nanoentities": [
+"ModuleInitializer"
+,
+"Data"
+,
+"Areas"
+,
+"ViewModels"
+,
+"MomoSecurityHelper"
+]
+}
+,
+{
+"name": "SimplCommerceModulePaymentNganLuong"
+,
+"nanoentities": [
+"ModuleInitializer"
+,
+"Data"
+,
+"Areas"
+,
+"ViewModels"
+,
+"SecurityHelper"
+]
+}
+,
+{
+"name": "SimplCommerceModulePaymentCashfree"
+,
+"nanoentities": [
+"ModuleInitializer"
+,
+"Data"
+,
+"Areas"
+,
+"Models"
+]
+}
+,
+{
+"name": "SimplCommerceModulePricing"
+,
+"nanoentities": [
+"ModuleInitializer"
+,
+"Data"
+,
+"Services"
+,
+"Areas"
+,
+"Models"
+]
+}
+,
+{
+"name": "SimplCommerceModuleProductComparison"
+,
+"nanoentities": [
+"ModuleInitializer"
+,
+"Services"
+,
+"Areas"
+,
+"Models"
+]
+}
+,
+{
+"name": "SimplCommerceModuleProductRecentlyViewed"
+,
+"nanoentities": [
+"ModuleInitializer"
+,
+"Data"
+,
+"Events"
+,
+"Models"
+,
+"Areas"
+]
+}
+,
+{
+"name": "SimplCommerceModuleReviews"
+,
+"nanoentities": [
+"ModuleInitializer"
+,
+"Areas"
+,
+"Data"
+]
+}
+,
+{
+"name": "SimplCommerceModuleSampleData"
+,
+"nanoentities": [
+"ModuleInitializer"
+,
+"Areas"
+,
+"Data"
+,
+"Services"
+]
+}
+,
+{
+"name": "SimplCommerceModuleSearch"
+,
+"nanoentities": [
+"ModuleInitializer"
+,
+"Areas"
+]
+}
+,
+{
+"name": "SimplCommerceModuleShipments"
+,
+"nanoentities": [
+"ModuleInitializer"
+,
+"Data"
+,
+"Services"
+,
+"Areas"
+]
+}
+,
+{
+"name": "SimplCommerceModuleShipping"
+,
+"nanoentities": [
+"ModuleInitializer"
+,
+"Data"
+,
+"Models"
+,
+"Areas"
+]
+}
+,
+{
+"name": "SimplCommerceModuleShippingFree"
+,
+"nanoentities": [
+"ModuleInitializer"
+,
+"Data"
+,
+"Services"
+,
+"Models"
+]
+}
+,
+{
+"name": "SimplCommerceModuleShippingPrices"
+,
+"nanoentities": [
+"ModuleInitializer"
+,
+"Services"
+]
+}
+,
+{
+"name": "SimplCommerceModuleShippingTableRate"
+,
+"nanoentities": [
+"ModuleInitializer"
+,
+"Data"
+,
+"Services"
+]
+}
+,
+{
+"name": "SimplCommerceModuleShoppingCart"
+,
+"nanoentities": [
+"ModuleInitializer"
+,
+"Services"
+,
+"Areas"
+,
+"Models"
+,
+"Events"
+]
+}
+,
+{
+"name": "SimplCommerceModuleStorageLocal"
+,
+"nanoentities": [
+"ModuleInitializer"
+,
+"LocalStorageService"
+]
+}
+,
+{
+"name": "SimplCommerceModuleTax"
+,
+"nanoentities": [
+"ModuleInitializer"
+,
+"Data"
+,
+"Models"
+,
+"Services"
+,
+"Areas"
+]
+}
+,
+{
+"name": "SimplCommerceModuleVendors"
+,
+"nanoentities": [
+"ModuleInitializer"
+,
+"Services"
+,
+"Areas"
+]
+}
+,
+{
+"name": "SimplCommerceModuleWishList"
+,
+"nanoentities": [
+"ModuleInitializer"
+,
+"Services"
+,
+"Areas"
+,
+"Models"
+]
+}
+]
+,
+"relations": [
+{
+"origin": "SimplCommerceModuleCore",
+"destination": "SimplCommerceInfrastructure",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SimplCommerceModuleCore",
+"destination": "SimplCommerceWebHost",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SimplCommerceModuleCore",
+"destination": "SimplCommerceModuleActivityLog",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SimplCommerceModuleCore",
+"destination": "SimplCommerceModuleCatalog",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SimplCommerceModuleCore",
+"destination": "SimplCommerceModuleCms",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SimplCommerceModuleCore",
+"destination": "SimplCommerceModuleComments",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SimplCommerceModuleCore",
+"destination": "SimplCommerceModuleContacts",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SimplCommerceModuleCore",
+"destination": "SimplCommerceModuleEmailSenderSmtp",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SimplCommerceModuleCore",
+"destination": "SimplCommerceModuleInventory",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SimplCommerceModuleCore",
+"destination": "SimplCommerceModuleLocalization",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SimplCommerceModuleCore",
+"destination": "SimplCommerceModuleNews",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SimplCommerceModuleCore",
+"destination": "SimplCommerceModuleOrders",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SimplCommerceModuleCore",
+"destination": "SimplCommerceModulePaymentBraintree",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SimplCommerceModuleCore",
+"destination": "SimplCommerceModulePaymentCoD",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SimplCommerceModuleCore",
+"destination": "SimplCommerceModulePaymentPaypalExpress",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SimplCommerceModuleCore",
+"destination": "SimplCommerceModulePayments",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SimplCommerceModuleCore",
+"destination": "SimplCommerceModulePaymentStripe",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SimplCommerceModuleCore",
+"destination": "SimplCommerceModulePaymentMomo",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SimplCommerceModuleCore",
+"destination": "SimplCommerceModulePaymentNganLuong",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SimplCommerceModuleCore",
+"destination": "SimplCommerceModulePaymentCashfree",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SimplCommerceModuleCore",
+"destination": "SimplCommerceModulePricing",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SimplCommerceModuleCore",
+"destination": "SimplCommerceModuleProductRecentlyViewed",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SimplCommerceModuleCore",
+"destination": "SimplCommerceModuleShipments",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SimplCommerceModuleCore",
+"destination": "SimplCommerceModuleShipping",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SimplCommerceModuleCore",
+"destination": "SimplCommerceModuleShippingFree",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SimplCommerceModuleCore",
+"destination": "SimplCommerceModuleShippingTableRate",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SimplCommerceModuleCore",
+"destination": "SimplCommerceModuleTax",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SimplCommerceModuleCore",
+"destination": "SimplCommerceModuleSampleData",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SimplCommerceModuleCore",
+"destination": "SimplCommerceModuleSearch",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SimplCommerceModuleCore",
+"destination": "SimplCommerceModuleStorageLocal",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SimplCommerceModuleCore",
+"destination": "SimplCommerceModuleShoppingCart",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SimplCommerceModuleCore",
+"destination": "SimplCommerceModuleReviews",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SimplCommerceModuleCore",
+"destination": "SimplCommerceModuleShippingPrices",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SimplCommerceModuleCore",
+"destination": "SimplCommerceModuleVendors",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SimplCommerceModuleCore",
+"destination": "SimplCommerceModuleWishList",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SimplCommerceModuleCore",
+"destination": "SimplCommerceModuleProductComparison",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SimplCommerceWebHost",
+"destination": "SimplCommerceInfrastructure",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SimplCommerceWebHost",
+"destination": "SimplCommerceModuleCore",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SimplCommerceWebHost",
+"destination": "SimplCommerceModuleLocalization",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SimplCommerceWebHost",
+"destination": "SimplCommerceModuleActivityLog",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SimplCommerceWebHost",
+"destination": "SimplCommerceModuleCatalog",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SimplCommerceWebHost",
+"destination": "SimplCommerceModuleCms",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SimplCommerceWebHost",
+"destination": "SimplCommerceModuleComments",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SimplCommerceWebHost",
+"destination": "SimplCommerceModuleContacts",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SimplCommerceWebHost",
+"destination": "SimplCommerceModuleDinkToPdf",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SimplCommerceWebHost",
+"destination": "SimplCommerceModuleEmailSenderSmtp",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SimplCommerceWebHost",
+"destination": "SimplCommerceModuleInventory",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SimplCommerceWebHost",
+"destination": "SimplCommerceModuleNews",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SimplCommerceWebHost",
+"destination": "SimplCommerceModuleOrders",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SimplCommerceWebHost",
+"destination": "SimplCommerceModulePaymentBraintree",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SimplCommerceWebHost",
+"destination": "SimplCommerceModulePaymentCoD",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SimplCommerceWebHost",
+"destination": "SimplCommerceModulePaymentPaypalExpress",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SimplCommerceWebHost",
+"destination": "SimplCommerceModulePayments",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SimplCommerceWebHost",
+"destination": "SimplCommerceModulePaymentStripe",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SimplCommerceWebHost",
+"destination": "SimplCommerceModulePaymentMomo",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SimplCommerceWebHost",
+"destination": "SimplCommerceModulePaymentNganLuong",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SimplCommerceWebHost",
+"destination": "SimplCommerceModulePaymentCashfree",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SimplCommerceWebHost",
+"destination": "SimplCommerceModulePricing",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SimplCommerceWebHost",
+"destination": "SimplCommerceModuleProductComparison",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SimplCommerceWebHost",
+"destination": "SimplCommerceModuleProductRecentlyViewed",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SimplCommerceWebHost",
+"destination": "SimplCommerceModuleReviews",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SimplCommerceWebHost",
+"destination": "SimplCommerceModuleSampleData",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SimplCommerceWebHost",
+"destination": "SimplCommerceModuleSearch",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SimplCommerceWebHost",
+"destination": "SimplCommerceModuleShipments",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SimplCommerceWebHost",
+"destination": "SimplCommerceModuleShipping",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SimplCommerceWebHost",
+"destination": "SimplCommerceModuleShippingFree",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SimplCommerceWebHost",
+"destination": "SimplCommerceModuleShippingPrices",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SimplCommerceWebHost",
+"destination": "SimplCommerceModuleShippingTableRate",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SimplCommerceWebHost",
+"destination": "SimplCommerceModuleShoppingCart",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SimplCommerceWebHost",
+"destination": "SimplCommerceModuleStorageLocal",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SimplCommerceWebHost",
+"destination": "SimplCommerceModuleTax",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SimplCommerceWebHost",
+"destination": "SimplCommerceModuleVendors",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SimplCommerceWebHost",
+"destination": "SimplCommerceModuleWishList",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SimplCommerceInfrastructure",
+"destination": "SimplCommerceWebHost",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SimplCommerceInfrastructure",
+"destination": "SimplCommerceModuleLocalization",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SimplCommerceInfrastructure",
+"destination": "SimplCommerceModuleActivityLog",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SimplCommerceInfrastructure",
+"destination": "SimplCommerceModuleCatalog",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SimplCommerceInfrastructure",
+"destination": "SimplCommerceModuleCms",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SimplCommerceInfrastructure",
+"destination": "SimplCommerceModuleComments",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SimplCommerceInfrastructure",
+"destination": "SimplCommerceModuleContacts",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SimplCommerceInfrastructure",
+"destination": "SimplCommerceModuleCore",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SimplCommerceInfrastructure",
+"destination": "SimplCommerceModuleDinkToPdf",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SimplCommerceInfrastructure",
+"destination": "SimplCommerceModuleEmailSenderSmtp",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SimplCommerceInfrastructure",
+"destination": "SimplCommerceModuleInventory",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SimplCommerceInfrastructure",
+"destination": "SimplCommerceModuleNews",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SimplCommerceInfrastructure",
+"destination": "SimplCommerceModuleOrders",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SimplCommerceInfrastructure",
+"destination": "SimplCommerceModulePaymentBraintree",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SimplCommerceInfrastructure",
+"destination": "SimplCommerceModulePaymentCoD",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SimplCommerceInfrastructure",
+"destination": "SimplCommerceModulePaymentPaypalExpress",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SimplCommerceInfrastructure",
+"destination": "SimplCommerceModulePayments",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SimplCommerceInfrastructure",
+"destination": "SimplCommerceModulePaymentStripe",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SimplCommerceInfrastructure",
+"destination": "SimplCommerceModulePaymentMomo",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SimplCommerceInfrastructure",
+"destination": "SimplCommerceModulePaymentNganLuong",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SimplCommerceInfrastructure",
+"destination": "SimplCommerceModulePaymentCashfree",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SimplCommerceInfrastructure",
+"destination": "SimplCommerceModulePricing",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SimplCommerceInfrastructure",
+"destination": "SimplCommerceModuleProductComparison",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SimplCommerceInfrastructure",
+"destination": "SimplCommerceModuleProductRecentlyViewed",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SimplCommerceInfrastructure",
+"destination": "SimplCommerceModuleReviews",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SimplCommerceInfrastructure",
+"destination": "SimplCommerceModuleSampleData",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SimplCommerceInfrastructure",
+"destination": "SimplCommerceModuleSearch",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SimplCommerceInfrastructure",
+"destination": "SimplCommerceModuleShipments",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SimplCommerceInfrastructure",
+"destination": "SimplCommerceModuleShipping",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SimplCommerceInfrastructure",
+"destination": "SimplCommerceModuleShippingFree",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SimplCommerceInfrastructure",
+"destination": "SimplCommerceModuleShippingPrices",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SimplCommerceInfrastructure",
+"destination": "SimplCommerceModuleShippingTableRate",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SimplCommerceInfrastructure",
+"destination": "SimplCommerceModuleShoppingCart",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SimplCommerceInfrastructure",
+"destination": "SimplCommerceModuleStorageLocal",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SimplCommerceInfrastructure",
+"destination": "SimplCommerceModuleTax",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SimplCommerceInfrastructure",
+"destination": "SimplCommerceModuleVendors",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SimplCommerceInfrastructure",
+"destination": "SimplCommerceModuleWishList",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SimplCommerceModuleActivityLog",
+"destination": "SimplCommerceInfrastructure",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SimplCommerceModuleActivityLog",
+"destination": "SimplCommerceModuleCore",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SimplCommerceModuleActivityLog",
+"destination": "SimplCommerceModuleReviews",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SimplCommerceModuleActivityLog",
+"destination": "SimplCommerceModulePricing",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SimplCommerceModuleActivityLog",
+"destination": "SimplCommerceModuleTax",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SimplCommerceModuleActivityLog",
+"destination": "SimplCommerceModuleShoppingCart",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SimplCommerceModuleActivityLog",
+"destination": "SimplCommerceModuleShippingPrices",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SimplCommerceModuleActivityLog",
+"destination": "SimplCommerceModuleOrders",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SimplCommerceModuleActivityLog",
+"destination": "SimplCommerceModuleSearch",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SimplCommerceModuleCatalog",
+"destination": "SimplCommerceInfrastructure",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SimplCommerceModuleCatalog",
+"destination": "SimplCommerceModuleCore",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SimplCommerceModuleCatalog",
+"destination": "SimplCommerceModulePricing",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SimplCommerceModuleCatalog",
+"destination": "SimplCommerceModuleTax",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SimplCommerceModuleCatalog",
+"destination": "SimplCommerceModuleShoppingCart",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SimplCommerceModuleCatalog",
+"destination": "SimplCommerceModuleShippingPrices",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SimplCommerceModuleCatalog",
+"destination": "SimplCommerceModuleOrders",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SimplCommerceModuleCatalog",
+"destination": "SimplCommerceModuleActivityLog",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SimplCommerceModuleCatalog",
+"destination": "SimplCommerceModuleProductRecentlyViewed",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SimplCommerceModuleCatalog",
+"destination": "SimplCommerceModuleStorageLocal",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SimplCommerceModuleCatalog",
+"destination": "SimplCommerceModuleSearch",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SimplCommerceModuleCatalog",
+"destination": "SimplCommerceModuleCms",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SimplCommerceModuleCms",
+"destination": "SimplCommerceInfrastructure",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SimplCommerceModuleCms",
+"destination": "SimplCommerceModuleCore",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SimplCommerceModuleCms",
+"destination": "SimplCommerceModulePricing",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SimplCommerceModuleCms",
+"destination": "SimplCommerceModuleTax",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SimplCommerceModuleCms",
+"destination": "SimplCommerceModuleShoppingCart",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SimplCommerceModuleCms",
+"destination": "SimplCommerceModuleShippingPrices",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SimplCommerceModuleCms",
+"destination": "SimplCommerceModuleOrders",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SimplCommerceModuleCms",
+"destination": "SimplCommerceModuleSampleData",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SimplCommerceModuleCms",
+"destination": "SimplCommerceModuleCatalog",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SimplCommerceModuleCms",
+"destination": "SimplCommerceModuleEmailSenderSmtp",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SimplCommerceModuleCms",
+"destination": "SimplCommerceModuleSearch",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SimplCommerceModuleComments",
+"destination": "SimplCommerceInfrastructure",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SimplCommerceModuleComments",
+"destination": "SimplCommerceModuleCore",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SimplCommerceModuleComments",
+"destination": "SimplCommerceModulePricing",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SimplCommerceModuleComments",
+"destination": "SimplCommerceModuleTax",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SimplCommerceModuleComments",
+"destination": "SimplCommerceModuleShoppingCart",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SimplCommerceModuleComments",
+"destination": "SimplCommerceModuleShippingPrices",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SimplCommerceModuleComments",
+"destination": "SimplCommerceModuleOrders",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SimplCommerceModuleContacts",
+"destination": "SimplCommerceInfrastructure",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SimplCommerceModuleContacts",
+"destination": "SimplCommerceModuleCore",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SimplCommerceModuleContacts",
+"destination": "SimplCommerceModuleOrders",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SimplCommerceModuleInventory",
+"destination": "SimplCommerceInfrastructure",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SimplCommerceModuleInventory",
+"destination": "SimplCommerceModuleCore",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SimplCommerceModuleInventory",
+"destination": "SimplCommerceModuleCatalog",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SimplCommerceModuleLocalization",
+"destination": "SimplCommerceInfrastructure",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SimplCommerceModuleLocalization",
+"destination": "SimplCommerceModuleCore",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SimplCommerceModuleNews",
+"destination": "SimplCommerceInfrastructure",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SimplCommerceModuleNews",
+"destination": "SimplCommerceModuleCore",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SimplCommerceModuleNews",
+"destination": "SimplCommerceModulePricing",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SimplCommerceModuleNews",
+"destination": "SimplCommerceModuleTax",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SimplCommerceModuleNews",
+"destination": "SimplCommerceModuleShoppingCart",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SimplCommerceModuleNews",
+"destination": "SimplCommerceModuleShippingPrices",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SimplCommerceModuleNews",
+"destination": "SimplCommerceModuleOrders",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SimplCommerceModuleOrders",
+"destination": "SimplCommerceInfrastructure",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SimplCommerceModuleOrders",
+"destination": "SimplCommerceWebHost",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SimplCommerceModuleOrders",
+"destination": "SimplCommerceModuleCore",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SimplCommerceModuleOrders",
+"destination": "SimplCommerceModulePricing",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SimplCommerceModuleOrders",
+"destination": "SimplCommerceModuleTax",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SimplCommerceModuleOrders",
+"destination": "SimplCommerceModuleShoppingCart",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SimplCommerceModuleOrders",
+"destination": "SimplCommerceModuleShippingPrices",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SimplCommerceModuleOrders",
+"destination": "SimplCommerceModuleCatalog",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SimplCommerceModuleOrders",
+"destination": "SimplCommerceModuleSampleData",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SimplCommerceModuleOrders",
+"destination": "SimplCommerceModuleSearch",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SimplCommerceModuleOrders",
+"destination": "SimplCommerceModuleCms",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SimplCommerceModuleOrders",
+"destination": "SimplCommerceModuleVendors",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SimplCommerceModuleOrders",
+"destination": "SimplCommerceModuleActivityLog",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SimplCommerceModuleOrders",
+"destination": "SimplCommerceModuleShipping",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SimplCommerceModuleOrders",
+"destination": "SimplCommerceModuleShippingFree",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SimplCommerceModuleOrders",
+"destination": "SimplCommerceModuleShippingTableRate",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SimplCommerceModuleOrders",
+"destination": "SimplCommerceModulePaymentBraintree",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SimplCommerceModuleOrders",
+"destination": "SimplCommerceModulePayments",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SimplCommerceModuleOrders",
+"destination": "SimplCommerceModulePaymentMomo",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SimplCommerceModuleOrders",
+"destination": "SimplCommerceModulePaymentNganLuong",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SimplCommerceModuleOrders",
+"destination": "SimplCommerceModulePaymentStripe",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SimplCommerceModulePaymentBraintree",
+"destination": "SimplCommerceInfrastructure",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SimplCommerceModulePaymentBraintree",
+"destination": "SimplCommerceModulePayments",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SimplCommerceModulePaymentBraintree",
+"destination": "SimplCommerceModuleCore",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SimplCommerceModulePaymentBraintree",
+"destination": "SimplCommerceModuleShoppingCart",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SimplCommerceModulePaymentBraintree",
+"destination": "SimplCommerceModulePricing",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SimplCommerceModulePaymentBraintree",
+"destination": "SimplCommerceModulePaymentCashfree",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SimplCommerceModulePaymentBraintree",
+"destination": "SimplCommerceModuleOrders",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SimplCommerceModulePaymentCoD",
+"destination": "SimplCommerceInfrastructure",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SimplCommerceModulePaymentCoD",
+"destination": "SimplCommerceModulePayments",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SimplCommerceModulePaymentCoD",
+"destination": "SimplCommerceModuleCore",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SimplCommerceModulePaymentCoD",
+"destination": "SimplCommerceModuleShoppingCart",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SimplCommerceModulePaymentPaypalExpress",
+"destination": "SimplCommerceInfrastructure",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SimplCommerceModulePaymentPaypalExpress",
+"destination": "SimplCommerceModulePayments",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SimplCommerceModulePaymentPaypalExpress",
+"destination": "SimplCommerceModuleCore",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SimplCommerceModulePaymentPaypalExpress",
+"destination": "SimplCommerceModulePricing",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SimplCommerceModulePaymentPaypalExpress",
+"destination": "SimplCommerceModuleShoppingCart",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SimplCommerceModulePaymentPaypalExpress",
+"destination": "SimplCommerceModulePaymentStripe",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SimplCommerceModulePaymentPaypalExpress",
+"destination": "SimplCommerceModuleTax",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SimplCommerceModulePaymentPaypalExpress",
+"destination": "SimplCommerceModuleShippingPrices",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SimplCommerceModulePaymentPaypalExpress",
+"destination": "SimplCommerceModuleOrders",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SimplCommerceModulePayments",
+"destination": "SimplCommerceInfrastructure",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SimplCommerceModulePayments",
+"destination": "SimplCommerceModuleCore",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SimplCommerceModulePayments",
+"destination": "SimplCommerceModulePricing",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SimplCommerceModulePayments",
+"destination": "SimplCommerceModuleTax",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SimplCommerceModulePayments",
+"destination": "SimplCommerceModuleShoppingCart",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SimplCommerceModulePayments",
+"destination": "SimplCommerceModuleShippingPrices",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SimplCommerceModulePayments",
+"destination": "SimplCommerceModuleOrders",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SimplCommerceModulePayments",
+"destination": "SimplCommerceModulePaymentBraintree",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SimplCommerceModulePaymentStripe",
+"destination": "SimplCommerceInfrastructure",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SimplCommerceModulePaymentStripe",
+"destination": "SimplCommerceModulePayments",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SimplCommerceModulePaymentStripe",
+"destination": "SimplCommerceModuleCore",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SimplCommerceModulePaymentStripe",
+"destination": "SimplCommerceModuleShoppingCart",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SimplCommerceModulePaymentStripe",
+"destination": "SimplCommerceModuleOrders",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SimplCommerceModulePaymentMomo",
+"destination": "SimplCommerceInfrastructure",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SimplCommerceModulePaymentMomo",
+"destination": "SimplCommerceModulePayments",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SimplCommerceModulePaymentMomo",
+"destination": "SimplCommerceModuleCore",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SimplCommerceModulePaymentMomo",
+"destination": "SimplCommerceModulePaymentNganLuong",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SimplCommerceModulePaymentMomo",
+"destination": "SimplCommerceModuleShoppingCart",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SimplCommerceModulePaymentMomo",
+"destination": "SimplCommerceModuleOrders",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SimplCommerceModulePaymentNganLuong",
+"destination": "SimplCommerceInfrastructure",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SimplCommerceModulePaymentNganLuong",
+"destination": "SimplCommerceModulePayments",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SimplCommerceModulePaymentNganLuong",
+"destination": "SimplCommerceModuleCore",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SimplCommerceModulePaymentNganLuong",
+"destination": "SimplCommerceModulePaymentPaypalExpress",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SimplCommerceModulePaymentNganLuong",
+"destination": "SimplCommerceModuleShoppingCart",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SimplCommerceModulePaymentNganLuong",
+"destination": "SimplCommerceModuleOrders",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SimplCommerceModulePaymentCashfree",
+"destination": "SimplCommerceInfrastructure",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SimplCommerceModulePaymentCashfree",
+"destination": "SimplCommerceModulePayments",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SimplCommerceModulePaymentCashfree",
+"destination": "SimplCommerceModuleCore",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SimplCommerceModulePaymentCashfree",
+"destination": "SimplCommerceModuleShoppingCart",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SimplCommerceModulePricing",
+"destination": "SimplCommerceInfrastructure",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SimplCommerceModulePricing",
+"destination": "SimplCommerceModuleEmailSenderSmtp",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SimplCommerceModulePricing",
+"destination": "SimplCommerceModuleCore",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SimplCommerceModulePricing",
+"destination": "SimplCommerceModuleTax",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SimplCommerceModulePricing",
+"destination": "SimplCommerceModuleShoppingCart",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SimplCommerceModuleProductRecentlyViewed",
+"destination": "SimplCommerceInfrastructure",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SimplCommerceModuleProductRecentlyViewed",
+"destination": "SimplCommerceModuleCore",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SimplCommerceModuleProductRecentlyViewed",
+"destination": "SimplCommerceModuleCatalog",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SimplCommerceModuleReviews",
+"destination": "SimplCommerceInfrastructure",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SimplCommerceModuleReviews",
+"destination": "SimplCommerceModuleCore",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SimplCommerceModuleReviews",
+"destination": "SimplCommerceModuleCatalog",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SimplCommerceModuleReviews",
+"destination": "SimplCommerceModuleComments",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SimplCommerceModuleReviews",
+"destination": "SimplCommerceModuleSearch",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SimplCommerceModuleReviews",
+"destination": "SimplCommerceModulePricing",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SimplCommerceModuleReviews",
+"destination": "SimplCommerceModuleShoppingCart",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SimplCommerceModuleReviews",
+"destination": "SimplCommerceModuleActivityLog",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SimplCommerceModuleReviews",
+"destination": "SimplCommerceModuleOrders",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SimplCommerceModuleSearch",
+"destination": "SimplCommerceInfrastructure",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SimplCommerceModuleSearch",
+"destination": "SimplCommerceModuleCore",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SimplCommerceModuleSearch",
+"destination": "SimplCommerceModuleReviews",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SimplCommerceModuleSearch",
+"destination": "SimplCommerceModuleActivityLog",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SimplCommerceModuleSearch",
+"destination": "SimplCommerceModuleOrders",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SimplCommerceModuleSearch",
+"destination": "SimplCommerceModuleCatalog",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SimplCommerceModuleShipments",
+"destination": "SimplCommerceInfrastructure",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SimplCommerceModuleShipments",
+"destination": "SimplCommerceModuleCore",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SimplCommerceModuleShipping",
+"destination": "SimplCommerceInfrastructure",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SimplCommerceModuleShipping",
+"destination": "SimplCommerceModuleCore",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SimplCommerceModuleShippingTableRate",
+"destination": "SimplCommerceInfrastructure",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SimplCommerceModuleShippingTableRate",
+"destination": "SimplCommerceModuleShipping",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SimplCommerceModuleShippingTableRate",
+"destination": "SimplCommerceModuleShippingPrices",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SimplCommerceModuleShippingTableRate",
+"destination": "SimplCommerceModuleCore",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SimplCommerceModuleShippingTableRate",
+"destination": "SimplCommerceModuleOrders",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SimplCommerceModuleShippingTableRate",
+"destination": "SimplCommerceModuleShoppingCart",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SimplCommerceModuleShippingTableRate",
+"destination": "SimplCommerceModuleCatalog",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SimplCommerceModuleShippingTableRate",
+"destination": "SimplCommerceModuleTax",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SimplCommerceModuleTax",
+"destination": "SimplCommerceInfrastructure",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SimplCommerceModuleTax",
+"destination": "SimplCommerceModuleCore",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SimplCommerceModuleTax",
+"destination": "SimplCommerceModuleCatalog",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SimplCommerceModuleTax",
+"destination": "SimplCommerceModulePricing",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SimplCommerceModuleTax",
+"destination": "SimplCommerceModuleShoppingCart",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SimplCommerceModuleTax",
+"destination": "SimplCommerceModuleShippingPrices",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SimplCommerceModuleTax",
+"destination": "SimplCommerceModuleOrders",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SimplCommerceModuleTax",
+"destination": "SimplCommerceModulePaymentMomo",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SimplCommerceModuleTax",
+"destination": "SimplCommerceModulePaymentNganLuong",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SimplCommerceModuleTax",
+"destination": "SimplCommerceModulePayments",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SimplCommerceModuleTax",
+"destination": "SimplCommerceModulePaymentStripe",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SimplCommerceModuleVendors",
+"destination": "SimplCommerceInfrastructure",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SimplCommerceModuleVendors",
+"destination": "SimplCommerceModuleCore",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SimplCommerceModuleVendors",
+"destination": "SimplCommerceModulePricing",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SimplCommerceModuleVendors",
+"destination": "SimplCommerceModuleTax",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SimplCommerceModuleVendors",
+"destination": "SimplCommerceModuleShoppingCart",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SimplCommerceModuleVendors",
+"destination": "SimplCommerceModuleShippingPrices",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SimplCommerceModuleVendors",
+"destination": "SimplCommerceModuleOrders",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SimplCommerceModuleEmailSenderSmtp",
+"destination": "SimplCommerceInfrastructure",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SimplCommerceModuleEmailSenderSmtp",
+"destination": "SimplCommerceModuleCore",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SimplCommerceModuleEmailSenderSmtp",
+"destination": "SimplCommerceModulePricing",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SimplCommerceModuleEmailSenderSmtp",
+"destination": "SimplCommerceModuleWishList",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SimplCommerceModuleShippingFree",
+"destination": "SimplCommerceInfrastructure",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SimplCommerceModuleShippingFree",
+"destination": "SimplCommerceModuleShipping",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SimplCommerceModuleShippingFree",
+"destination": "SimplCommerceModuleShippingPrices",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SimplCommerceModuleSampleData",
+"destination": "SimplCommerceInfrastructure",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SimplCommerceModuleSampleData",
+"destination": "SimplCommerceModuleCore",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SimplCommerceModuleShoppingCart",
+"destination": "SimplCommerceModuleCore",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SimplCommerceModuleShoppingCart",
+"destination": "SimplCommerceInfrastructure",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SimplCommerceModuleShoppingCart",
+"destination": "SimplCommerceModuleCatalog",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SimplCommerceModuleShoppingCart",
+"destination": "SimplCommerceModuleCms",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SimplCommerceModuleShoppingCart",
+"destination": "SimplCommerceModulePricing",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SimplCommerceModuleShoppingCart",
+"destination": "SimplCommerceModuleTax",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SimplCommerceModuleShoppingCart",
+"destination": "SimplCommerceModuleShippingPrices",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SimplCommerceModuleShoppingCart",
+"destination": "SimplCommerceModuleOrders",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SimplCommerceModuleShoppingCart",
+"destination": "SimplCommerceModuleSearch",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SimplCommerceModuleShoppingCart",
+"destination": "SimplCommerceModulePayments",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SimplCommerceModuleShoppingCart",
+"destination": "SimplCommerceModulePaymentBraintree",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SimplCommerceModuleShoppingCart",
+"destination": "SimplCommerceModulePaymentCashfree",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SimplCommerceModuleShoppingCart",
+"destination": "SimplCommerceModulePaymentCoD",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SimplCommerceModuleShoppingCart",
+"destination": "SimplCommerceModulePaymentMomo",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SimplCommerceModuleShoppingCart",
+"destination": "SimplCommerceModulePaymentStripe",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SimplCommerceModuleShoppingCart",
+"destination": "SimplCommerceModulePaymentNganLuong",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SimplCommerceModuleStorageLocal",
+"destination": "SimplCommerceInfrastructure",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SimplCommerceModuleStorageLocal",
+"destination": "SimplCommerceModuleSampleData",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SimplCommerceModuleStorageLocal",
+"destination": "SimplCommerceModuleCatalog",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SimplCommerceModuleStorageLocal",
+"destination": "SimplCommerceModuleCore",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SimplCommerceModuleStorageLocal",
+"destination": "SimplCommerceModuleTax",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SimplCommerceModuleShippingPrices",
+"destination": "SimplCommerceInfrastructure",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SimplCommerceModuleShippingPrices",
+"destination": "SimplCommerceModuleCore",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SimplCommerceModuleShippingPrices",
+"destination": "SimplCommerceModuleCatalog",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SimplCommerceModuleShippingPrices",
+"destination": "SimplCommerceModuleOrders",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SimplCommerceModuleShippingPrices",
+"destination": "SimplCommerceModuleShoppingCart",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SimplCommerceModuleShippingPrices",
+"destination": "SimplCommerceModulePricing",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SimplCommerceModuleShippingPrices",
+"destination": "SimplCommerceModuleTax",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SimplCommerceModuleWishList",
+"destination": "SimplCommerceModuleCore",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SimplCommerceModuleWishList",
+"destination": "SimplCommerceInfrastructure",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SimplCommerceModuleWishList",
+"destination": "SimplCommerceModuleSearch",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SimplCommerceModuleWishList",
+"destination": "SimplCommerceModulePricing",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SimplCommerceModuleWishList",
+"destination": "SimplCommerceModuleShoppingCart",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SimplCommerceModuleWishList",
+"destination": "SimplCommerceModuleCatalog",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SimplCommerceModuleWishList",
+"destination": "SimplCommerceModuleEmailSenderSmtp",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SimplCommerceModuleProductComparison",
+"destination": "SimplCommerceModuleCore",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SimplCommerceModuleProductComparison",
+"destination": "SimplCommerceInfrastructure",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SimplCommerceModuleProductComparison",
+"destination": "SimplCommerceModuleCatalog",
+"type": "AGGREGATION"
+}
+]
+}

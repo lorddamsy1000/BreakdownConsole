@@ -1,0 +1,698 @@
+{
+"name": "Bank",
+"entities": [
+{
+"name": "DemoShopWebControllersHomeController"
+,
+"nanoentities": [
+"Index()"
+]
+}
+,
+{
+"name": "DemoShopServicesImplementationsProductsService"
+,
+"nanoentities": [
+"GetAllAsync()"
+,
+"CreateAsync()"
+]
+}
+,
+{
+"name": "DemoShopWebControllersProductsController"
+,
+"nanoentities": [
+"Create()"
+]
+}
+,
+{
+"name": "DemoShopServicesImplementationsBaseService"
+,
+"nanoentities": [
+"IsEntityStateValid()"
+]
+}
+,
+{
+"name": "DemoShopWebControllersOrdersController"
+,
+"nanoentities": [
+"OrderProduct()"
+,
+"My()"
+]
+}
+,
+{
+"name": "DemoShopServicesImplementationsOrdersService"
+,
+"nanoentities": [
+"CreateAsync()"
+,
+"GetByIdAsync()"
+,
+"GetAllForUserAsync()"
+]
+}
+,
+{
+"name": "DemoShopWebControllersCardPaymentsController"
+,
+"nanoentities": [
+"Pay()"
+]
+}
+,
+{
+"name": "DemoShopWebControllersDirectPaymentsController"
+,
+"nanoentities": [
+"Pay()"
+]
+}
+,
+{
+"name": "BankSystemWebControllersHomeController"
+,
+"nanoentities": [
+"Index()"
+]
+}
+,
+{
+"name": "BankSystemServicesImplementationsUserService"
+,
+"nanoentities": [
+"GetUserIdByUsernameAsync()"
+,
+"GetAccountOwnerFullnameAsync()"
+]
+}
+,
+{
+"name": "BankSystemServicesImplementationsBankAccountService"
+,
+"nanoentities": [
+"GetAllAccountsByUserIdAsync()"
+,
+"CreateAsync()"
+,
+"GetByIdAsync()"
+,
+"GetByUniqueIdAsync()"
+]
+}
+,
+{
+"name": "BankSystemServicesImplementationsMoneyTransferService"
+,
+"nanoentities": [
+"GetLast10MoneyTransfersForUserAsync()"
+,
+"GetCountOfAllMoneyTransfersForAccountAsync()"
+,
+"GetMoneyTransfersForAccountAsync()"
+,
+"GetMoneyTransfersAsync()"
+,
+"GetCountOfAllMoneyTransfersForUserAsync()"
+,
+"CreateMoneyTransferAsync()"
+]
+}
+,
+{
+"name": "BankSystemWebAreasCardsControllersCardsController"
+,
+"nanoentities": [
+"Index()"
+,
+"Create()"
+,
+"Delete()"
+]
+}
+,
+{
+"name": "BankSystemServicesImplementationsCardService"
+,
+"nanoentities": [
+"GetCardsAsync()"
+,
+"GetCountOfAllCardsOwnedByUserAsync()"
+,
+"CreateAsync()"
+,
+"GetAsync()"
+,
+"DeleteAsync()"
+]
+}
+,
+{
+"name": "BankSystemWebAreasMoneyTransfersControllersInternalController"
+,
+"nanoentities": [
+"Create()"
+]
+}
+,
+{
+"name": "BankSystemWebAreasMoneyTransfersControllersBaseMoneyTransferController"
+,
+"nanoentities": [
+"GetAllAccountsAsync()"
+]
+}
+,
+{
+"name": "BankSystemWebControllersBaseController"
+,
+"nanoentities": [
+"ShowErrorMessage()"
+,
+"RedirectToHome()"
+,
+"ShowSuccessMessage()"
+]
+}
+,
+{
+"name": "BankSystemWebControllersBankAccountsController"
+,
+"nanoentities": [
+"Create()"
+,
+"Details()"
+]
+}
+,
+{
+"name": "BankSystemServicesImplementationsBaseService"
+,
+"nanoentities": [
+"IsEntityStateValid()"
+]
+}
+,
+{
+"name": "BankSystemServicesImplementationsBankAccountUniqueIdHelper"
+,
+"nanoentities": [
+"GenerateAccountUniqueId()"
+,
+"IsUniqueIdValid()"
+]
+}
+,
+{
+"name": "BankSystemServicesImplementationsCardHelper"
+,
+"nanoentities": [
+"Generate16DigitNumber()"
+,
+"CheckLuhn()"
+,
+"Generate3DigitSecurityCode()"
+]
+}
+,
+{
+"name": "BankSystemWebAreasMoneyTransfersControllersGlobalController"
+,
+"nanoentities": [
+"Create()"
+]
+}
+,
+{
+"name": "BankSystemWebAreasMoneyTransfersControllersHomeController"
+,
+"nanoentities": [
+"All()"
+]
+}
+,
+{
+"name": "CentralApiServicesImplementationsBanksService"
+,
+"nanoentities": [
+"GetAllBanksSupportingPaymentsAsync()"
+]
+}
+]
+,
+"relations": [
+{
+"origin": "DemoShopWebControllersHomeController",
+"destination": "DemoShopServicesImplementationsProductsService",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "DemoShopServicesImplementationsProductsService",
+"destination": "DemoShopWebControllersHomeController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "DemoShopServicesImplementationsProductsService",
+"destination": "DemoShopServicesImplementationsBaseService",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "DemoShopServicesImplementationsProductsService",
+"destination": "DemoShopWebControllersProductsController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "DemoShopServicesImplementationsProductsService",
+"destination": "DemoShopServicesImplementationsOrdersService",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "DemoShopServicesImplementationsProductsService",
+"destination": "DemoShopWebControllersOrdersController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "DemoShopWebControllersProductsController",
+"destination": "DemoShopServicesImplementationsProductsService",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "DemoShopWebControllersOrdersController",
+"destination": "DemoShopServicesImplementationsOrdersService",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "DemoShopWebControllersOrdersController",
+"destination": "DemoShopServicesImplementationsBaseService",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "DemoShopWebControllersOrdersController",
+"destination": "DemoShopWebControllersCardPaymentsController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "DemoShopServicesImplementationsOrdersService",
+"destination": "DemoShopServicesImplementationsBaseService",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "DemoShopServicesImplementationsOrdersService",
+"destination": "DemoShopWebControllersOrdersController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "DemoShopServicesImplementationsOrdersService",
+"destination": "DemoShopWebControllersCardPaymentsController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "DemoShopServicesImplementationsOrdersService",
+"destination": "DemoShopServicesImplementationsProductsService",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "DemoShopServicesImplementationsOrdersService",
+"destination": "DemoShopWebControllersHomeController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "DemoShopServicesImplementationsOrdersService",
+"destination": "DemoShopWebControllersDirectPaymentsController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "DemoShopWebControllersCardPaymentsController",
+"destination": "DemoShopServicesImplementationsOrdersService",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "DemoShopWebControllersCardPaymentsController",
+"destination": "DemoShopServicesImplementationsBaseService",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "DemoShopWebControllersDirectPaymentsController",
+"destination": "DemoShopServicesImplementationsOrdersService",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "BankSystemWebControllersHomeController",
+"destination": "BankSystemServicesImplementationsUserService",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "BankSystemWebControllersHomeController",
+"destination": "BankSystemServicesImplementationsBankAccountService",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "BankSystemServicesImplementationsUserService",
+"destination": "BankSystemWebControllersHomeController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "BankSystemServicesImplementationsUserService",
+"destination": "BankSystemWebAreasCardsControllersCardsController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "BankSystemServicesImplementationsUserService",
+"destination": "BankSystemServicesImplementationsCardService",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "BankSystemServicesImplementationsUserService",
+"destination": "BankSystemServicesImplementationsBankAccountService",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "BankSystemServicesImplementationsUserService",
+"destination": "BankSystemWebAreasMoneyTransfersControllersInternalController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "BankSystemServicesImplementationsUserService",
+"destination": "BankSystemWebControllersBankAccountsController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "BankSystemServicesImplementationsUserService",
+"destination": "BankSystemWebAreasMoneyTransfersControllersBaseMoneyTransferController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "BankSystemServicesImplementationsUserService",
+"destination": "BankSystemWebAreasMoneyTransfersControllersGlobalController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "BankSystemServicesImplementationsUserService",
+"destination": "BankSystemWebAreasMoneyTransfersControllersHomeController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "BankSystemServicesImplementationsUserService",
+"destination": "BankSystemServicesImplementationsMoneyTransferService",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "BankSystemServicesImplementationsBankAccountService",
+"destination": "BankSystemWebControllersHomeController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "BankSystemServicesImplementationsBankAccountService",
+"destination": "BankSystemServicesImplementationsMoneyTransferService",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "BankSystemServicesImplementationsBankAccountService",
+"destination": "BankSystemWebAreasMoneyTransfersControllersBaseMoneyTransferController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "BankSystemServicesImplementationsBankAccountService",
+"destination": "BankSystemWebControllersBaseController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "BankSystemServicesImplementationsBankAccountService",
+"destination": "BankSystemServicesImplementationsBaseService",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "BankSystemServicesImplementationsBankAccountService",
+"destination": "BankSystemServicesImplementationsBankAccountUniqueIdHelper",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "BankSystemServicesImplementationsBankAccountService",
+"destination": "BankSystemWebControllersBankAccountsController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "BankSystemServicesImplementationsBankAccountService",
+"destination": "BankSystemWebAreasCardsControllersCardsController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "BankSystemServicesImplementationsBankAccountService",
+"destination": "BankSystemServicesImplementationsCardService",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "BankSystemServicesImplementationsBankAccountService",
+"destination": "BankSystemServicesImplementationsUserService",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "BankSystemServicesImplementationsBankAccountService",
+"destination": "BankSystemWebAreasMoneyTransfersControllersInternalController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "BankSystemServicesImplementationsBankAccountService",
+"destination": "BankSystemWebAreasMoneyTransfersControllersGlobalController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "BankSystemServicesImplementationsMoneyTransferService",
+"destination": "BankSystemWebControllersHomeController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "BankSystemServicesImplementationsMoneyTransferService",
+"destination": "BankSystemWebControllersBankAccountsController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "BankSystemServicesImplementationsMoneyTransferService",
+"destination": "BankSystemWebAreasMoneyTransfersControllersHomeController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "BankSystemServicesImplementationsMoneyTransferService",
+"destination": "BankSystemServicesImplementationsBaseService",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "BankSystemServicesImplementationsMoneyTransferService",
+"destination": "BankSystemWebAreasMoneyTransfersControllersInternalController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "BankSystemWebAreasCardsControllersCardsController",
+"destination": "BankSystemServicesImplementationsUserService",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "BankSystemWebAreasCardsControllersCardsController",
+"destination": "BankSystemServicesImplementationsCardService",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "BankSystemWebAreasCardsControllersCardsController",
+"destination": "BankSystemWebControllersBaseController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "BankSystemServicesImplementationsCardService",
+"destination": "BankSystemWebAreasCardsControllersCardsController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "BankSystemServicesImplementationsCardService",
+"destination": "BankSystemServicesImplementationsBaseService",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "BankSystemServicesImplementationsCardService",
+"destination": "BankSystemServicesImplementationsCardHelper",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "BankSystemServicesImplementationsCardService",
+"destination": "BankSystemServicesImplementationsUserService",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "BankSystemServicesImplementationsCardService",
+"destination": "CentralApiServicesImplementationsBanksService",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "BankSystemWebAreasMoneyTransfersControllersInternalController",
+"destination": "BankSystemServicesImplementationsUserService",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "BankSystemWebAreasMoneyTransfersControllersInternalController",
+"destination": "BankSystemWebAreasMoneyTransfersControllersBaseMoneyTransferController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "BankSystemWebAreasMoneyTransfersControllersInternalController",
+"destination": "BankSystemServicesImplementationsMoneyTransferService",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "BankSystemWebAreasMoneyTransfersControllersBaseMoneyTransferController",
+"destination": "BankSystemServicesImplementationsBankAccountService",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "BankSystemWebAreasMoneyTransfersControllersBaseMoneyTransferController",
+"destination": "BankSystemWebAreasMoneyTransfersControllersInternalController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "BankSystemWebAreasMoneyTransfersControllersBaseMoneyTransferController",
+"destination": "BankSystemWebAreasMoneyTransfersControllersGlobalController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "BankSystemWebControllersBankAccountsController",
+"destination": "BankSystemServicesImplementationsUserService",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "BankSystemWebControllersBankAccountsController",
+"destination": "BankSystemServicesImplementationsBankAccountService",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "BankSystemWebAreasMoneyTransfersControllersGlobalController",
+"destination": "BankSystemServicesImplementationsUserService",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "BankSystemWebAreasMoneyTransfersControllersGlobalController",
+"destination": "BankSystemWebAreasMoneyTransfersControllersBaseMoneyTransferController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "BankSystemWebAreasMoneyTransfersControllersHomeController",
+"destination": "BankSystemServicesImplementationsUserService",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "BankSystemWebAreasMoneyTransfersControllersHomeController",
+"destination": "BankSystemServicesImplementationsMoneyTransferService",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "BankSystemWebAreasMoneyTransfersControllersHomeController",
+"destination": "BankSystemServicesImplementationsBankAccountUniqueIdHelper",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "BankSystemWebAreasMoneyTransfersControllersHomeController",
+"destination": "BankSystemServicesImplementationsBaseService",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "BankSystemWebAreasMoneyTransfersControllersHomeController",
+"destination": "BankSystemServicesImplementationsBankAccountService",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "BankSystemWebAreasMoneyTransfersControllersHomeController",
+"destination": "BankSystemWebControllersBaseController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "BankSystemWebAreasMoneyTransfersControllersHomeController",
+"destination": "BankSystemWebAreasMoneyTransfersControllersBaseMoneyTransferController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "BankSystemServicesImplementationsBankAccountUniqueIdHelper",
+"destination": "BankSystemServicesImplementationsBaseService",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "BankSystemServicesImplementationsBankAccountUniqueIdHelper",
+"destination": "BankSystemServicesImplementationsMoneyTransferService",
+"type": "AGGREGATION"
+}
+]
+}

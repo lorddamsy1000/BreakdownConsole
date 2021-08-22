@@ -1,0 +1,4 @@
+Microsoft.eShopWeb.Web -> Microsoft.eShopWeb.Web 71.42857 100
+Microsoft.eShopWeb.Web -> Microsoft.eShopWeb 28.57143 100
+Microsoft.eShopWeb.Infrastructure.Data -> Microsoft.eShopWeb.Infrastructure.Data 12 100
+Microsoft.eShopWeb.Infrastructure.Data -> Microsoft.eShopWeb.ApplicationCore 88 100

@@ -1,0 +1,22 @@
+0 1
+1 1
+2 3
+3 4
+3 3
+5 3
+6 3
+7 8
+8 8
+9 8
+org.jhotdraw.gui.JSheet 0
+org.jhotdraw.util.Methods 1
+org.jhotdraw.gui.fontchooser.DefaultFontChooserModel 2
+org.jhotdraw.util.ResourceBundleUtil 3
+org.jhotdraw.util.LocaleUtil 4
+org.jhotdraw.gui.plaf.palette 5
+org.jhotdraw.gui.plaf.palette.PaletteFontChooserSelectionPanel 6
+org.jhotdraw.gui.plaf.palette.colorchooser 7
+org.jhotdraw.util.Images 8
+org.jhotdraw.gui.plaf.palette.MultiIcon 9
+
+57.14% of Util

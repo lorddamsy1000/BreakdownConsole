@@ -1,0 +1,36 @@
+Microservice 1
+Blogifier -> BlogifierCoreApiCustomFieldsController [label="Rule 1"]
+Blogifier -> BlogifierCoreServicesNewsletterService [label="Rule 1"]
+Blogifier -> BlogifierCoreApiPostsController [label="Rule 1"]
+Blogifier -> BlogifierCoreApiCustomHttpClient [label="Rule 3"]
+Blogifier -> BlogifierCoreApiNewslettersController [label="Rule 3"]
+Blogifier -> BlogifierCoreApiEmailsController [label="Rule 3"]
+Blogifier -> BlogifierCoreApiAuthorsController [label="Rule 3"]
+Blogifier -> BlogifierCoreServicesFeedService [label="Rule 3"]
+Blogifier -> BlogifierCoreApiAnalyticsController [label="Rule 3"]
+BlogifierCoreApiEmailsController -> BlogifierCoreApiNewslettersController [label="Rule 3"]
+BlogifierCoreApiEmailsController -> BlogifierCoreServicesEmailFactory [label="Rule 4"]
+BlogifierCoreApiEmailsController -> BlogifierCoreServicesEmailService [label="Rule 4"]
+Blogifier -> BlogifierCoreApiThemesController [label="Rule 2"]
+Blogifier -> BlogifierCoreServicesImportService [label="Rule 2"]
+Blogifier -> BlogifierCoreApiSettingsController [label="Rule 2"]
+Microservice 2
+BlogifierCoreServicesStorageService -> BlogifierCoreApiThemesController [label="Rule 2"]
+BlogifierCoreServicesStorageService -> BlogifierCoreServicesImportService [label="Rule 2"]
+BlogifierCoreServicesStorageService -> BlogifierCoreApiSettingsController [label="Rule 2"]
+Microservice 3
+Microservice 1
+BlogifierCoreServicesStorageService -> BlogifierCoreApiAuthorsController [label="Rule 2"]
+BlogifierCoreServicesStorageService -> BlogifierCoreApiCustomFieldsController [label="Rule 3"]
+BlogifierCoreServicesStorageService -> BlogifierCoreApiThemesController [label="Rule 4"]
+BlogifierCoreServicesStorageService -> BlogifierCoreServicesImportService [label="Rule 4"]
+BlogifierCoreServicesStorageService -> BlogifierCoreApiNewslettersController [label="Rule 2"]
+BlogifierCoreServicesStorageService -> BlogifierCoreServicesFeedService [label="Rule 2"]
+BlogifierCoreServicesStorageService -> BlogifierCoreApiSettingsController [label="Rule 2"]
+Microservice 2
+Microservice 3
+BlogifierCoreApiCustomHttpClient -> BlogifierCoreApiAuthorsController [label="Rule 2"]
+BlogifierCoreApiCustomHttpClient -> BlogifierCoreApiAnalyticsController [label="Rule 3"]
+BlogifierCoreApiCustomHttpClient -> BlogifierCoreApiEmailsController [label="Rule 3"]
+BlogifierCoreApiCustomHttpClient -> BlogifierCoreApiCustomFieldsController [label="Rule 3"]
+BlogifierCoreApiCustomHttpClient -> BlogifierCoreServicesNewsletterService [label="Rule 3"]

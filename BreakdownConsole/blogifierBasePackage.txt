@@ -1,0 +1,17 @@
+Blogifier.Core.Services.StorageService 13 7
+Blogifier.Core.Api.CustomHttpClient 11 5
+Blogifier.Core.Api.AuthorsController 4 4
+Blogifier.Core.Services.DataService 6 13
+Blogifier.Core.Services.NewsletterService 3 5
+Blogifier.Core.Api.PostsController 6 5
+Blogifier.Core.Api.AnalyticsController 2 5
+Blogifier.Core.Api.CustomFieldsController 2 3
+Blogifier.Core.Api.EmailsController 8 5
+Blogifier.Core.Services.EmailFactory 0 1
+Blogifier.Core.Services.EmailService 2 1
+Blogifier.Core.Services.SendGridService 3 3
+Blogifier.Core.Api.NewslettersController 2 2
+Blogifier.Core.Services.FeedService 1 2
+Blogifier.Core.Api.ThemesController 1 1
+Blogifier.Core.Api.SettingsController 1 2
+Blogifier.Core.Services.ImportService 0 1

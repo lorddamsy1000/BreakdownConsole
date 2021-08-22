@@ -1,0 +1,1772 @@
+{
+"name": "Smart Store",
+"entities": [
+{
+"name": "SmartStoreWebControllersInstallController"
+,
+"nanoentities": [
+"set_Logger()"
+,
+"Index()"
+,
+"Progress()"
+,
+"Install()"
+,
+"InstallCore()"
+,
+"get_Logger()"
+,
+"SqlServerDatabaseExists()"
+,
+"Finalize()"
+]
+}
+,
+{
+"name": "SmartStoreWebControllersInstallationResult"
+,
+"nanoentities": [
+"get_ProgressMessage()"
+,
+"get_Completed()"
+,
+"get_Success()"
+,
+"get_RedirectUrl()"
+,
+"get_Errors()"
+,
+"get_HasErrors()"
+,
+"set_ProgressMessage()"
+,
+"set_Completed()"
+,
+"set_Success()"
+,
+"set_RedirectUrl()"
+]
+}
+,
+{
+"name": "SmartStoreWebControllersHomeController"
+,
+"nanoentities": [
+"Index()"
+,
+"ContactUs()"
+]
+}
+,
+{
+"name": "SmartStoreWebControllersCatalogHelper"
+,
+"nanoentities": [
+"set_Logger()"
+,
+"set_QuerySettings()"
+,
+"set_T()"
+,
+"MapCategorySummaryModel()"
+,
+"GetBestFitProductSummaryMappingSettings()"
+,
+"MapProductSummaryModel()"
+,
+"PrepareManufacturerNavigationModel()"
+,
+"get_QuerySettings()"
+,
+"GetBreadcrumb()"
+,
+"get_T()"
+,
+"PrepareCategoryPictureModel()"
+,
+"GetChildCategoryIds()"
+,
+"PrepareManufacturersOverviewModel()"
+,
+"MapListActions()"
+,
+"PrepareProductDetailsPageModel()"
+,
+"PrepareProductDetailModel()"
+,
+"PrepareProductDetailsMediaGalleryModel()"
+,
+"PrepareProductSpecificationModel()"
+,
+"PrepareProductReviewsModel()"
+,
+"CreateTierPriceModel()"
+,
+"PrepareManufacturerPictureModel()"
+]
+}
+,
+{
+"name": "SmartStoreWebControllersTopicController"
+,
+"nanoentities": [
+"TopicBlock()"
+,
+"PrepareTopicModel()"
+,
+"TopicDetails()"
+]
+}
+,
+{
+"name": "SmartStoreWebControllersCatalogController"
+,
+"nanoentities": [
+"HomepageCategories()"
+,
+"HomepageProducts()"
+,
+"HomepageBestSellers()"
+,
+"HomepageManufacturers()"
+,
+"PopularProductTags()"
+,
+"RecentlyViewedProductsBlock()"
+,
+"OffCanvasCompare()"
+,
+"RecentlyAddedProducts()"
+,
+"CompareProducts()"
+,
+"Category()"
+,
+"AddProductToCompareListAjax()"
+,
+"RecentlyViewedProducts()"
+,
+"ClearCompareList()"
+]
+}
+,
+{
+"name": "SmartStoreWebControllersProductSummaryMappingSettings"
+,
+"nanoentities": [
+"set_MapPrices()"
+,
+"set_MapPictures()"
+,
+"set_ViewMode()"
+,
+"set_ThumbnailSize()"
+,
+"get_ViewMode()"
+,
+"get_MapDimensions()"
+,
+"get_MapLegalInfo()"
+,
+"get_MapShortDescription()"
+,
+"get_MapFullDescription()"
+,
+"get_MapReviews()"
+,
+"get_MapPrices()"
+,
+"get_MapManufacturers()"
+,
+"get_ForceRedirectionAfterAddingToCart()"
+,
+"get_ThumbnailSize()"
+,
+"get_DeliveryTimesPresentation()"
+,
+"set_MapShortDescription()"
+,
+"set_MapManufacturers()"
+,
+"set_MapColorAttributes()"
+,
+"set_MapAttributes()"
+,
+"set_MapReviews()"
+,
+"set_DeliveryTimesPresentation()"
+,
+"set_MapFullDescription()"
+,
+"set_MapLegalInfo()"
+,
+"set_MapSpecificationAttributes()"
+,
+"set_MapDimensions()"
+,
+"get_PrefetchTranslations()"
+,
+"get_PrefetchUrlSlugs()"
+,
+"get_MapAttributes()"
+,
+"get_MapColorAttributes()"
+,
+"get_MapSpecificationAttributes()"
+,
+"get_MapPictures()"
+]
+}
+,
+{
+"name": "SmartStoreWebControllersNewsController"
+,
+"nanoentities": [
+"HomePageNews()"
+,
+"RssHeaderLink()"
+,
+"List()"
+,
+"PrepareNewsItemListModel()"
+]
+}
+,
+{
+"name": "SmartStoreWebControllersPollController"
+,
+"nanoentities": [
+"HomePagePolls()"
+,
+"PollBlock()"
+]
+}
+,
+{
+"name": "SmartStoreWebControllersCommonController"
+,
+"nanoentities": [
+"TopBar()"
+,
+"LanguageSelector()"
+,
+"PrepareLanguageSelectorModel()"
+,
+"CurrencySelector()"
+,
+"PrepareCurrencySelectorModel()"
+,
+"ShopBar()"
+,
+"Logo()"
+,
+"JavaScriptDisabledWarning()"
+,
+"Footer()"
+,
+"GdprConsent()"
+,
+"StoreThemeSelector()"
+,
+"CookieManager()"
+,
+"Favicon()"
+,
+"SetCookieManagerConsent()"
+,
+"AccountDropdown()"
+,
+"GetUnreadPrivateMessages()"
+,
+"CurrencySelected()"
+,
+"MetaPropertiesCategory()"
+,
+"MetaPropertiesProduct()"
+]
+}
+,
+{
+"name": "SmartStoreWebControllersMenuController"
+,
+"nanoentities": [
+"Menu()"
+,
+"Breadcrumb()"
+,
+"OffCanvas()"
+,
+"PrepareMenuModel()"
+]
+}
+,
+{
+"name": "SmartStoreWebControllersTaskSchedulerController"
+,
+"nanoentities": [
+"Noop()"
+,
+"Sweep()"
+,
+"Virtualize()"
+,
+"Execute()"
+]
+}
+,
+{
+"name": "SmartStoreWebControllersSearchController"
+,
+"nanoentities": [
+"SearchBox()"
+,
+"ActiveFilters()"
+,
+"Filters()"
+,
+"FacetGroup()"
+]
+}
+,
+{
+"name": "SmartStoreWebControllersShoppingCartController"
+,
+"nanoentities": [
+"OffCanvasCart()"
+,
+"CartSummary()"
+,
+"OffCanvasShoppingCart()"
+,
+"PrepareMiniShoppingCartModel()"
+,
+"OffCanvasWishlist()"
+,
+"PrepareWishlistModel()"
+,
+"Wishlist()"
+,
+"Cart()"
+,
+"PrepareShoppingCartModel()"
+,
+"AddProduct()"
+,
+"PrepareCartItemPictureModel()"
+,
+"OrderTotals()"
+,
+"AddProductSimple()"
+,
+"MoveItemBetweenCartAndWishlistAjax()"
+,
+"DeleteCartItem()"
+]
+}
+,
+{
+"name": "SmartStoreWebControllersWidgetController"
+,
+"nanoentities": [
+"WidgetsByZone()"
+]
+}
+,
+{
+"name": "SmartStoreWebControllersBlogController"
+,
+"nanoentities": [
+"RssHeaderLink()"
+,
+"List()"
+,
+"PrepareBlogPostListModel()"
+,
+"BlogMonths()"
+,
+"BlogTags()"
+]
+}
+,
+{
+"name": "SmartStoreWebControllersMediaController"
+,
+"nanoentities": [
+"set_Logger()"
+,
+"File()"
+,
+"CreateImageQuery()"
+,
+"XmlSitemap()"
+]
+}
+,
+{
+"name": "SmartStoreWebControllersBoardsController"
+,
+"nanoentities": [
+"Index()"
+,
+"SearchBox()"
+,
+"ActiveDiscussionsSmall()"
+]
+}
+,
+{
+"name": "SmartStoreWebControllersCustomerController"
+,
+"nanoentities": [
+"Login()"
+,
+"Register()"
+,
+"TryAssociateAccountWithExternalAccount()"
+,
+"RegisterResult()"
+,
+"Info()"
+,
+"IsCurrentUserRegistered()"
+,
+"PrepareCustomerInfoModel()"
+,
+"Logout()"
+]
+}
+,
+{
+"name": "SmartStoreWebControllersExternalAuthenticationController"
+,
+"nanoentities": [
+"ExternalMethods()"
+]
+}
+,
+{
+"name": "SmartStoreWebControllersCheckoutController"
+,
+"nanoentities": [
+"CheckoutProgress()"
+,
+"Index()"
+,
+"BillingAddress()"
+,
+"PrepareBillingAddressModel()"
+,
+"SelectBillingAddress()"
+,
+"ShippingAddress()"
+,
+"PrepareShippingAddressModel()"
+,
+"SelectShippingAddress()"
+,
+"ShippingMethod()"
+]
+}
+,
+{
+"name": "SmartStoreAdminControllersHomeController"
+,
+"nanoentities": [
+"Index()"
+,
+"MarketplaceFeed()"
+]
+}
+,
+{
+"name": "SmartStoreAdminControllersOrderController"
+,
+"nanoentities": [
+"OrdersIncompleteDashboardReport()"
+,
+"OrdersDashboardReport()"
+,
+"BestsellersDashboardReport()"
+,
+"LatestOrdersDashboardReport()"
+,
+"List()"
+,
+"OrderGrid()"
+,
+"OrderList()"
+]
+}
+,
+{
+"name": "SmartStoreAdminControllersCustomerController"
+,
+"nanoentities": [
+"TopCustomersDashboardReport()"
+,
+"RegisteredCustomersDashboardReport()"
+,
+"SetCustomerReportData()"
+,
+"List()"
+,
+"CustomerList()"
+,
+"PrepareCustomerModelForList()"
+,
+"GetCustomerRolesNames()"
+,
+"Reports()"
+,
+"ReportRegisteredCustomers()"
+,
+"ReportTopCustomersList()"
+]
+}
+,
+{
+"name": "SmartStoreAdminControllersCommonController"
+,
+"nanoentities": [
+"Navbar()"
+,
+"LanguageSelector()"
+,
+"SetGridState()"
+,
+"SetSelectedTab()"
+,
+"Maintenance()"
+,
+"MaintenanceExecuteSql()"
+,
+"SystemInfo()"
+,
+"Warnings()"
+]
+}
+,
+{
+"name": "SmartStoreAdminControllersStoreController"
+,
+"nanoentities": [
+"StoreDashboardReport()"
+,
+"List()"
+]
+}
+,
+{
+"name": "SmartStoreAdminControllersCustomerRoleController"
+,
+"nanoentities": [
+"AllCustomerRoles()"
+,
+"List()"
+]
+}
+,
+{
+"name": "SmartStoreAdminControllersCategoryController"
+,
+"nanoentities": [
+"Index()"
+,
+"List()"
+,
+"Create()"
+,
+"PrepareTemplatesModel()"
+,
+"PrepareCategoryModel()"
+,
+"AllCategories()"
+,
+"UpdateLocales()"
+,
+"Edit()"
+,
+"ProductList()"
+]
+}
+,
+{
+"name": "SmartStoreAdminControllersProductController"
+,
+"nanoentities": [
+"List()"
+,
+"ProductList()"
+,
+"BulkEdit()"
+,
+"BulkEditSelect()"
+,
+"Create()"
+,
+"PrepareProductModel()"
+,
+"LoadEditTab()"
+,
+"MapModelToProduct()"
+,
+"UpdateProductGeneralInfo()"
+,
+"UpdateProductSeo()"
+,
+"UpdateProductDownloads()"
+,
+"UpdateProductPrice()"
+,
+"Edit()"
+,
+"TierPriceList()"
+,
+"UpdateDataOfProductDownloads()"
+,
+"ProductMediaFilesAdd()"
+,
+"SortPictures()"
+,
+"ProductCategoryList()"
+,
+"RelatedProductList()"
+,
+"CrossSellProductList()"
+,
+"UpdateProductPictures()"
+,
+"UpdateProductAttributes()"
+,
+"ProductVariantAttributeList()"
+,
+"ProductVariantAttributeCombinationList()"
+,
+"ProductVariantAttributeInsert()"
+,
+"AttributeCombinationCreatePopup()"
+,
+"CreateAllAttributeCombinations()"
+,
+"ProductSpecAttrList()"
+,
+"ProductVariantAttributeDelete()"
+,
+"CopyAttributeOptions()"
+,
+"CombinationExistenceNote()"
+,
+"EditAttributeValues()"
+,
+"ProductAttributeValueList()"
+,
+"ProductAttributeValueCreatePopup()"
+,
+"ProductVariantAttributeUpdate()"
+,
+"ProductCategoryInsert()"
+,
+"ProductManufacturerList()"
+,
+"ProductManufacturerInsert()"
+,
+"UpdateProductInventory()"
+,
+"RelatedProductAdd()"
+]
+}
+,
+{
+"name": "SmartStoreAdminControllersProductReviewController"
+,
+"nanoentities": [
+"List()"
+]
+}
+,
+{
+"name": "SmartStoreAdminControllersManufacturerController"
+,
+"nanoentities": [
+"List()"
+,
+"Create()"
+,
+"PrepareTemplatesModel()"
+,
+"UpdateLocales()"
+,
+"AllManufacturers()"
+]
+}
+,
+{
+"name": "SmartStoreAdminControllersTopicController"
+,
+"nanoentities": [
+"List()"
+]
+}
+,
+{
+"name": "SmartStoreAdminControllersMediaController"
+,
+"nanoentities": [
+"Upload()"
+]
+}
+,
+{
+"name": "SmartStoreAdminControllersUrlRecordController"
+,
+"nanoentities": [
+"NamesPerEntity()"
+,
+"List()"
+]
+}
+,
+{
+"name": "SmartStoreWebControllersEntityController"
+,
+"nanoentities": [
+"Picker()"
+]
+}
+,
+{
+"name": "SmartStoreAdminControllersSpecificationAttributeController"
+,
+"nanoentities": [
+"List()"
+,
+"Create()"
+,
+"Edit()"
+,
+"OptionList()"
+,
+"OptionCreatePopup()"
+]
+}
+,
+{
+"name": "SmartStoreAdminControllersProductAttributeController"
+,
+"nanoentities": [
+"List()"
+,
+"Create()"
+,
+"AllProductAttributes()"
+,
+"Edit()"
+,
+"OptionsSetList()"
+,
+"OptionsSetInsert()"
+,
+"OptionsSetListDetails()"
+,
+"OptionCreatePopup()"
+,
+"OptionsSetDelete()"
+]
+}
+,
+{
+"name": "SmartStoreAdminControllersDeliveryTimeController"
+,
+"nanoentities": [
+"AllDeliveryTimes()"
+,
+"List()"
+]
+}
+,
+{
+"name": "SmartStoreAdminControllersDiscountController"
+,
+"nanoentities": [
+"AllDiscounts()"
+,
+"List()"
+]
+}
+,
+{
+"name": "SmartStoreWebControllersProductController"
+,
+"nanoentities": [
+"ProductDetails()"
+,
+"ReviewSummary()"
+,
+"ProductTierPrices()"
+,
+"ProductSpecifications()"
+,
+"ProductDetailReviews()"
+,
+"ProductTags()"
+,
+"RelatedProducts()"
+,
+"ProductsAlsoPurchased()"
+,
+"UpdateProductDetails()"
+,
+"Reviews()"
+,
+"ReviewsAdd()"
+,
+"AskQuestionAjax()"
+,
+"AskQuestion()"
+,
+"AskQuestionSend()"
+]
+}
+,
+{
+"name": "SmartStoreAdminControllersOnlineCustomerController"
+,
+"nanoentities": [
+"List()"
+]
+}
+,
+{
+"name": "SmartStoreAdminControllersShippingController"
+,
+"nanoentities": [
+"Methods()"
+,
+"Providers()"
+,
+"CreateMethod()"
+]
+}
+,
+{
+"name": "SmartStoreAdminControllersRuleController"
+,
+"nanoentities": [
+"List()"
+]
+}
+,
+{
+"name": "SmartStoreAdminControllersLogController"
+,
+"nanoentities": [
+"List()"
+,
+"LogList()"
+]
+}
+,
+{
+"name": "SmartStoreAdminControllersQueuedEmailController"
+,
+"nanoentities": [
+"List()"
+,
+"QueuedEmailList()"
+]
+}
+,
+{
+"name": "SmartStoreAdminControllersPluginController"
+,
+"nanoentities": [
+"List()"
+,
+"PrepareLocalPluginsModel()"
+]
+}
+,
+{
+"name": "SmartStoreAdminControllersPackagingController"
+,
+"nanoentities": [
+"UploadPackage()"
+]
+}
+,
+{
+"name": "SmartStoreAdminControllersAdminModelHelper"
+,
+"nanoentities": [
+"set_T()"
+,
+"CreateScheduleTaskModel()"
+,
+"get_T()"
+,
+"CreateScheduleTaskHistoryModel()"
+]
+}
+,
+{
+"name": "SmartStoreAdminControllersScheduleTaskController"
+,
+"nanoentities": [
+"List()"
+,
+"GetRunningTasks()"
+,
+"Edit()"
+,
+"FutureSchedules()"
+,
+"HistoryList()"
+,
+"RunJob()"
+]
+}
+,
+{
+"name": "SmartStoreAdminControllersQuantityUnitController"
+,
+"nanoentities": [
+"List()"
+]
+}
+,
+{
+"name": "SmartStoreAdminControllersMeasureController"
+,
+"nanoentities": [
+"Weights()"
+,
+"Dimensions()"
+]
+}
+,
+{
+"name": "SmartStoreAdminControllersMenuController"
+,
+"nanoentities": [
+"List()"
+]
+}
+,
+{
+"name": "SmartStoreAdminControllersNewsController"
+,
+"nanoentities": [
+"List()"
+]
+}
+,
+{
+"name": "SmartStoreAdminControllersBlogController"
+,
+"nanoentities": [
+"List()"
+,
+"Comments()"
+]
+}
+,
+{
+"name": "SmartStoreAdminControllersForumController"
+,
+"nanoentities": [
+"List()"
+]
+}
+,
+{
+"name": "SmartStoreAdminControllersTaxController"
+,
+"nanoentities": [
+"Providers()"
+,
+"ActivateProvider()"
+]
+}
+,
+{
+"name": "SmartStoreAdminControllersAffiliateController"
+,
+"nanoentities": [
+"List()"
+]
+}
+,
+{
+"name": "SmartStoreAdminControllersNewsLetterSubscriptionController"
+,
+"nanoentities": [
+"List()"
+]
+}
+,
+{
+"name": "SmartStoreAdminControllersExternalAuthenticationController"
+,
+"nanoentities": [
+"Providers()"
+]
+}
+,
+{
+"name": "SmartStoreAdminControllersCountryController"
+,
+"nanoentities": [
+"List()"
+,
+"CountryList()"
+]
+}
+]
+,
+"relations": [
+{
+"origin": "SmartStoreWebControllersInstallController",
+"destination": "SmartStoreWebControllersInstallationResult",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SmartStoreWebControllersInstallController",
+"destination": "SmartStoreWebControllersHomeController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SmartStoreWebControllersInstallationResult",
+"destination": "SmartStoreWebControllersInstallController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SmartStoreWebControllersCatalogController",
+"destination": "SmartStoreWebControllersCatalogHelper",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SmartStoreWebControllersCatalogController",
+"destination": "SmartStoreWebControllersTaskSchedulerController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SmartStoreWebControllersCatalogHelper",
+"destination": "SmartStoreWebControllersProductSummaryMappingSettings",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SmartStoreWebControllersCatalogHelper",
+"destination": "SmartStoreWebControllersShoppingCartController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SmartStoreWebControllersCatalogHelper",
+"destination": "SmartStoreWebControllersProductController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SmartStoreWebControllersCatalogHelper",
+"destination": "SmartStoreWebControllersTaskSchedulerController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SmartStoreWebControllersCatalogHelper",
+"destination": "SmartStoreWebControllersCatalogController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SmartStoreWebControllersCatalogHelper",
+"destination": "SmartStoreWebControllersNewsController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SmartStoreWebControllersCatalogHelper",
+"destination": "SmartStoreWebControllersPollController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SmartStoreWebControllersCatalogHelper",
+"destination": "SmartStoreWebControllersCommonController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SmartStoreWebControllersCatalogHelper",
+"destination": "SmartStoreWebControllersMenuController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SmartStoreWebControllersCatalogHelper",
+"destination": "SmartStoreWebControllersSearchController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SmartStoreWebControllersCommonController",
+"destination": "SmartStoreWebControllersTaskSchedulerController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SmartStoreWebControllersCommonController",
+"destination": "SmartStoreWebControllersMenuController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SmartStoreWebControllersCommonController",
+"destination": "SmartStoreWebControllersWidgetController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SmartStoreWebControllersCommonController",
+"destination": "SmartStoreWebControllersNewsController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SmartStoreWebControllersCommonController",
+"destination": "SmartStoreWebControllersBlogController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SmartStoreWebControllersTaskSchedulerController",
+"destination": "SmartStoreWebControllersCommonController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SmartStoreWebControllersTaskSchedulerController",
+"destination": "SmartStoreWebControllersCatalogHelper",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SmartStoreWebControllersTaskSchedulerController",
+"destination": "SmartStoreWebControllersCatalogController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SmartStoreWebControllersTaskSchedulerController",
+"destination": "SmartStoreWebControllersShoppingCartController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SmartStoreWebControllersTaskSchedulerController",
+"destination": "SmartStoreWebControllersBoardsController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SmartStoreWebControllersTaskSchedulerController",
+"destination": "SmartStoreWebControllersCustomerController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SmartStoreWebControllersTaskSchedulerController",
+"destination": "SmartStoreWebControllersWidgetController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SmartStoreWebControllersTaskSchedulerController",
+"destination": "SmartStoreWebControllersNewsController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SmartStoreWebControllersTaskSchedulerController",
+"destination": "SmartStoreWebControllersMenuController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SmartStoreWebControllersTaskSchedulerController",
+"destination": "SmartStoreWebControllersSearchController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SmartStoreWebControllersTaskSchedulerController",
+"destination": "SmartStoreWebControllersHomeController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SmartStoreWebControllersTaskSchedulerController",
+"destination": "SmartStoreWebControllersTopicController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SmartStoreWebControllersTaskSchedulerController",
+"destination": "SmartStoreWebControllersBlogController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SmartStoreWebControllersTaskSchedulerController",
+"destination": "SmartStoreWebControllersPollController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SmartStoreWebControllersTaskSchedulerController",
+"destination": "SmartStoreAdminControllersOrderController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SmartStoreWebControllersTaskSchedulerController",
+"destination": "SmartStoreAdminControllersCustomerController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SmartStoreWebControllersTaskSchedulerController",
+"destination": "SmartStoreAdminControllersHomeController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SmartStoreWebControllersTaskSchedulerController",
+"destination": "SmartStoreAdminControllersCommonController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SmartStoreWebControllersTaskSchedulerController",
+"destination": "SmartStoreAdminControllersStoreController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SmartStoreWebControllersTaskSchedulerController",
+"destination": "SmartStoreAdminControllersCustomerRoleController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SmartStoreWebControllersTaskSchedulerController",
+"destination": "SmartStoreAdminControllersCategoryController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SmartStoreWebControllersTaskSchedulerController",
+"destination": "SmartStoreAdminControllersProductController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SmartStoreWebControllersTaskSchedulerController",
+"destination": "SmartStoreAdminControllersProductReviewController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SmartStoreWebControllersTaskSchedulerController",
+"destination": "SmartStoreAdminControllersManufacturerController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SmartStoreWebControllersTaskSchedulerController",
+"destination": "SmartStoreAdminControllersTopicController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SmartStoreWebControllersTaskSchedulerController",
+"destination": "SmartStoreAdminControllersMediaController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SmartStoreWebControllersTaskSchedulerController",
+"destination": "SmartStoreWebControllersEntityController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SmartStoreWebControllersTaskSchedulerController",
+"destination": "SmartStoreWebControllersMediaController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SmartStoreWebControllersTaskSchedulerController",
+"destination": "SmartStoreAdminControllersSpecificationAttributeController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SmartStoreWebControllersTaskSchedulerController",
+"destination": "SmartStoreAdminControllersUrlRecordController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SmartStoreWebControllersTaskSchedulerController",
+"destination": "SmartStoreAdminControllersProductAttributeController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SmartStoreWebControllersTaskSchedulerController",
+"destination": "SmartStoreAdminControllersDiscountController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SmartStoreWebControllersTaskSchedulerController",
+"destination": "SmartStoreWebControllersProductController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SmartStoreWebControllersTaskSchedulerController",
+"destination": "SmartStoreAdminControllersOnlineCustomerController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SmartStoreWebControllersTaskSchedulerController",
+"destination": "SmartStoreAdminControllersShippingController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SmartStoreWebControllersTaskSchedulerController",
+"destination": "SmartStoreAdminControllersRuleController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SmartStoreWebControllersTaskSchedulerController",
+"destination": "SmartStoreAdminControllersLogController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SmartStoreWebControllersTaskSchedulerController",
+"destination": "SmartStoreAdminControllersQueuedEmailController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SmartStoreWebControllersTaskSchedulerController",
+"destination": "SmartStoreAdminControllersDeliveryTimeController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SmartStoreWebControllersTaskSchedulerController",
+"destination": "SmartStoreAdminControllersPluginController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SmartStoreWebControllersTaskSchedulerController",
+"destination": "SmartStoreAdminControllersPackagingController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SmartStoreWebControllersTaskSchedulerController",
+"destination": "SmartStoreAdminControllersAdminModelHelper",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SmartStoreWebControllersTaskSchedulerController",
+"destination": "SmartStoreAdminControllersScheduleTaskController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SmartStoreWebControllersTaskSchedulerController",
+"destination": "SmartStoreAdminControllersQuantityUnitController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SmartStoreWebControllersTaskSchedulerController",
+"destination": "SmartStoreAdminControllersMeasureController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SmartStoreWebControllersTaskSchedulerController",
+"destination": "SmartStoreAdminControllersMenuController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SmartStoreWebControllersTaskSchedulerController",
+"destination": "SmartStoreAdminControllersNewsController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SmartStoreWebControllersTaskSchedulerController",
+"destination": "SmartStoreAdminControllersBlogController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SmartStoreWebControllersTaskSchedulerController",
+"destination": "SmartStoreAdminControllersForumController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SmartStoreWebControllersTaskSchedulerController",
+"destination": "SmartStoreAdminControllersTaxController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SmartStoreWebControllersTaskSchedulerController",
+"destination": "SmartStoreAdminControllersAffiliateController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SmartStoreWebControllersTaskSchedulerController",
+"destination": "SmartStoreAdminControllersNewsLetterSubscriptionController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SmartStoreWebControllersTaskSchedulerController",
+"destination": "SmartStoreAdminControllersExternalAuthenticationController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SmartStoreWebControllersTaskSchedulerController",
+"destination": "SmartStoreWebControllersExternalAuthenticationController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SmartStoreWebControllersTaskSchedulerController",
+"destination": "SmartStoreAdminControllersCountryController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SmartStoreWebControllersTopicController",
+"destination": "SmartStoreWebControllersCatalogHelper",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SmartStoreAdminControllersProductController",
+"destination": "SmartStoreAdminControllersCommonController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SmartStoreAdminControllersProductController",
+"destination": "SmartStoreWebControllersCatalogHelper",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SmartStoreAdminControllersProductController",
+"destination": "SmartStoreWebControllersMenuController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SmartStoreAdminControllersProductController",
+"destination": "SmartStoreAdminControllersUrlRecordController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SmartStoreAdminControllersProductController",
+"destination": "SmartStoreWebControllersTaskSchedulerController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SmartStoreAdminControllersProductController",
+"destination": "SmartStoreAdminControllersManufacturerController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SmartStoreAdminControllersProductController",
+"destination": "SmartStoreWebControllersMediaController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SmartStoreAdminControllersMediaController",
+"destination": "SmartStoreAdminControllersProductController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SmartStoreAdminControllersMediaController",
+"destination": "SmartStoreAdminControllersCommonController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SmartStoreAdminControllersMediaController",
+"destination": "SmartStoreWebControllersTaskSchedulerController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SmartStoreAdminControllersMediaController",
+"destination": "SmartStoreAdminControllersCategoryController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SmartStoreWebControllersMediaController",
+"destination": "SmartStoreAdminControllersCommonController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SmartStoreWebControllersMediaController",
+"destination": "SmartStoreAdminControllersProductController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SmartStoreWebControllersMediaController",
+"destination": "SmartStoreWebControllersCatalogHelper",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SmartStoreWebControllersMediaController",
+"destination": "SmartStoreWebControllersProductController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SmartStoreAdminControllersProductAttributeController",
+"destination": "SmartStoreWebControllersTaskSchedulerController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SmartStoreAdminControllersManufacturerController",
+"destination": "SmartStoreAdminControllersCommonController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SmartStoreAdminControllersManufacturerController",
+"destination": "SmartStoreWebControllersCatalogHelper",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SmartStoreAdminControllersManufacturerController",
+"destination": "SmartStoreWebControllersMenuController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SmartStoreAdminControllersManufacturerController",
+"destination": "SmartStoreAdminControllersProductController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SmartStoreAdminControllersManufacturerController",
+"destination": "SmartStoreAdminControllersUrlRecordController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SmartStoreAdminControllersSpecificationAttributeController",
+"destination": "SmartStoreWebControllersTaskSchedulerController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SmartStoreAdminControllersCommonController",
+"destination": "SmartStoreWebControllersMediaController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SmartStoreAdminControllersCommonController",
+"destination": "SmartStoreWebControllersTaskSchedulerController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SmartStoreWebControllersProductController",
+"destination": "SmartStoreWebControllersCatalogHelper",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SmartStoreWebControllersShoppingCartController",
+"destination": "SmartStoreWebControllersHomeController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SmartStoreWebControllersShoppingCartController",
+"destination": "SmartStoreWebControllersTaskSchedulerController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SmartStoreWebControllersShoppingCartController",
+"destination": "SmartStoreWebControllersCatalogHelper",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SmartStoreWebControllersShoppingCartController",
+"destination": "SmartStoreWebControllersCatalogController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SmartStoreAdminControllersStoreController",
+"destination": "SmartStoreAdminControllersCustomerController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SmartStoreAdminControllersStoreController",
+"destination": "SmartStoreAdminControllersHomeController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SmartStoreAdminControllersStoreController",
+"destination": "SmartStoreAdminControllersOrderController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SmartStoreAdminControllersScheduleTaskController",
+"destination": "SmartStoreAdminControllersAdminModelHelper",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SmartStoreAdminControllersScheduleTaskController",
+"destination": "SmartStoreWebControllersTaskSchedulerController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SmartStoreAdminControllersScheduleTaskController",
+"destination": "SmartStoreAdminControllersCommonController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SmartStoreAdminControllersScheduleTaskController",
+"destination": "SmartStoreWebControllersCatalogHelper",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SmartStoreAdminControllersScheduleTaskController",
+"destination": "SmartStoreWebControllersMenuController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SmartStoreAdminControllersAdminModelHelper",
+"destination": "SmartStoreWebControllersTaskSchedulerController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SmartStoreAdminControllersAdminModelHelper",
+"destination": "SmartStoreAdminControllersCommonController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SmartStoreAdminControllersAdminModelHelper",
+"destination": "SmartStoreWebControllersCatalogHelper",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SmartStoreAdminControllersAdminModelHelper",
+"destination": "SmartStoreWebControllersMenuController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SmartStoreAdminControllersAdminModelHelper",
+"destination": "SmartStoreAdminControllersScheduleTaskController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SmartStoreAdminControllersTaxController",
+"destination": "SmartStoreAdminControllersCommonController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SmartStoreAdminControllersTaxController",
+"destination": "SmartStoreWebControllersCatalogHelper",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SmartStoreAdminControllersTaxController",
+"destination": "SmartStoreWebControllersMenuController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SmartStoreAdminControllersTaxController",
+"destination": "SmartStoreAdminControllersShippingController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SmartStoreAdminControllersTaxController",
+"destination": "SmartStoreWebControllersTaskSchedulerController",
+"type": "AGGREGATION"
+}
+,
+{
+"origin": "SmartStoreWebControllersCheckoutController",
+"destination": "SmartStoreWebControllersHomeController",
+"type": "AGGREGATION"
+}
+]
+}

@@ -1,0 +1,13 @@
+Microsoft.eShopWeb.Web.Services.CachedCatalogViewModelService -> Microsoft.eShopWeb.Web.Services.CachedCatalogViewModelService 50 100
+Microsoft.eShopWeb.Web.Services.CachedCatalogViewModelService -> Microsoft.eShopWeb.Web.Services.CatalogViewModelService 50 33.33334
+Microsoft.eShopWeb.Web.Services.CatalogViewModelService -> Microsoft.eShopWeb.ApplicationCore.Services.UriComposer 33.33334 50
+Microsoft.eShopWeb.ApplicationCore.Services.UriComposer -> Microsoft.eShopWeb.CatalogSettings 100 100
+Microsoft.eShopWeb.Web.Services.CatalogViewModelService -> Microsoft.eShopWeb.Web.Services.CatalogViewModelService 66.66667 66.66667
+Microsoft.eShopWeb.Web.Services.BasketViewModelService -> Microsoft.eShopWeb.Web.Services.BasketViewModelService 75 100
+Microsoft.eShopWeb.Web.Services.BasketViewModelService -> Microsoft.eShopWeb.ApplicationCore.Services.UriComposer 25 50
+Microsoft.eShopWeb.Web.Controllers.ManageController -> Microsoft.eShopWeb.Web.Controllers.ManageController 83.33333 45.45455
+Microsoft.eShopWeb.Web.Controllers.ManageController -> Microsoft.eShopWeb.Web.Services.EmailSenderExtensions 16.66667 100
+Microsoft.eShopWeb.Web.Services.EmailSenderExtensions -> Microsoft.eShopWeb.Web.Controllers.ManageController 75 54.54546
+Microsoft.eShopWeb.Web.Services.EmailSenderExtensions -> Microsoft.eShopWeb.Web.Controllers.OrderController 25 100
+Microsoft.eShopWeb.ApplicationCore.Services.BasketService -> Ardalis.GuardClauses.BasketGuards 100 50
+Microsoft.eShopWeb.ApplicationCore.Services.OrderService -> Ardalis.GuardClauses.BasketGuards 100 50

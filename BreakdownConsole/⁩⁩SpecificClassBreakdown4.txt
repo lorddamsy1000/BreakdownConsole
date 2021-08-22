@@ -1,0 +1,10 @@
+org.jhotdraw.gui.JSheet org.jhotdraw.util.Methods
+org.jhotdraw.util.Methods org.jhotdraw.util.Methods
+org.jhotdraw.gui.fontchooser.DefaultFontChooserModel org.jhotdraw.util.ResourceBundleUtil
+org.jhotdraw.util.ResourceBundleUtil org.jhotdraw.util.LocaleUtil
+org.jhotdraw.util.ResourceBundleUtil org.jhotdraw.util.ResourceBundleUtil
+org.jhotdraw.gui.plaf.palette org.jhotdraw.util.ResourceBundleUtil
+org.jhotdraw.gui.plaf.palette.PaletteFontChooserSelectionPanel org.jhotdraw.util.ResourceBundleUtil
+org.jhotdraw.gui.plaf.palette.colorchooser org.jhotdraw.util.Images
+org.jhotdraw.util.Images org.jhotdraw.util.Images
+org.jhotdraw.gui.plaf.palette.MultiIcon org.jhotdraw.util.Images

@@ -1,0 +1,33 @@
+Microservice 1
+coderushControllersApi -> coderush [label="Rule 1"]
+coderushControllersApi -> coderushModelsSyncfusionViewModels [label="Rule 1"]
+Microservice 2
+coderushData -> coderush [label="Rule 7"]
+coderushData -> coderushModels [label="Rule 7"]
+coderushData -> coderushModelsSyncfusionViewModels [label="Rule 7"]
+coderushModels -> coderushData [label="Rule 7"]
+coderush -> coderushData [label="Rule 7"]
+coderushModelsSyncfusionViewModels -> coderushData [label="Rule 7"]
+Microservice 3
+coderushServices -> coderushModels [label="Rule 7"]
+coderushServices -> coderush [label="Rule 7"]
+Microservice 4
+coderushControllers -> coderushModelsAccountViewModels [label="Rule 3"]
+
+
+Microservice 1
+coderushControllersApi -> coderush [label="Rule 1"]
+coderushControllersApi -> coderushModels [label="Rule 1"]
+coderushControllersApi -> coderushModelsSyncfusionViewModels [label="Rule 1"]
+Microservice 2
+coderushData -> coderush [label="Rule 7"]
+coderushData -> coderushModels [label="Rule 7"]
+coderushData -> coderushModelsSyncfusionViewModels [label="Rule 7"]
+coderushModels -> coderushData [label="Rule 7"]
+coderush -> coderushData [label="Rule 7"]
+coderushModelsSyncfusionViewModels -> coderushData [label="Rule 7"]
+Microservice 3
+coderushServices -> coderushModels [label="Rule 7"]
+coderushServices -> coderush [label="Rule 7"]
+Microservice 4
+coderushControllers -> coderushModelsAccountViewModels [label="Rule 2"]

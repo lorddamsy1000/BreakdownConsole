@@ -1,0 +1,12 @@
+org.jhotdraw.app.action.AbstractSaveUnsavedChangesAction org.jhotdraw.gui.JSheet
+org.jhotdraw.gui.JSheet org.jhotdraw.gui.JSheet
+org.jhotdraw.gui.JSheet org.jhotdraw.util.Methods
+org.jhotdraw.gui.JSheet org.jhotdraw.gui.event.SheetListener
+org.jhotdraw.gui.JSheet org.jhotdraw.gui.URIChooser
+org.jhotdraw.app.action.AbstractSaveUnsavedChangesAction.1 org.jhotdraw.gui.event.SheetEvent
+org.jhotdraw.app.action.app.ExitAction org.jhotdraw.gui.JSheet
+org.jhotdraw.app.action.app.ExitAction.1 org.jhotdraw.gui.event.SheetEvent
+org.jhotdraw.app.action.app.ExitAction.2 org.jhotdraw.gui.event.SheetEvent
+org.jhotdraw.app.action.app.ExitAction.2 org.jhotdraw.gui.URIChooser
+org.jhotdraw.app.action.app.ExitAction.5 org.jhotdraw.gui.JSheet
+org.jhotdraw.app.action.edit.DuplicateAction org.jhotdraw.gui.EditableComponent

@@ -1,0 +1,2 @@
+Microsoft.eShopWeb.Web.Startup.ConfigureServices() Microsoft.eShopWeb.CatalogSettings.get_CatalogBaseUrl()
+Microsoft.eShopWeb.Web.Startup.ConfigureServices() Microsoft.eShopWeb.CatalogSettings.set_CatalogBaseUrl()

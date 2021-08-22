@@ -1,0 +1,4 @@
+Microsoft.eShopWeb.Web.Services.CatalogViewModelService 2 2 2
+Microsoft.eShopWeb.Web.Controllers.ManageController 2 2 2
+Microsoft.eShopWeb.Web.Services.CachedCatalogViewModelService 2 1 1
+Microsoft.eShopWeb.ApplicationCore.Services.UriComposer 1 2 1
